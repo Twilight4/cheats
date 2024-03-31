@@ -7,6 +7,7 @@ Usage example:
 Options:
   --shell, -s   generate a shell command with the prompt
   --chat        keep chat persistence
+  --no-interaction    Interactive mode for --shell option [default: interaction]
 
 Stdin prompts:
   git diff | sgpt "Generate git commit message, for my changes"
@@ -31,5 +32,7 @@ Passing file names to ffmpeg:
   sgpt -s "ffmpeg combine $(ls -m) into one video file without audio."
   # -> ffmpeg -i 1.mp4 -i 2.mp4 -i 3.mp4 -filter_complex "[0:v] [1:v] [2:v] concat=n=3:v=1 [v]" -map "[v]" out.mp4
 
-If you would like to pass generated shell command using pipe, you can use --no-interaction option. This will disable interactive mode and will print generated command to stdout. In this example we are using pbcopy to copy generated command to clipboard:
-  sgpt -s "find all json files in current folder" --no-interaction | pbcopy
+If you would like to pass generated shell command using pipe, you can use --no-interaction option.
+This will disable interactive mode and will print generated command to stdout.
+In this example we are using wl-copy to copy generated command to clipboard:
+  sgpt -s "find all json files in current folder" --no-interaction | wl-copy
