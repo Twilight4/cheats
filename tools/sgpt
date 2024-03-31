@@ -36,3 +36,9 @@ If you would like to pass generated shell command using pipe, you can use --no-i
 This will disable interactive mode and will print generated command to stdout.
 In this example we are using wl-copy to copy generated command to clipboard:
   sgpt -s "find all json files in current folder" --no-interaction | wl-copy
+
+Shell integration:
+  Shell integration allows you to use sgpt shell completions directly in your terminal, without the need to type sgpt with prompt and arguments. Shell integration enables the use of ShellGPT with hotkeys in your terminal. This feature puts sgpt completions directly into terminal buffer (input line), allowing for immediate editing of suggested commands.
+
+Shell integration example:
+  create index.html file (press C-i)
