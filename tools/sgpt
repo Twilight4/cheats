@@ -4,6 +4,29 @@ Usage:
 Usage example:
   sgpt --shell 'scan the target 10.10.2.17'
 
+Stdin prompts:
+  git diff | sgpt "Generate git commit message, for my changes"
+  docker logs -n 20 my_app | sgpt "check logs, find errors, provide possible solutions"
+
+Redirect operators to pass input:
+  sgpt "summarise" < document.txt
+  # -> The document discusses the impact...
+  sgpt << EOF
+  What is the best way to lear Golang?
+  Provide simple hello world example.
+  EOF
+  # -> The best way to learn Golang...
+  sgpt <<< "What is the best way to learn shell redirects?"
+  # -> The best way to learn shell redirects is through...
+  sgpt -s "POST localhost with" < data.json
+
+Passing file names to ffmpeg:
+ls
+# -> 1.mp4 2.mp4 3.mp4
+sgpt -s "ffmpeg combine $(ls -m) into one video file without audio."
+# -> ffmpeg -i 1.mp4 -i 2.mp4 -i 3.mp4 -filter_complex "[0:v] [1:v] [2:v] concat=n=3:v=1 [v]" -map "[v]" out.mp4
+# -> [E]xecute, [D]escribe, [A]bort: e
+
 Options:
   --shell, -s   generate a shell command with the prompt
   --chat        keep chat persistence
