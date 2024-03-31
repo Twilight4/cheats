@@ -3,20 +3,32 @@ Usage:
 
 Install shell integration:
   sgpt --install-integration
-               after this restart your terminal
+               after this restart your terminal to apply changes
 
-Usage example:
+Shell example:
   sgpt --shell 'scan the target 10.10.2.17'
 
-Usage example 2:
+Code example:
   sgpt --code "solve classic fizz buzz problem using Python" > fizz_buzz.py
   cat fizz_buzz.py | sgpt --code "Generate comments for each line of my code"
 
+Chat persistence example:
+  sgpt --chat conversation_1 "please remember my favorite number: 4"
+
+Shell integration example:
+  create index.html file (C-l by default)
+
+REPL Example:
+  
+
 Options:
   --shell, -s               generate a shell command with the prompt
-  --chat <SESSION_NAME>     keep chat persistence
-  --no-interaction          interactive mode for --shell option [default: interaction]
   --code, -c                specifically request pure code output
+  --no-interaction          interactive mode for --shell option [default: interaction]
+  --repl <SESSION_NAME>     interactively chat with GPT models
+  --chat <SESSION_NAME>     keep chat persistence
+  --list-chats, -lc         list all the sessions from either conversational mode
+  --show-chat <SESSION_NAME>  show all the messages related to a specific conversation
 
 Stdin prompts:
   git diff | sgpt "Generate git commit message, for my changes"
@@ -49,5 +61,6 @@ In this example we are using wl-copy to copy generated command to clipboard:
 Shell integration:
   Shell integration allows you to use sgpt shell completions directly in your terminal, without the need to type sgpt with prompt and arguments. Shell integration enables the use of ShellGPT with hotkeys in your terminal. This feature puts sgpt completions directly into terminal buffer (input line), allowing for immediate editing of suggested commands.
 
-Shell integration example:
-  create index.html file (C-l by default)
+
+REPL Mode
+  There is very handy REPL (read–eval–print loop) mode, which allows you to interactively chat with GPT models. To start a chat session in REPL mode, use the --repl option followed by a unique session name. You can also use "temp" as a session name to start a temporary REPL session. Note that --chat and --repl are using same underlying object, so you can use --chat to start a chat session and then pick it up with --repl to continue the conversation in REPL mode.
