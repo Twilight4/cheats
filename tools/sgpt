@@ -4,6 +4,10 @@ Usage:
 Usage example:
   sgpt --shell 'scan the target 10.10.2.17'
 
+Options:
+  --shell, -s   generate a shell command with the prompt
+  --chat        keep chat persistence
+
 Stdin prompts:
   git diff | sgpt "Generate git commit message, for my changes"
   docker logs -n 20 my_app | sgpt "check logs, find errors, provide possible solutions"
@@ -19,14 +23,13 @@ Redirect operators to pass input:
   sgpt <<< "What is the best way to learn shell redirects?"
   # -> The best way to learn shell redirects is through...
   sgpt -s "POST localhost with" < data.json
+  # -> curl -X POST -H "Content-Type: application/json" -d '{"a": 1, "b": 2}' http://localhost
 
 Passing file names to ffmpeg:
-ls
-# -> 1.mp4 2.mp4 3.mp4
-sgpt -s "ffmpeg combine $(ls -m) into one video file without audio."
-# -> ffmpeg -i 1.mp4 -i 2.mp4 -i 3.mp4 -filter_complex "[0:v] [1:v] [2:v] concat=n=3:v=1 [v]" -map "[v]" out.mp4
-# -> [E]xecute, [D]escribe, [A]bort: e
+  ls
+  # -> 1.mp4 2.mp4 3.mp4
+  sgpt -s "ffmpeg combine $(ls -m) into one video file without audio."
+  # -> ffmpeg -i 1.mp4 -i 2.mp4 -i 3.mp4 -filter_complex "[0:v] [1:v] [2:v] concat=n=3:v=1 [v]" -map "[v]" out.mp4
 
-Options:
-  --shell, -s   generate a shell command with the prompt
-  --chat        keep chat persistence
+If you would like to pass generated shell command using pipe, you can use --no-interaction option. This will disable interactive mode and will print generated command to stdout. In this example we are using pbcopy to copy generated command to clipboard:
+  sgpt -s "find all json files in current folder" --no-interaction | pbcopy
