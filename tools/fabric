@@ -1,0 +1,22 @@
+### Installation ###
+# Clone Fabric repository
+git clone --depth 1 https://github.com/danielmiessler/fabric.git /opt/fabric && cd fabric
+
+# Install pipx
+sudo apt install pipx
+
+# Install fabric
+pipx install .
+
+# Run setup
+fabric --setup
+
+# Restart your shell to reload everything
+source ~/.config/zsh/.zshrc
+
+# Now you are up and running! You can test by running the help.
+# Making sure the paths are set up correctly
+fabric --help
+
+# Updating fabric
+cd /opt/fabric; git pull; pipx install . --force; fabric --update; source ~/.config/zsh/.zshrc

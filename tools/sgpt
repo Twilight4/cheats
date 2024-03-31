@@ -42,6 +42,7 @@ Stdin prompts:
   docker logs -n 20 my_app | sgpt "check logs, find errors, provide possible solutions"
 
 Redirect operators to pass input:
+```bash
   sgpt "summarise" < document.txt
   # -> The document discusses the impact...
   sgpt << EOF
@@ -53,12 +54,15 @@ Redirect operators to pass input:
   # -> The best way to learn shell redirects is through...
   sgpt -s "POST localhost with" < data.json
   # -> curl -X POST -H "Content-Type: application/json" -d '{"a": 1, "b": 2}' http://localhost
+```
 
 Passing file names to ffmpeg:
+```bash
   ls
   # -> 1.mp4 2.mp4 3.mp4
   sgpt -s "ffmpeg combine $(ls -m) into one video file without audio."
   # -> ffmpeg -i 1.mp4 -i 2.mp4 -i 3.mp4 -filter_complex "[0:v] [1:v] [2:v] concat=n=3:v=1 [v]" -map "[v]" out.mp4
+```
 
 If you would like to pass generated shell command using pipe, you can use --no-interaction (it's not integration) option.
 This will disable interactive mode and will print generated command to stdout.
@@ -70,6 +74,7 @@ Shell integration:
 
 REPL Mode:
   There is very handy REPL (read–eval–print loop) mode, which allows you to interactively chat with GPT models. To start a chat session in REPL mode, use the --repl option followed by a unique session name. You can also use "temp" as a session name to start a temporary REPL session. Note that --chat and --repl are using same underlying object, so you can use --chat to start a chat session and then pick it up with --repl to continue the conversation in REPL mode. REPL mode can work with --shell and --code options, which makes it very handy for interactive shell commands and code generation. To provide multiline prompt use triple quotes """:
+```bash
   sgpt --repl temp
   Entering REPL mode, press Ctrl+C to exit.
   >>> """
@@ -78,3 +83,4 @@ REPL Mode:
   ... print(random.randint(1, 10))
   ... """
   It is a Python script that uses the random module to generate and print a random integer.
+```
