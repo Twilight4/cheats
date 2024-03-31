@@ -1,9 +1,9 @@
 Usage:
-  sgpt 'prompt'
+  sgpt <OPTIONS> <PROMPT>
 
 Usage example:
   sgpt --shell 'scan the target 10.10.2.17'
 
-Commands:
-  sgpt --chat        keep chat persistence
-  sgpt --shell       generate a shell command with the prompt
+Options:
+  --shell, -s   generate a shell command with the prompt
+  --chat        keep chat persistence
