@@ -1,13 +1,22 @@
 Usage:
   sgpt <OPTIONS> <PROMPT>
 
+Install shell integration:
+  sgpt --install-integration
+               after this restart your terminal
+
 Usage example:
   sgpt --shell 'scan the target 10.10.2.17'
 
+Usage example 2:
+  sgpt --code "solve classic fizz buzz problem using Python" > fizz_buzz.py
+  cat fizz_buzz.py | sgpt --code "Generate comments for each line of my code"
+
 Options:
-  --shell, -s   generate a shell command with the prompt
-  --chat        keep chat persistence
-  --no-interaction    Interactive mode for --shell option [default: interaction]
+  --shell, -s               generate a shell command with the prompt
+  --chat <SESSION_NAME>     keep chat persistence
+  --no-interaction          interactive mode for --shell option [default: interaction]
+  --code, -c                specifically request pure code output
 
 Stdin prompts:
   git diff | sgpt "Generate git commit message, for my changes"
@@ -32,7 +41,7 @@ Passing file names to ffmpeg:
   sgpt -s "ffmpeg combine $(ls -m) into one video file without audio."
   # -> ffmpeg -i 1.mp4 -i 2.mp4 -i 3.mp4 -filter_complex "[0:v] [1:v] [2:v] concat=n=3:v=1 [v]" -map "[v]" out.mp4
 
-If you would like to pass generated shell command using pipe, you can use --no-interaction option.
+If you would like to pass generated shell command using pipe, you can use --no-interaction (it's not integration) option.
 This will disable interactive mode and will print generated command to stdout.
 In this example we are using wl-copy to copy generated command to clipboard:
   sgpt -s "find all json files in current folder" --no-interaction | wl-copy
@@ -41,4 +50,4 @@ Shell integration:
   Shell integration allows you to use sgpt shell completions directly in your terminal, without the need to type sgpt with prompt and arguments. Shell integration enables the use of ShellGPT with hotkeys in your terminal. This feature puts sgpt completions directly into terminal buffer (input line), allowing for immediate editing of suggested commands.
 
 Shell integration example:
-  create index.html file (press C-i)
+  create index.html file (C-l by default)
