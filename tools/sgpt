@@ -33,6 +33,9 @@ Options:
   --chat <SESSION_NAME>     keep chat persistence
   --list-chats, -lc         list all the sessions from either conversational mode
   --show-chat <SESSION_NAME>  show all the messages related to a specific conversation
+  --role <ROLE_NAME>        use role for GPT model [default: none]
+  --list-roles, -lr         list roles
+  --show-role <ROLE_NAME>   show role [default: None]
 
 Stdin prompts:
   git diff | sgpt "Generate git commit message, for my changes"
@@ -64,7 +67,6 @@ In this example we are using wl-copy to copy generated command to clipboard:
 
 Shell integration:
   Shell integration allows you to use sgpt shell completions directly in your terminal, without the need to type sgpt with prompt and arguments. Shell integration enables the use of ShellGPT with hotkeys in your terminal. This feature puts sgpt completions directly into terminal buffer (input line), allowing for immediate editing of suggested commands.
-
 
 REPL Mode:
   There is very handy REPL (read–eval–print loop) mode, which allows you to interactively chat with GPT models. To start a chat session in REPL mode, use the --repl option followed by a unique session name. You can also use "temp" as a session name to start a temporary REPL session. Note that --chat and --repl are using same underlying object, so you can use --chat to start a chat session and then pick it up with --repl to continue the conversation in REPL mode. REPL mode can work with --shell and --code options, which makes it very handy for interactive shell commands and code generation. To provide multiline prompt use triple quotes """:
