@@ -8,6 +8,7 @@ Install shell integration:
   sgpt --install-integration
                after this restart your terminal to apply changes. The issue is that my zsh is at /usr/bin/zsh, and shell-gpt only checks in /bin/zsh.
                Fix it by editing line 76 of .local/lib/python3.10/site-packages/sgpt/utils.py to: if shell == "/usr/bin/zsh":
+			   It will create a file in ~/.zshrc instead, so copy the contents of that and append to your real ~/.config/zhs/zshrc location
 
 Shell example:
   sgpt --shell 'scan the target 10.10.2.17'
