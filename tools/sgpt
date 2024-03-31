@@ -1,6 +1,9 @@
 Usage:
   sgpt <OPTIONS> <PROMPT>
 
+Setup your OpenAI API key in configuration file:
+  nvim ~/.config/shell_gpt/.sgptrc
+
 Install shell integration:
   sgpt --install-integration
                after this restart your terminal to apply changes
@@ -19,13 +22,14 @@ Shell integration example:
   create index.html file (C-l by default)
 
 REPL Example:
-  
+  sgpt --shell --repl temp --no-cache
 
 Options:
   --shell, -s               generate a shell command with the prompt
   --code, -c                specifically request pure code output
   --no-interaction          interactive mode for --shell option [default: interaction]
-  --repl <SESSION_NAME>     interactively chat with GPT models
+  --repl <SESSION_NAME>     interactively chat with GPT models. Use "temp" as a session name to start a temporary REPL session
+  --no-cache                Control cache using --cache (default) and --no-cache options. This caching applies for all sgpt requests to OpenAI API.
   --chat <SESSION_NAME>     keep chat persistence
   --list-chats, -lc         list all the sessions from either conversational mode
   --show-chat <SESSION_NAME>  show all the messages related to a specific conversation
@@ -62,5 +66,13 @@ Shell integration:
   Shell integration allows you to use sgpt shell completions directly in your terminal, without the need to type sgpt with prompt and arguments. Shell integration enables the use of ShellGPT with hotkeys in your terminal. This feature puts sgpt completions directly into terminal buffer (input line), allowing for immediate editing of suggested commands.
 
 
-REPL Mode
-  There is very handy REPL (read–eval–print loop) mode, which allows you to interactively chat with GPT models. To start a chat session in REPL mode, use the --repl option followed by a unique session name. You can also use "temp" as a session name to start a temporary REPL session. Note that --chat and --repl are using same underlying object, so you can use --chat to start a chat session and then pick it up with --repl to continue the conversation in REPL mode.
+REPL Mode:
+  There is very handy REPL (read–eval–print loop) mode, which allows you to interactively chat with GPT models. To start a chat session in REPL mode, use the --repl option followed by a unique session name. You can also use "temp" as a session name to start a temporary REPL session. Note that --chat and --repl are using same underlying object, so you can use --chat to start a chat session and then pick it up with --repl to continue the conversation in REPL mode. REPL mode can work with --shell and --code options, which makes it very handy for interactive shell commands and code generation. To provide multiline prompt use triple quotes """:
+  sgpt --repl temp
+  Entering REPL mode, press Ctrl+C to exit.
+  >>> """
+  ... Explain following code:
+  ... import random
+  ... print(random.randint(1, 10))
+  ... """
+  It is a Python script that uses the random module to generate and print a random integer.
