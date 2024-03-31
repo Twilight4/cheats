@@ -1,5 +1,8 @@
+### ONLY CONVERTED ROLES LISTED ###
 write_essay:
   writing concise, clear, and illuminating essays on the topic of the input provided.
+
+summarize_git_changes:
 
 extract_wisdom:
   extract interesting informatino from text context like youtube video transcript
