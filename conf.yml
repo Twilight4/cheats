@@ -26,12 +26,6 @@ cheatpaths:
   # precedence over the more global cheatsheets 
   # meaning last directory is the one to which are created newly created cheatsheets
   
-  # Org notes - fchto/fchtoe
-  - name: org
-    path: /home/twilight/.config/cheat/org
-    tags: [ org ]
-    readonly: false
-
   # Cheatsheets - fchtc/fchte
   - name: tools
     path: /home/twilight/.config/cheat/tools
