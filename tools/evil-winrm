@@ -1,7 +1,10 @@
 evil-winrm - The ultimate WinRM shell for hacking/pentesting 
 
-Usage:
+Login with hash:
   evil-winrm -i <TARGET_IP> -u <USER> -H <HASH>
+
+Login with password
+  evil-winrm -i <TARGET_IP> -u <USER> -p <PASSWORD>
 
 Options:
   -i, --ip IP                      Remote host IP or hostname. FQDN for Kerberos auth (required)
