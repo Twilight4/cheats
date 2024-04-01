@@ -7,3 +7,15 @@ summarize_git_changes:
 extract_wisdom:
   extract interesting informatino from text context like youtube video transcript
   wl-paste | sgpt --role extract_wisdom
+
+extract_book_recommendations:
+  take a book name as an input and extract the most important info from that book
+
+extract_poc:
+  extracting proof of concept URLs and other vulnerability validation methods from submitted security/bug bounty reports.
+
+exctract_videoid:
+  just what it says
+
+label_and_rate:
+  rate the content - LABELS: CyberSecurity, Writing, Health, Personal
