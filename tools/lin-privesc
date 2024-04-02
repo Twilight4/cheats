@@ -41,6 +41,8 @@ PATH:
                  Search for writable folders
                  If any writable folder is listed under PATH we could create a binary
                  named thm under that directory and have our “path” script run it
+  find / -perm +6000 2>/dev/null | grep '/bin/'
+                 Look for SUID binaries
   export PATH=/tmp:$PATH
                  If the folder we want to write to is not in PATH, we can just add it
 
