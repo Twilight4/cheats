@@ -14,3 +14,4 @@ Options:
   -- <NMAP_ARGS>             run nmap scan after completion using nmap arguments
   -q, --quiet                quiet mode - only output the ports. No Nmap. Useful for grep or outputting to a file
   --scan-order "Random"      scan ports in a random order (which will help with not setting off firewalls)
+  --ulimit 5000              up the ULIMIT - use if getting warning about low file limit
