@@ -10,3 +10,15 @@ Options:
   -u 	  UDP
   -x 	  UNIX
   -p 	  Show the PID and name of the program to which the socket belongs
+
+Some of the information we are interested in gathering include:
+  Users and groups
+  Hostnames
+  Routing tables
+  Network shares
+  Network services
+  Applications and banners
+  Firewall configurations
+  Service settings and audit configurations
+  SNMP and DNS details
+  Hunting for credentials (saved on web browsers or client applications)
