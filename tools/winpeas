@@ -1,0 +1,6 @@
+You can download either the precompiled .exe, .bat or .ps1 script:
+  https://github.com/carlospolop/PEASS-ng/releases/tag/20230702-bc7ce3ac
+
+Usage:
+winpeas.exe > outputfile.txt     
+                 Redirect the output to a file for conciseness
