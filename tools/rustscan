@@ -1,0 +1,14 @@
+Rustscan - very fast port scanner
+
+Usage:
+  rustscan [options] <TARGET_IP>, <TARGET_IP_2>
+
+Example Usage:
+  rustscan [options] -- -sV -sC -A
+
+Options:
+  -p <PORT>,<PORT_2>         specify port number
+  --range <PORT>-<PORT>      scan a range of ports
+  -- <NMAP_OPTION>           run nmap scan after completion using nmap arguments
+
+Informational:
