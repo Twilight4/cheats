@@ -79,3 +79,4 @@ Payloads types:
   shell_reverse_tcp    Single payload, as indicated by the “_"
   shell/reverse_tcp    Staged payload, as indicated by the “/”
                If default payload exploit doesn't run try non staged payload
+               If the meterpreter session dies just run the handler again to connect
