@@ -4,7 +4,7 @@ Usage:
   rustscan [options] <TARGET_IP>, <TARGET_IP_2>
 
 Example Usage:
-  rustscan -a <TARGET_IP> -- -sV -sC -A
+  rustscan -a <TARGET_IP> -r 1-1000 -- -sV -sC -A
 
 Options:
   -a <TARGET_IP>             specify target IP/hostname, supports CIDR range ex. /24
@@ -13,3 +13,4 @@ Options:
   --range, -r <PORT>-<PORT>  scan a range of ports
   -- <NMAP_ARGS>             run nmap scan after completion using nmap arguments
   -q, --quiet                quiet mode - only output the ports. No Nmap. Useful for grep or outputting to a file
+  --scan-order "Random"      scan ports in a random order (which will help with not setting off firewalls)
