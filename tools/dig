@@ -1,0 +1,4 @@
+                                                       
+Options:
+  -t AXFR     Indicates that we are requesting a zone transfer,
+  @           Precedes the `DNS_SERVER` that we want to query regarding the records related to the specified `DOMAIN_NAME`.
