@@ -1,14 +1,15 @@
-Rustscan - very fast port scanner
+Rustscan - modern day port scanner
 
 Usage:
   rustscan [options] <TARGET_IP>, <TARGET_IP_2>
 
 Example Usage:
-  rustscan [options] -- -sV -sC -A
+  rustscan -a <TARGET_IP> -- -sV -sC -A
 
 Options:
+  -a <TARGET_IP>             specify target IP/hostname, supports CIDR range ex. /24
+  -a hosts.txt               hosts file with list of IP addressses as an input
   -p <PORT>,<PORT_2>         specify port number
-  --range <PORT>-<PORT>      scan a range of ports
-  -- <NMAP_OPTION>           run nmap scan after completion using nmap arguments
-
-Informational:
+  --range, -r <PORT>-<PORT>  scan a range of ports
+  -- <NMAP_ARGS>             run nmap scan after completion using nmap arguments
+  -q, --quiet                quiet mode - only output the ports. No Nmap. Useful for grep or outputting to a file
