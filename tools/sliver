@@ -4,6 +4,7 @@ Commands:
   generate stager               generate new stager
   regenerate <IMPLANT_NAME>     use if you need to re-download a previously generated implant
   mtls, http, https, dns        start a listener depending on protocol
+  profiles                      list profiles
 
 Interact:
   use <SESSION_ID>              interact with active session/beacon
@@ -15,8 +16,6 @@ mtls (listener):
   -l, --lport          tcp listen port (default 8888)
 
 generate stager (implants):
-  --mtls, --wg, --http, --dns      must specify at least one C2 endpoint
-                                   use mTLS or WireGuard whenever possible
   -L, --lhost <HOST>               interface to bind server to
   -l, --lport <PORT>               tcp listen port (default 8888)
   -r, --protocol <STRING>          staging protocol (tcp/http/https) (default: tcp)
