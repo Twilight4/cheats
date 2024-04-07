@@ -5,6 +5,11 @@ Commands:
   regenerate <IMPLANT_NAME>     use if you need to re-download a previously generated implant
   mtls, http, https, dns        start a listener depending on protocol
 
+Interact:
+  use <SESSION_ID>              interact with active session/beacon
+  sessions                      list sessions
+  beacons                       list beacons
+
 mtls (listener):
   -L, --lhost          interface to bind server to
   -l, --lport          tcp listen port (default 8888)
@@ -15,10 +20,5 @@ generate stager (implants):
   -L, --lhost <HOST>               interface to bind server to
   -l, --lport <PORT>               tcp listen port (default 8888)
   -r, --protocol <STRING>          staging protocol (tcp/http/https) (default: tcp)
-  -s, --save                           specify an output. By default implants are saved in cwd
+  -s, --save                       specify an output. By default implants are saved in cwd
 
-
-Options:
-  jobs
-  sessions
-  use <SESSION_ID>
