@@ -10,7 +10,7 @@ Classic john usage:
 Single Crack Mode:
   john --single --format=<FORMAT> <PATH_TO_FILE>
 
-Convert linux password to john-readable format (/etc/passwd and /etc/shadow files):
+Convert linux password files to john-readable format (/etc/passwd and /etc/shadow files):
   unshadow <PATH_TO_PASSWD> <PATH_TO_SHADOW> > unshadowed.txt
   john --wordlist=<WORDLIST> --format=<FORMAT_TYPE> unshadowed.txt
 
