@@ -2,3 +2,8 @@ Options:
   jobs
   sessions
   use <SESSION_ID>
+
+Generate:
+  --mtls, --wg, --http, --dns      Must specify at least one C2 endpoint.
+                                   Use mTLS or WireGuard whenever possible.
+  --save                           Specify an output
