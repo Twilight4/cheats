@@ -18,7 +18,7 @@ Options:
   -P, --ProxyAuth       Force NTLM (transparently)/Basic (prompt)
                         authentication for the proxy. WPAD doesn't need to be
                         ON. This option is highly effective. Default: False
-  -v, --verbose         Increase verbosity
+  -v, --verbose         Show hashes that already have been captured - without this the hash is only captured once
   -f, --fingerprint     Gives us some basic info about hosts using NetBIOS on the network
                         This gives us indication of what types of boxes are on the network
   -F, --ForceWpadAuth   Force NTLM/Basic authentication on wpad.dat file
