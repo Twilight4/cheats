@@ -2,7 +2,7 @@ Hashcat - World's fastest and most advanced password recovery utility
 Source: https://github.com/hashcat/hashcat
 
 Usage:
-  hashcat -a 0 -m 0 f806fc5a2a0d5ba2471600758452799c /usr/share/wordlists/rockyou.txt
+  hashcat -O -a 0 -m 0 f806fc5a2a0d5ba2471600758452799c /usr/share/wordlists/rockyou.txt
 
 Commands:
   hashcat -h                        List of supported hashes
