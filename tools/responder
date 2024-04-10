@@ -21,4 +21,6 @@ Options:
   -v, --verbose         Increase verbosity
   -f, --fingerprint     Gives us some basic info about hosts using NetBIOS on the network
                         This gives us indication of what types of boxes are on the network
-
+  -F, --ForceWpadAuth   Force NTLM/Basic authentication on wpad.dat file
+                        retrieval. This may cause a login prompt. Default: False
+  -b, --basic           Return a Basic HTTP authentication. Default: NTLM

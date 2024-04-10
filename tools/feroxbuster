@@ -1,0 +1,11 @@
+Tool: A fast, simple, recursive content discovery tool.
+
+Usage: 
+  feroxbuster [OPTIONS]
+
+Example Usage:
+  feroxbuster --url <URL>
+
+Options:
+  -u, --url <URL>
+          The target URL (required, unless [--stdin || --resume-from] used)
