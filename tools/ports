@@ -15,7 +15,7 @@ NTP       123        Network Time                 Yes
 SMB       139,445    Sharing Access               Yes
 SNMP      161/udp    Network Management           1,2,2c; No - 3; Yes
 IMAP      143        Email (MDA)                  No
-LDAP      389/tcp-udp Directory Access             No
+LDAP      389/tcp-udp Directory Access            No
 HTTPS     443        Secure WWW                   Yes
 SMTPS     465        Email (MTA)                  Yes
 FTPS      990        File Transfer                Yes
