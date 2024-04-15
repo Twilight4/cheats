@@ -31,7 +31,7 @@ Options:
   --code, -c                specifically request pure code output
   --no-interaction          interactive mode for --shell option [default: interaction]
   --repl <SESSION_NAME>     interactively chat with GPT models. Use "temp" as a session name to start a temporary REPL session
-  --no-cache                Control cache using --cache (default) and --no-cache options. This caching applies for all sgpt requests to OpenAI API.
+  --no-cache                control cache using --cache (default) and --no-cache options. This caching applies for all sgpt requests to OpenAI API.
   --chat <SESSION_NAME>     keep chat persistence
   --list-chats, -lc         list all the sessions from either conversational mode
   --show-chat <SESSION_NAME>  show all the messages related to a specific conversation
