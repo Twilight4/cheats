@@ -1,0 +1,7 @@
+Usage:
+  base64 -w 0 ./Paylaod.exe
+
+Options:
+  -d, --decode
+  -w, --wrap <COLS>     wrap encoded lines after COLS character (default 76)
+                        use 0 to disable line wrapping
