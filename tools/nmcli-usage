@@ -1,5 +1,8 @@
-Turn On WiFi:
-  nmcli r wifi on
+Check all known connection:
+  nmcli
+
+Check which WiFi network the device is connected:
+  nmcli dev
 
 Scan WiFi Networks:
   nmcli dev wifi
@@ -7,17 +10,15 @@ Scan WiFi Networks:
 Connect to WiFi Network:
   nmcli dev wifi connect "wifi_ssid" password "wifi_password"
 
-Check which WiFi network the device is connected:
-  nmcli dev status
-
-Delete the connection if you no longer need it.:
+Delete the connection if you no longer need it:
   sudo nmcli c delete wifi_ssid
 
-Check all known connection:
-  nmcli
+Connect/Disconnect the device:
+  nmcli device connect wlan0
+  nmcli device disconnect wlan0
 
 Check if WiFi is on or off:
   nmcli r wifi
 
-Turn off WiFi:
-  nmcli r wifi off
+Turn on/off WiFi:
+  nmcli r wifi on/off
