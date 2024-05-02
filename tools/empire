@@ -13,10 +13,3 @@ Interacting with agent:
   getuid          Get system ID
   sysinfo         Basic system information
 
-Useful Commands:
-  usemodule collection/windows/keylogger
-                      Enable a Keylogger
-  usemodule collection/windows/prompt
-                      Cause an App prompt for password capture
-  usemodule collection/windows/webcam
-                      Take a picture using camera
