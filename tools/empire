@@ -4,6 +4,15 @@ Usage:
   interact <ID>   Interact with the agent
   info            View info about the agent
 
+Interacting with agent:
+  info            Display information about machine
+  credentials     Display credentials saved in database
+  psinject        Equivalent to migrate in metasploit
+  steal_tokens    Equivalent to use incognito in metasploit
+  shell           Get shell
+  getuid          Get system ID
+  sysinfo         Basic system information
+
 Useful Commands:
   usemodule collection/windows/keylogger
                       Enable a Keylogger
