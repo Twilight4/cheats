@@ -1,0 +1,7 @@
+Nessus is a proprietary vulnerability scanner
+
+sudo systemctl stop nessusd.service           Stop the service before doing anything with nessuscli
+nessuscli fetch --register ACTIVATION_CODE    Activate the license
+nessuscli fetch --code-in-use                 View your current license activation code
+nessuscli update --plugins-only               Update the plugins
+sudo systemctl start nessusd.service          Start the service Log in back to the website

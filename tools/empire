@@ -12,4 +12,5 @@ Interacting with agent:
   shell           Get shell
   getuid          Get system ID
   sysinfo         Basic system information
+  whoami          Runs 'whoami' shell command
 
