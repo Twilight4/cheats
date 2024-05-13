@@ -22,6 +22,10 @@ Post-Exploitation with Meterpreter:
                configuration files that may contain password or account information. 
   shell        Launch a regular command-line shell on the target system. Pressing CTRL+Z will help you go back to the Meterpreter shell.
 
+Dumping hashes:
+  lsa_dump_sam
+  lsa_dump_secrets
+
 Core commands:
   background   Backgrounds the current session
   exit         Terminate the Meterpreter session
