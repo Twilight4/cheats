@@ -26,6 +26,7 @@ Commands:
              Display detailed information on the module such as its author, relevant sources, etc.
   show       Can be used in any context followed by a module type (auxiliary, payload, exploit, etc.) to list available modules.
   back       Leave the context.
+  load <plugin_name>   Load plugin. Plugins are located in /usr/share/metasploit-framework/plugins/.
   show advanced   Show advanced options.
   search     Search the Metasploit Framework database for modules relevant to the given search parameter.
              You can conduct searches using CVE numbers, exploit names or target system. The “name” column shows the type of module (auxiliary, exploit, etc.)
