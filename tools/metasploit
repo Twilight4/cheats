@@ -26,6 +26,7 @@ Commands:
              Display detailed information on the module such as its author, relevant sources, etc.
   show       Can be used in any context followed by a module type (auxiliary, payload, exploit, etc.) to list available modules.
   back       Leave the context.
+  show advanced   Show advanced options.
   search     Search the Metasploit Framework database for modules relevant to the given search parameter.
              You can conduct searches using CVE numbers, exploit names or target system. The “name” column shows the type of module (auxiliary, exploit, etc.)
              and the category of the module (scanner, admin, windows, Unix, etc.). The “rank” column shows exploits rated based on their reliability.
@@ -48,17 +49,25 @@ Modules:
 
 Setting Parameters:
   set        Override any set parameter
+  set autorunscript migrate -f    Automatically migrate to a separate process upon exploit completion.
   unset      Clear any parameter value 
   unset all  Clear all set parameters
   setg       Set Globally: set a global value for all different modules that will be used until you exit Metasploit or clear it using the "unsetg" command
   unsetg     Clear any value set with "setg"
   exploit -z   Will run the exploit and background the session as soon as it opens
   exploit -j   Will run the exploit and background the session as soon as it opens
+  exploit -e <encoder>   Specify the payload encoder to use (example: exploit –e shikata_ga_nai).
   check        Some modules support this option which will check if the target system is vulnerable without exploiting it
 
 Sessions:
-  background   Background the session prompt and go back to the msfconsole prompt (or use Ctrl-Z)
-  sessions -i ID   Interact with any session
+  background       Background the session prompt and go back to the msfconsole prompt (or use Ctrl-Z).
+  sessions -i ID   Interact with any session.
+  sessions -l      List available sessions (used when handling multiple shells).
+  sessions -l -v   List all available sessions and show verbose fields, such as which vulnerability was used when exploiting the system.
+  sessions -s <script>   Run a specific Meterpreter script on all Meterpreter live sessions.
+  sessions -K      Kill all live sessions.
+  sessions -c <cmd>   Execute a command on all live Meterpreter sessions.
+  sessions -u <sessionID>   Upgrade a normal Win32 shell to a Meterpreter console.
 
 Components of Metasploit:
   auxiliary    Any supporting module, such as scanners, crawlers and fuzzers, can be found here.
