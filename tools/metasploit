@@ -69,6 +69,13 @@ Sessions:
   sessions -c <cmd>   Execute a command on all live Meterpreter sessions.
   sessions -u <sessionID>   Upgrade a normal Win32 shell to a Meterpreter console.
 
+Database:
+  db_create <name>   Create a database to use with database-driven attacks (example: db_create autopwn).
+  db_connect <name>  Create and connect to a database for driven attacks (example: db_connect autopwn).
+  db_nmap            Use Nmap and place results in a database. (Normal Nmap syntax is supported, such as –sT –v –P0.)
+  db_destroy         Delete the current database.
+  db_destroy <user:password@host:port/database>     Delete database using advanced options.
+
 Components of Metasploit:
   auxiliary    Any supporting module, such as scanners, crawlers and fuzzers, can be found here.
   encoders     Encoders allow you to encode the exploit and payload but other specific obfuscator tools are better
