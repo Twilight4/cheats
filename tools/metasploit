@@ -31,6 +31,7 @@ Commands:
              You can conduct searches using CVE numbers, exploit names or target system. The “name” column shows the type of module (auxiliary, exploit, etc.)
              and the category of the module (scanner, admin, windows, Unix, etc.). The “rank” column shows exploits rated based on their reliability.
   search type:auxiliary telnet
+  search type:exploit platform:windows cve:2021 rank:excellent microsoft
              Direct the search function using keywords such as type and platform.
 
 Modules:
@@ -75,6 +76,16 @@ Database:
   db_nmap            Use Nmap and place results in a database. (Normal Nmap syntax is supported, such as –sT –v –P0.)
   db_destroy         Delete the current database.
   db_destroy <user:password@host:port/database>     Delete database using advanced options.
+  db_import <file.xml>  Importing Scan Results, after the import is complete, we can check the presence of the host's information in our database
+                     by using the hosts and services commands. Note that the .xml file type is preferred for db_import.
+  db_export -f xml backup.xml   back up our data if anything happens with the PostgreSQL service. This data can be imported back to msfconsole later
+                                when needed
+  hosts -h           Displays a database table automatically populated with the host addresses, hostnames, and other information we find about these
+                     during our scans and interactions.
+  services -h        It contains a table with descriptions and information on services discovered during scans or interactions.
+  creds -h           Visualize the credentials gathered during your interactions with the target host.
+  loot -h            command offers you an at-a-glance list of owned services and users. The loot, in this case, refers to hash dumps
+                     from different system types, namely hashes, passwd, shadow, and more.
 
 Components of Metasploit:
   auxiliary    Any supporting module, such as scanners, crawlers and fuzzers, can be found here.
