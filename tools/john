@@ -1,13 +1,6 @@
 John - advanced offline password cracker
 Source: https://github.com/openwall/john
 
-Creating Rule-Based Password Wordslists Commands:
-  john --wordlist=/tmp/single-password-list.txt --rules=best64 --stdout | wc -l
-                                                            Create Rule-Based wordlist
-
-  john --wordlist=single-password-list.txt --rules=KoreLogic --stdout |grep "Tryh@ckm3"
-                                                            Use this rule and check whether the Tryh@ckm3 is available in our list
-
 Options:
   --rules             Specify which rule or rules to use
   --rules=best64      best64 rule, which contains the best 64 built-in John rules
@@ -35,43 +28,6 @@ Single mode:
   the username that the hash belongs to:
     from: 1efee03cdcb96d90ad48ccc7b8666033
     to: mike:1efee03cdcb96d90ad48ccc7b8666033
-
-Custom Rules:
-  sudo vi /etc/john/john.conf
-
-Create a custom wordlist from a pre-existing dictionary 
-with custom modification to the original dictionary. 
-Add special characters in format: [symbols]word[0-9]
-```
-[List.Rules:custom-rule]
-Az"[0-9]" ^[!@#$]
-cAz"[0-9] [!£$%@]"
-```
-  john --wordlist=/tmp/single.lst --rules=custom-rule --stdout
-                                Try out the newly created rule
-
-Custom Rules Options:
-  [List.Rules:THM-Password-Attacks]
-              Specify the rule name THM-Password-Attacks
-  Az          Takes the word and appends it with the characters you define
-  ^           ^ means the beginning of the line/word. Note, changing `^` to `$` will append
-              the special characters to the end of the line/word
-  A0          Takes the word and prepends it with the characters you define
-  c           Capitalises the character positionally
-  [0-9]       Will include numbers 0-9
-  [0]         Will include only the number 0
-  [A-z]       Will include both upper and lowercase
-  [A-Z]       Will include only uppercase letters
-  [a-z]       Will include only lowercase letters
-  [a]         Will include only a
-  [!£$%@]     Will include the symbols !£$%@
-
-Informational:
-  Rule-Based attacks aka hybrid attacks assume the attacker knows something about the
-  password policy. Rules are applied to create passwords within the guidelines of the
-  given password policy and should, in theory, only generate valid passwords.
-  Using pre-existing wordlists may be useful when generating passwords that fit 
-  a policy — manipulating or 'mangling' a password such as 'password': `p@ssword`, `Pa$$word`, `Passw0rd`, and so on.
 
 Cracking Files:
   pdf2john 	    Converts PDF documents for John
