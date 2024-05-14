@@ -3,3 +3,7 @@ Usage:
 
 Example Usage:
   crackmapexec winrm 10.129.42.197 -u user.list -p password.list
+
+
+Informational:
+  The appearance of (Pwn3d!) is the sign that we can most likely execute system commands if we log in with the brute-forced user.

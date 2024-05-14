@@ -1,9 +1,9 @@
-evil-winrm - The ultimate WinRM shell for hacking/pentesting 
+evil-winrm - The ultimate WinRM shell for pentesting 
 
 Login with hash:
   evil-winrm -i <TARGET_IP> -u <USER> -H <HASH>
 
-Login with password
+Login with password:
   evil-winrm -i <TARGET_IP> -u <USER> -p <PASSWORD>
 
 Options:
