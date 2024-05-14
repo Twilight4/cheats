@@ -12,6 +12,9 @@ Options:
   --rules             Specify which rule or rules to use
   --rules=best64      best64 rule, which contains the best 64 built-in John rules
   --rules=KoreLogic   KoreLogic uses various built-in and custom rules to generate complex password lists
+  --incremental       It is a hybrid attack, which means it will attempt to match the password by trying all
+                      possible combinations of characters from the character set. This mode works best when we know what the password might be, 
+                      as it will try all the possible combinations in sequence, starting from the shortest one
   --wordlist          Specify the wordlist or dictionary file.
   --stdout            Print the output to the terminal
   --format            The format the hash is in. if you're dealing with a standard hash type,
