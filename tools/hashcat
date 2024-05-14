@@ -12,8 +12,7 @@ Commands:
 Options:
   -a 0                              Sets the attack mode to a dictionary attack
   -m 0                              Sets the hash mode for cracking MD5 hashes
-  f806fc5a2a0d5ba2471600758452799c  This option could be a single hash like our example
-                                    or a file that contains a hash or multiple hashes
+  -r custom.rule                    Use a rule. Rules are located in /usr/share/hashcat/rules/
   /usr/share/wordlists/rockyou.txt  Wordlist/dictionary file for our attack
   -a 3                              Sets the attacking mode as a brute-force attack
   ?d?d?d?d                          The "?d" tells hashcat to use a digit. In this case, 
