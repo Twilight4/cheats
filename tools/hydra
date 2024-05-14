@@ -18,7 +18,7 @@ Options:
   -L                       Use username wordlist
   -p                       Specify a single password
   -P                       Path specifying the full path of wordlist
-  -t x                     Number of parallel connections per target
+  -t <x>                   Number of threads per target
   -V, -vV                  Verbose output for every attempt
   http-post-form           The type of the form is POST
   <PATH>                   The login page URL, for example: login.php
