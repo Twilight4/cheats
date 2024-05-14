@@ -1,0 +1,5 @@
+Usage:
+  crackmapexec <protocol> <target-IP> -u <user or userlist> -p <password or passwordlist>
+
+Example Usage:
+  crackmapexec winrm 10.129.42.197 -u user.list -p password.list
