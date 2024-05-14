@@ -21,4 +21,4 @@ Specify character set using "-t" option:
   ^    Special characters including space
 
 Informational:
-  In key-space technique we specify a range of characters, numbers, and symbols in our wordlist
+  In key-space technique we specify a range of characters, numbers, and symbols in our wordlist.

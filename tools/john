@@ -44,9 +44,3 @@ Cracking Files:
   hccap2john 	Converts WPA/WPA2 handshake captures for John
   office2john 	Converts MS Office documents for John
   wpa2john 	    Converts WPA/WPA2 handshakes for John
-
-Cracking Files Syntax:
-  <tool> <file_to_crack> > file.hash
-
-Example Usage:
-  pdf2john server_doc.pdf > server_doc.hash
