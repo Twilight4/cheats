@@ -7,6 +7,9 @@ Check which WiFi network the device is connected:
 Scan WiFi Networks:
   nmcli dev wifi
 
+Show active connections:
+  nmcli c show --active
+
 Connect to WiFi Network:
   nmcli dev wifi connect "wifi_ssid" password "wifi_password"
 
