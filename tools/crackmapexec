@@ -4,6 +4,9 @@ Usage:
 Example Usage:
   crackmapexec winrm 10.129.42.197 -u user.list -p password.list
 
-
 Informational:
   The appearance of (Pwn3d!) is the sign that we can most likely execute system commands if we log in with the brute-forced user.
+  if we are targetting a non-domain joined computer, we will need to use the option --local-auth.
+  in password spraying (nb-enum-smb-cme-spray), by default CME will exit after a successful login is found. Using the
+  --continue-on-success flag will continue spraying even after a valid password is found. it is very useful for spraying
+  a single password against a large user list
