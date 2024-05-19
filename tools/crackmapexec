@@ -4,9 +4,17 @@ Usage:
 Example Usage:
   crackmapexec winrm 10.129.42.197 -u user.list -p password.list
 
+Options:
+  --exec-method       method of executing a command (default atexec)
+  -x 'whoami'         command to execute (-X for powershell command)
+  --continue-on-success   in a password spraying attack, continue spraying even after a valid password is found
+  --local-auth        use this option if we are targetting a non-domain joined computer
+  --loggedon-users    enumerate logged-on users
+
+
 Informational:
-  The appearance of (Pwn3d!) is the sign that we can most likely execute system commands if we log in with the brute-forced user.
-  if we are targetting a non-domain joined computer, we will need to use the option --local-auth.
-  in password spraying (nb-enum-smb-cme-spray), by default CME will exit after a successful login is found. Using the
-  --continue-on-success flag will continue spraying even after a valid password is found. it is very useful for spraying
-  a single password against a large user list
+The appearance of (Pwn3d!) is the sign that we can most likely execute system commands if we log in with the brute-forced user.
+
+Using the --continue-on-success flag is very useful for spraying a single password against a large user list.
+
+If the --exec-method is not defined, CrackMapExec will try to execute the atexec method, if it fails you can try to specify the --exec-method smbexec.
