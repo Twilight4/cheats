@@ -1,0 +1,34 @@
+Connect through RPClient (anonymous user without password):
+  rpcclient -U "" <TARGET_IP>
+
+Server information:
+  srvinfo
+
+Enumerate all domains that are deployed in the network:
+  enumdomains
+
+Provides domain, server, and user information of deployed domains:
+  querydominfo
+
+Enumerates all available shares:
+  netshareenumall
+
+Provides information about a specific share:
+  netsharegetinfo <share>
+
+Enumerates all domain users:
+  enumdomusers
+
+Provides information about a specific user:
+  queryuser <RID>
+
+User enumeration:
+  enumdomusers
+  queryuser 0x3e9
+  queryuser 0x3e8
+
+Group Information - we can use the results to identify the group's RID, which we can then use to retrieve information from the entire group:
+  querygroup 0x201
+
+Brute Forcing User RIDs (exit the rpcclient):
+  for i in $(seq 500 1100);do rpcclient -N -U "" <TARGET_IP> -c "queryuser 0x$(printf '%x\n' $i)" | grep "User Name\|user_rid\|group_rid" && echo "";done
