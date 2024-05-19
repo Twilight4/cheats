@@ -24,3 +24,9 @@ Options:
   -F, --ForceWpadAuth   Force NTLM/Basic authentication on wpad.dat file
                         retrieval. This may cause a login prompt. Default: False
   -b, --basic           Return a Basic HTTP authentication. Default: NTLM
+
+
+Informational:
+  These captured credentials can be cracked using hashcat or relayed to a remote host to complete the authentication and impersonate the user.
+  All saved Hashes are located in Responder's logs directory (/usr/share/responder/logs/). We can copy the hash to a file and attempt to crack it using the hashcat module 5600.
+  If you notice multiples hashes for one account this is because NTLMv2 utilizes both a client-side and server-side challenge that is randomized for each interaction. This makes it so the resulting hashes that are sent are salted with a randomized string of numbers. This is why the hashes don't match but still represent the same password.
