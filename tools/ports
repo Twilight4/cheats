@@ -14,12 +14,13 @@ POP3      110        Email (MDA)                  No
 NTP       123        Network Time                 Yes
 SMB       139,445    Sharing Access               Yes
 SNMP      161/udp    Network Management           1,2,2c; No - 3; Yes
-IMAP      143        Email (MDA)                  No
+IMAP4     143        Email (MDA)                  No
 LDAP      389/tcp-udp Directory Access            No
 HTTPS     443        Secure WWW                   Yes
 SMTPS     465        Email (MTA)                  Yes
+SMTPS     587        Email (MTA)                  Yes/STARTTLS
 FTPS      990        File Transfer                Yes
-IMAPS     993        Email (MDA)                  Yes
+IMAP4S    993        Email (MDA)                  Yes
 POP3S     995        Email (MDA)                  Yes
 MSSQL     1433       MS SQL Server                Yes
 MSSQL     1434/udp   MS SQL Server                Yes
