@@ -1,0 +1,6 @@
+
+Options:
+  -M      specify the enumeration mode followed by VRFY, EXPN, or RCPT
+  -U      file containing the list of users we want to enumerate
+  -D      add the domain for the email address
+  -t      specify the target
