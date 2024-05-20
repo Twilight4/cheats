@@ -1,17 +1,15 @@
 Show Databases:
-  show databases;
+  SHOW DATABASES;
+  SELECT name FROM master.dbo.sysdatabases
 
 Select a Database:
   USE <DATABASE>;
 
+Show Tables:
+  SHOW TABLES;
+  SELECT table_name FROM <DATABASE>.INFORMATION_SCHEMA.TABLES
 
-
-
-
-
-
-
-
-
+Select all Data from Table:
+  SELECT * FROM <TABLE>;
 
 Note: We will get an error if we try to list or connect to a database we don't have permissions to.
