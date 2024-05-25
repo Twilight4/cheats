@@ -13,6 +13,9 @@ Provides domain, server, and user information of deployed domains:
 Enumerates all available shares:
   netshareenumall
 
+Obtaining the Password Policy:
+  getdompwinfo
+
 Provides information about a specific share:
   netsharegetinfo <share>
 

@@ -24,6 +24,7 @@ Options:
   -F, --ForceWpadAuth   Force NTLM/Basic authentication on wpad.dat file
                         retrieval. This may cause a login prompt. Default: False
   -b, --basic           Return a Basic HTTP authentication. Default: NTLM
+  -A, --analyze         Put responder into analyze mode, without poisoning responses
 
 
 Informational:
