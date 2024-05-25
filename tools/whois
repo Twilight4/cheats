@@ -1,4 +1,14 @@
 whois - searches databases of registered users of domains and IP address blocks for data
 
-Usage:
-  tool [commands] [options]
+Output info:
+  domains - They can be useful for domain typo-squatting or baiting, because spoofing is easy to detect."
+  transfer - prohibited or not - if so, you will not be able to transfer this domain to another provider, which is a common attempt of red teaming
+  domain age - confirms that you are looking for the right target
+  domain name servers - these may sometimes point to other software used by the company
+  Registrar WHOIS server
+  Registrar URL
+  Record creation date
+  Record update date
+  Registrant contact info and address (unless withheld for privacy)
+  Admin contact info and address (unless withheld for privacy)
+  Tech contact info and address (unless withheld for privacy)
