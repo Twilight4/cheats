@@ -19,6 +19,7 @@ LDAP      389/tcp-udp Directory Access            No
 HTTPS     443        Secure WWW                   Yes
 SMTPS     465        Email (MTA)                  Yes
 SMTPS     587        Email (MTA)                  Yes/STARTTLS
+LDAPS     636        Directory Access             Yes
 FTPS      990        File Transfer                Yes
 IMAP4S    993        Email (MDA)                  Yes
 POP3S     995        Email (MDA)                  Yes

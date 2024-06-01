@@ -9,3 +9,6 @@ Options:
   -u        url
   -H        header `"Name: Value"`, separated by colon.
   -v        verbose output
+  -recursion            enable recursive scanning
+  -recursion-depth      specify the depth
+  -fs      response size value
