@@ -8,9 +8,9 @@ Uses Hashcat to generate a rule-based word list:
   hashcat --force password.list -r custom.rule --stdout > mut_password.list
 
 Commands:
-  hashcat -h                        List of supported hashes
-  hashcat --show                    Show the cracked value if the hash has been cracked
-  hashcat --help | grep NTLM        Check mode for NTLM hash
+  --show                    Show the cracked value if the hash has been cracked
+  --help | grep NTLM        Check mode for NTLM hash
+  --example-hashes          List example hashes for each mode
 
 Options:
   -a 0                              Sets the attack mode to a dictionary attack
