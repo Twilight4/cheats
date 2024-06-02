@@ -35,3 +35,14 @@ Informational:
   When you connect to your bank, there’s a certificate that uses cryptography to prove that it is actually your bank rather than a hacker.
 
   When you download a file, how do you check if it downloaded right? You can use cryptography here to verify a checksum of the data.
+
+
+Mask Attack:
+  ?l 	lower-case ASCII letters (a-z)
+  ?u 	upper-case ASCII letters (A-Z)
+  ?d 	digits (0-9)
+  ?h 	0123456789abcdef
+  ?H 	0123456789ABCDEF
+  ?s 	special characters («space»!"#$%&'()*+,-./:;<=>?@[]^_`{
+  ?a 	?l?u?d?s
+  ?b 	0x00 - 0xff
