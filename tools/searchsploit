@@ -1,0 +1,9 @@
+Usage:
+  searchsploit <POTENTIAL_SERVICE>
+             Do not be specific with searchsploit because it searches the exact string you are using
+             You can use searchsploit <PROTOCOL> or search command in metasploit to find automated payloads
+
+Options:
+  -w           Show links to ExploitDB
+  -m <EDB_ID>  Mirror an exploit to the current working directory
+  -nmap        Use searchsploit with an nmap xml results file
