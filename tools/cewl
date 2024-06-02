@@ -1,10 +1,14 @@
 Cewl - create custom password lists from the target website
 
+Syntax:
+  cewl -d <depth to spider> -m <minimum word length> -w <output wordlist> <url of website>
+
 Commands:
-  cewl -w list.txt -d 5 -m 5 <DOMAIN>
+  cewl -w list.txt -d 5 -m 5 <URL>
 
 Options:
   -w    Write the contents to a file.
   -m 5  Gathers strings (words) that are 5 characters or more
   -d 5  Depth level of web crawling/spidering (default 2)
   --lowercase   words in lowercase
+  -e    Extract emails from websites. It's helpful to get this information when phishing, password spraying, or brute-forcing passwords later.

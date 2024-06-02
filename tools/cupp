@@ -5,3 +5,6 @@ Options:
   -i         Interactive mode - asks questions about the target and based on the provided answers, it creates a custom wordlist
   -l         Download pre-created wordlists
   -a         Provide default usernames and passwords from the Alecto database
+
+It also supports appending random characters and a "Leet" mode, which uses combinations of letters and numbers in common words.
+CUPP can also fetch common names from various online databases using the "-l" option.
