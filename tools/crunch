@@ -1,6 +1,9 @@
 crunch - Generate a dictionary file containing words
 Source: https://www.kali.org/tools/crunch/
 
+Syntax:
+  crunch <minimum length> <maximum length> <charset> -t <pattern> -o <output file>
+
 Example Usage:
   crunch 2 2 01234abcd -o crunch.txt   Keyspace technique; Create a wordlist containing all possible
                                        combinations of "2" characters, including "0-4" and "a-d"

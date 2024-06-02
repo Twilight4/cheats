@@ -36,8 +36,10 @@ Informational:
 
   When you download a file, how do you check if it downloaded right? You can use cryptography here to verify a checksum of the data.
 
+  Mask attacks are used to generate words matching a specific pattern. This type of attack is particularly useful when the password length 
+  or format is known. A mask can be created using static characters, ranges of characters (e.g. [a-z] or [A-Z0-9]), or placeholders.
 
-Mask Attack:
+Mask Attack placeholders:
   ?l 	lower-case ASCII letters (a-z)
   ?u 	upper-case ASCII letters (A-Z)
   ?d 	digits (0-9)
