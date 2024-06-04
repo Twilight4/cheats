@@ -4,7 +4,7 @@ Syntax:
   cewl -d <depth to spider> -m <minimum word length> -w <output wordlist> <url of website>
 
 Commands:
-  cewl -w list.txt -d 5 -m 5 <URL>
+  cewl -w wordlist.txt -d 5 -m 5 <URL>
 
 Options:
   -w    Write the contents to a file.
