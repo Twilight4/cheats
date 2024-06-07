@@ -11,6 +11,7 @@ TFTP      69/udp     File Transfer                No
 HTTP      80         WWW                          No
 Kerberos  88         Authentication Service       Yes
 POP3      110        Email (MDA)                  No
+RPC       111        Portmapper                   No                    
 NTP       123        Network Time                 Yes
 SMB       139,445    Sharing Access               Yes
 SNMP      161/udp    Network Management           1,2,2c; No - 3; Yes
