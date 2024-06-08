@@ -1,0 +1,4 @@
+Options:
+ --url                   provide target url
+ -P, --passwords         password/password list
+ -U, --usernames         user/user list

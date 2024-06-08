@@ -1,2 +1,5 @@
 Usage:
   python eyewitness.py -f <HTTPROBE-DOMAINS_TXT> -d eyewit --web
+
+Options:
+ -f <file>      give it the list of subdomains in a text file
