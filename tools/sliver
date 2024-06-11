@@ -10,24 +10,35 @@ Commands:
   sessions                      list sessions
   beacons                       list beacons
 
+Beacon mode:
+  info                          list basic system information
+  tasks                         show proggress of each task
+  interactive                   switch to session mode
+  shell                         drop a system shell (only use interactive sessions when you have to)
+  execute-assembly <PATH>       allows us to run .NET binaries on the target machine, without uploading them.
+  cd
+  cat
+  download Pictures
+  upload academy.txt C:/Users/eric/Desktop/academy.txt
+  ls C:\\Users\\eric\\Desktop\\academy.txt
+
 Generating Implants (beacon mode):
   generate beacon -h            generate new beacon
   -J, --jitter                  sets up the jitter time of the callback from the implant in a manner that will fluctuate based on the value
   -S, --seconds                 which allows us to set the time interval of the callback by default every 60 seconds we will receive a callback
                                 either a check-up and/or output containing the results of our query/command
-  --skip-symbols                do not obfuscate an implant
+  --skip-symbols                do not obfuscate an implant (obfuscates by default)
   -o, --os                      operating system (default: windows)
-  -b, --http <ip>               http(s) connection strings
-  -N, --name <name>             agent name
+  -b, --http <LHOST>            http(s) connection strings
+  -N, --name <NAME>             agent name
 
-mtls (listener):
-  -L, --lhost                   interface to bind server to
-  -l, --lport                   tcp listen port (default 8888)
-
-Generating Implants (stager mode):
+Generating Implants (session mode):
   generate stager -h            generate new stager
-  -L, --lhost <HOST>            interface to bind server to
+  -L, --lhost <LHOST>           interface to bind server to
   -l, --lport <PORT>            tcp listen port (default 8888)
   -r, --protocol <STRING>       staging protocol (tcp/http/https) (default: tcp)
   -s, --save                    specify an output. By default implants are saved in cwd
+
+Informational:
+  When interacting with sessions in Sliver, the names are usually RED, and the beacon ones are in BLUE. Knowing that difference can be helpful as the sessions are interactive, and the beacons are not.
 
