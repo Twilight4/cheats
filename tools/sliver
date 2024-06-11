@@ -1,10 +1,15 @@
 Commands:
+  help <command>                help page for indivudal command
+  <command> -h                  help page for indivudal command
   implants                      view all previously generated implant binaries
   jobs                          manage jobs/listeners
-  generate stager               generate new stager
   regenerate <IMPLANT_NAME>     use if you need to re-download a previously generated implant
   mtls, http, https, dns        start a listener depending on protocol
   profiles                      list profiles
+
+Generating Implants (stager/beacon mode):
+  generate stager -h            generate new stager
+  generate beacon -h            generate new beacon
 
 Interact:
   use <SESSION_ID>              interact with active session/beacon

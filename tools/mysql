@@ -1,3 +1,7 @@
+enable xp_cmdshell and run operating system commands:
+  EXEC sp_configure 'show advanced options', '1'
+  EXEC sp_configure 'xp_cmdshell', '1'
+
 Show Databases:
   SHOW DATABASES;
   SELECT name FROM master.dbo.sysdatabases
