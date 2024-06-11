@@ -6,23 +6,28 @@ Commands:
   regenerate <IMPLANT_NAME>     use if you need to re-download a previously generated implant
   mtls, http, https, dns        start a listener depending on protocol
   profiles                      list profiles
-
-Generating Implants (stager/beacon mode):
-  generate stager -h            generate new stager
-  generate beacon -h            generate new beacon
-
-Interact:
   use <SESSION_ID>              interact with active session/beacon
   sessions                      list sessions
   beacons                       list beacons
 
-mtls (listener):
-  -L, --lhost          interface to bind server to
-  -l, --lport          tcp listen port (default 8888)
+Generating Implants (beacon mode):
+  generate beacon -h            generate new beacon
+  -J, --jitter                  sets up the jitter time of the callback from the implant in a manner that will fluctuate based on the value
+  -S, --seconds                 which allows us to set the time interval of the callback by default every 60 seconds we will receive a callback
+                                either a check-up and/or output containing the results of our query/command
+  --skip-symbols                do not obfuscate an implant
+  -o, --os                      operating system (default: windows)
+  -b, --http <ip>               http(s) connection strings
+  -N, --name <name>             agent name
 
-generate stager (implants):
-  -L, --lhost <HOST>               interface to bind server to
-  -l, --lport <PORT>               tcp listen port (default 8888)
-  -r, --protocol <STRING>          staging protocol (tcp/http/https) (default: tcp)
-  -s, --save                       specify an output. By default implants are saved in cwd
+mtls (listener):
+  -L, --lhost                   interface to bind server to
+  -l, --lport                   tcp listen port (default 8888)
+
+Generating Implants (stager mode):
+  generate stager -h            generate new stager
+  -L, --lhost <HOST>            interface to bind server to
+  -l, --lport <PORT>            tcp listen port (default 8888)
+  -r, --protocol <STRING>       staging protocol (tcp/http/https) (default: tcp)
+  -s, --save                    specify an output. By default implants are saved in cwd
 
