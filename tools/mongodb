@@ -15,5 +15,5 @@ Select database:
 List collections:
   show collections;
 
-Dump the contents of collection/document:
+Dump the content of all the documents within the collection:
   db.<COLLECTION>.find().pretty();
