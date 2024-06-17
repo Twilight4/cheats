@@ -5,3 +5,14 @@ worth checking for password re-use as you may be able to pull down some sensitiv
 
 If Rsync is configured to use SSH to transfer files, we could modify our commands to include the -e ssh flag
 or -e "ssh -p2222" if a non-standard port is in use for SSH. Read guides: https://phoenixnap.com/kb/how-to-rsync-over-ssh
+
+Usage:
+  rsync [OPTION] … [USER@]HOST::SRC [DEST]
+
+SRC is the file or directory (or a list of multiple files and directories) to copy from
+DEST is the file or directory to copy to, and square brackets indicate optional parameters
+OPTION refers to the available options in rsync. The list with all valid options is available
+over at the official manual page of rsync under the section Options Summary
+[USER@] optional parameter is used when we want to access the the remote machine in an
+authenticated way. If we don't have any valid credentials at our disposal so we will omit this
+portion and try an anonymous authentication.
