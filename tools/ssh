@@ -1,0 +1,3 @@
+Options:
+  -f            send the command to the shell's background right before executing it remotely
+  -N            tells SSH not to execute any commands remotely

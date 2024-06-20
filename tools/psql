@@ -1,0 +1,21 @@
+Tool to interact with the postgresql databse service
+
+Usage:
+  psql -U christine -h localhost -p 1234
+
+Options:
+  -U <user>
+  -h <host>
+  -p <port>
+
+list existing databses:
+  \l
+
+Connect to database:
+  \c
+
+List database tables:
+  \dt
+
+Dumpt the content of the table:
+  SELECT * FROM <TABLE>;
