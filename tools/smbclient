@@ -1,8 +1,8 @@
 SMB Client to access resources on SMB servers
 
 Options:
-  -N         No password
-  -U name    Specify the user
+  -N         NULL session
+  -U <user>  Login identity to use
   -L         List out file shares
 
 SMB shell commands:
