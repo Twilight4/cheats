@@ -1,0 +1,8 @@
+Options:
+  -d <domain>            domain name
+  --dc-ip                DC ip address
+  -U                     used to enumerate all users, i.e. objects with objectCategory set to user
+  --custom <filter>      set a filter
+
+Filters:
+  objectClass=*          enumerate all other objects in the domain
