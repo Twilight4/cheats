@@ -1,5 +1,10 @@
 SMB Client to access resources on SMB servers
 
+Recursively download without prompting:
+  recurse ON
+  PROMPT OFF
+  mget *
+
 Options:
   -N         NULL session
   -U <user>  Login identity to use
