@@ -33,4 +33,4 @@ sudo omen-fan b 1
 # Set Fan Speed (Disables BIOS control) - Fan speed can be set in Percentage or in RPM
 # If you set fans manually, you must disable the fan management service and bios control first
 sudo omen-fan s 20 20       # sets Fan1: 2000 RPM  Fan2: 2000RPM
-sudo omen-fan 50%           # sets bot fans to 50% speed (calculates RPM)
+sudo omen-fan s 50%         # sets bot fans to 50% speed (calculates RPM)
