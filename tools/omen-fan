@@ -1,9 +1,9 @@
+Source: https://github.com/alou-S/omen-fan.git
+
 ### INSTALLATION ###
 paru -S python-click python-tomlkit python-click-aliases
-git clone https://github.com/alou-S/omen-fan.git
-sudo cp omen-fand.py /bin/omen-fand
-sudo cp omen-fan.py /bin/omen-fan
-rm -rf omen-fan
+sudo ln -s ~/.config/.local/bin/omen-fan /usr/bin/omen-fan
+sudo ln -s ~/.config/.local/bin/omen-fand /usr/bin/omen-fand
 
 
 ### USAGE ###
