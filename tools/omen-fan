@@ -20,7 +20,7 @@ sudo omen-fan e 0
 sudo omen-fan x 1
 
 # Disable fan boost
-sudo omen-fan x 1
+sudo omen-fan x 0
 
 
 ### MISC COMMANDS ###
@@ -28,7 +28,7 @@ sudo omen-fan x 1
 sudo omen-fan b 1
 
 # Manually disable bios control
-sudo omen-fan b 1
+sudo omen-fan b 0
 
 # Set Fan Speed (Disables BIOS control) - Fan speed can be set in Percentage or in RPM
 # If you set fans manually, you must disable the fan management service and bios control first
