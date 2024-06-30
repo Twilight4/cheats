@@ -1,0 +1,7 @@
+Microsoft Access Database file (.mdb extension) can be examined using mdb-tools.
+
+Display tables and grep user:
+  mdb-tables backup.mdb | grep --color=auto user
+
+Export data from table auth_user:
+  mdb-export backup.mdb auth_user

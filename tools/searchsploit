@@ -6,4 +6,5 @@ Usage:
 Options:
   -w           Show links to ExploitDB
   -m <EDB_ID>  Mirror an exploit to the current working directory
+  -x           Read the exploit in PAGER
   -nmap        Use searchsploit with an nmap xml results file

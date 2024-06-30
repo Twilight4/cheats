@@ -1,0 +1,4 @@
+readpst can examine Microsoft Outlook Personal Folder file (.pst extension) is used to store emails and other items.
+
+Extract PST files into a directory:
+  readpst -tea -m file.pst

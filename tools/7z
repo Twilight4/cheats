@@ -1,0 +1,5 @@
+Extract file:
+ 7z x file.zip
+
+Examine the file:
+  7z l -slt file.zip
