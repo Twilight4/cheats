@@ -16,6 +16,7 @@ SMB shell commands:
   !cat        Local cat
   more "name of file"
               Cat out the name of the file in quotations so it can involve spaces
+  allinfo     Examine the ﬁle attributes
 
 SMB Enumeration:
   See if our interesting share has been configured to allow anonymous access,
