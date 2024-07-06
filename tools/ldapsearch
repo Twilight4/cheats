@@ -2,3 +2,5 @@ Options:
   -x       used to specify anonymous authentication
   -b       denotes the basedn to start from
   -s sub   search scobe, sub menas subtree search, including the base DN and all its child entries, its the most comprehensive search scope
+  -w       password
+  -D       BindDN (like username@domainname.com) ex. ldap@support.htb for default user

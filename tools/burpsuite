@@ -1,0 +1,3 @@
+Installation on Arch:
+  paru -S java-openjfx burpsuite
+  sudo archlinux-java set java-22-openjdk

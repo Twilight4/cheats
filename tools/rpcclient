@@ -7,6 +7,9 @@ Server information:
 Enumerate all domains that are deployed in the network:
   enumdomains
 
+Query information about accounts:
+  querydispinfo
+
 Provides domain, server, and user information of deployed domains:
   querydominfo
 
