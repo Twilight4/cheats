@@ -1,0 +1,15 @@
+SQLplus - Log In to Oracle database (if found valid credentials)
+  sqlplus <USER>/<PASSWORD>@<TARGET_IP>/XE;
+
+Oracle RDBMS Interaction - list all available tables in the current database 
+  select table_name from all_tables;
+
+Show us the privileges of the current user, check if you have administrative privs 
+select * 
+  from user_role_privs;
+
+Exit back to your shell if using this command:
+  sqlplus <USER>/<PASSWORD>@<TARGET_IP>/XE as sysdba
+
+Oracle RDBMS - Extract Password Hashes
+  select name, password from sys.user$;
