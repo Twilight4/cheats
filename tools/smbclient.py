@@ -4,3 +4,4 @@ Commands:
   ls            list files
   get           download file
   exit          exit session
+  help          show help page
