@@ -20,6 +20,7 @@ LDAP       389/tcp-udp Directory Access            No
 HTTPS      443        Secure WWW                   Yes
 SMTPS      465        Email (MTA)                  Yes
 SMTPS      587        Email (MTA)                  Yes/STARTTLS
+IPMI       623/udp    asf-rmcp                     Yes       
 LDAPS      636        Directory Access             Yes
 RSYNC      873        rsync                        Yes
 FTPS       990        File Transfer                Yes
