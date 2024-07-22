@@ -1,5 +1,5 @@
-amber
-mikrotik-npk
-packerid
-sherlocked
-vbsmin
+amber - This tool is used for network traffic analysis and threat detection. It helps in identifying and mitigating various types of network anomalies.
+mikrotik-npk - This tool is related to MikroTik RouterOS. It is used for managing and analyzing MikroTik NPK (MikroTik Packet) files, which are used for router firmware and configuration.
+packerid - A tool used for identifying software packers and protectors. It helps in recognizing and analyzing packed or obfuscated binaries.
+sherlocked - This tool is used for analyzing and detecting file and network-based security threats. It helps in identifying and mitigating various types of security issues in files and network traffic.
+vbsmin - A tool for analyzing and working with Visual Basic Script (VBS) files. It is used for examining VBS scripts for vulnerabilities and security risks.

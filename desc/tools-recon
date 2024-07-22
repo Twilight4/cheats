@@ -1,354 +1,354 @@
-ad-ldap-enum
-ad-miner
-adfind
-adidnsdump
-aiodnsbrute
-altdns
-amass
-apkstat
-aquatone
-assetfinder
-atear
-atstaketools
-attacksurfacemapper
-automato
-autorecon
-autosint
-aws-iam-privesc
-aztarna
-badkarma
-badministration
-barq
-basedomainname
-bfac
-billcipher
-bing-ip2hosts
-blackbox-scanner
-bloodhound
-bloodhound-python
-bridgekeeper
-c5scan
-cardpwn
-ccrawldns
-cero
-certgraph
-chaos-client
-chaosmap
-clairvoyance
-cloud-buster
-cloudlist
-cloudmare
-cloudunflare
-cmsscan
-cmsscanner
-cnamulator
-cr3dov3r
-crawlic
-crosslinked
-ct-exposer
-cutycapt
-d-tect
-darkscrape
-davscan
-dcdetector
-detectem
-dns-parallel-prober
-dns2geoip
-dnsbrute
-dnscobra
-dnsenum
-dnsprobe
-dnsrecon
-dnssearch
-dnsspider
-dnstwist
-dnswalk
-dnsx
-domain-analyzer
-domained
-domainhunter
-dorkscout
-dradis-ce
-dsstore-crawler
-dumpusers
-eapeak
-easyda
-elevate
-enteletaor
-enum4linux
-enum4linux-ng
-enumerate-iam
-enumerid
-exitmap
-eyewitness
-facebookosint
-favfreak
-fbi
-fbid
-fernmelder
-fierce
-fileintel
-finalrecon
-flashlight
-forager
-fport
-gasmask
-gatecrasher
-gau
-genisys
-geoedge
-git-hound
-git-wild-hunt
-gitdorker
-gitem
-gitgraber
-githack
-githound
-gitmails
-gitminer
-gitrecon
-gloom
-go-windapsearch
-goddi
-gomapenum
-goodork
-goofile
-goofuzz
-goog-mail
-googlesub
-goohak
-goop
-gowitness
-gplist
-graphinder
-gsd
-gwtenum
-h8mail
-hakrevdns
-harpoon
-hasere
-hashcheck
-hatcloud
-holehe
-homepwn
-hookshot
-hoper
-hoppy
-hosthunter
-howmanypeoplearearound
-http-traceroute
-httpforge
-id-entify
-infoga
-instagramosint
-intelplot
-inzider
-ip-tracer
-ip2clue
-iptodomain
-ipv6toolkit
-isme
-isr-form
-jackdaw
-jast
-jsearch
-juumla
-katana-framework
-keye
-kiterunner
-knock
-lbd
-legion
-lft
-lhf
-linenum
-linkedin2username
-linkfinder
-linux-exploit-suggester
-linux-exploit-suggester.sh
-littlebrother
-lulzbuster
-machinae
-maigret
-mail-crawl
-maltego
-manspider
-mbenum
-mdns-recon
-metabigor
-metafinder
-metagoofil
-mildew
-missidentify
-modscan
-mptcp-abuse
-mqtt-pwn
-msmailprobe
-nasnum
-nbname
-nbtenum
-nbtool
-necromant
-netdiscover
-netkit-bsd-finger
-netkit-rusers
-netkit-rwho
-netmask
-nipper
-nohidy
-nsec3walker
-ntlmrecon
-ntp-ip-enum
-nullinux
-nullscan
-o-saft
-o365enum
-o365spray
-omnibus
-onioff
-osi.ig
-osint-spy
-osintgram
-osrframework
-pagodo
-parsero
-pass-station
-pastemonitor
-pasv-agrsv
-pdfgrab
-peepingtom
-pepe
-photon
-pmap
-pmapper
-postenum
-pown
-pret
-protosint
-ptf
-punter
-puredns
-pwndora
-pwned
-pwned-search
-pwnedornot
-python-api-dnsdumpster
-python-canari
-python-witnessme
-python2-api-dnsdumpster
-python2-canari
-python2-shodan
-raccoon
-ranger-scanner
-rapidscan
-rasenum
-raven
-rbac-lookup
-rdwarecon
-recon-ng
-reconnoitre
-reconscan
-recsech
-red-hawk
-reverseip
-ridrelay
-rifiuti2
-ripdc
-rita
-rpctools
-sawef
-sb0x
-scamper
-scavenger
-scrying
-scylla
-sdn-toolkit
-seat
-secretfinder
-seeker
-server-status-pwn
-shard
-sherlock
-shhgit
-shodanhat
-shosubgo
-simple-lan-scan
-simplyemail
-sipi
-skiptracer
-slackpirate
-smap-scanner
-smbcrunch
-smbexec
-smbmap
-smbsr
-smtp-user-enum
-snmpcheck
-snoopbrute
-snscrape
-social-analyzer
-social-mapper
-social-vuln-scanner
-socialpwned
-socialscan
-spade
-spfmap
-spiderfoot
-spyse
-ssl-hostname-resolver
-stardox
-subdomainer
-subfinder
-subjs
-sublert
-sublist3r
-subover
-subscraper
-svn-extractor
-swarm
-syborg
-tactical-exploitation
-teamsuserenum
-thcrut
-thedorkbox
-theharvester
-tilt
-tinfoleak
-token-hunter
-trape
-treasure
-trufflehog
-twint
-twofi
-ubiquiti-probing
-udork
-uhoh365
-upnp-pentest-toolkit
-urlextractor
-userrecon
-userrecon-py
-v3n0m
-vbrute
-vulmap
-vulnx
-waldo
-waybackpack
-waybackurls
-wce
-webanalyze
-webkiller
-websearch
-webtech
-weebdns
-whatbreach
-whatsmyname
-whatweb
-whichcdn
-wig
-windapsearch
-windows-exploit-suggester
-winfo
-wpsweep
-yasat
-yeti
-zgrab2
+ad-ldap-enum - Enumerates LDAP objects in Active Directory environments.
+ad-miner - Extracts and analyzes information from Active Directory.
+adfind - Queries Active Directory to retrieve data.
+adidnsdump - Dumps DNS records for Active Directory environments.
+aiodnsbrute - Performs DNS brute-forcing using asynchronous methods.
+altdns - Identifies subdomains through DNS alteration.
+amass - Performs DNS enumeration and OSINT to discover subdomains.
+apkstat - Analyzes Android APK files for security vulnerabilities.
+aquatone - Performs reconnaissance and visualizes HTTP-based assets.
+assetfinder - Finds subdomains related to a domain.
+atear - Explores and analyzes DNS records for attack surfaces.
+atstaketools - Assesses and manages attack surfaces.
+attacksurfacemapper - Maps attack surfaces by discovering and analyzing assets.
+automato - Automates subdomain enumeration and DNS reconnaissance.
+autorecon - Automates the reconnaissance phase in penetration testing.
+autosint - Automates the collection of OSINT data for reconnaissance.
+aws-iam-privesc - Exploits privilege escalation vulnerabilities in AWS IAM.
+aztarna - Identifies vulnerabilities in Azure environments.
+badkarma - Scans for vulnerabilities and misconfigurations in systems.
+badministration - Detects administrative misconfigurations and weaknesses.
+barq - A reconnaissance tool for gathering domain information.
+basedomainname - Analyzes domain names to find subdomains and related data.
+bfac - Identifies and analyzes potential security issues in binaries.
+billcipher - Extracts and analyzes information from encrypted data.
+bing-ip2hosts - Finds hosts associated with IP addresses using Bing.
+blackbox-scanner - Performs black-box scanning to find vulnerabilities.
+bloodhound - Maps and analyzes Active Directory environments for privilege escalation.
+bloodhound-python - Python-based tool for querying and analyzing BloodHound data.
+bridgekeeper - Monitors and manages network bridges for security.
+c5scan - Scans for vulnerabilities and configurations in cloud environments.
+cardpwn - Analyzes and exploits vulnerabilities in credit card data.
+ccrawldns - Crawls DNS records to discover potential attack surfaces.
+cero - Performs reconnaissance on cloud environments and services.
+certgraph - Visualizes and analyzes SSL/TLS certificates for vulnerabilities.
+chaos-client - Client-side tool for chaos engineering and testing.
+chaosmap - Maps and analyzes chaos engineering results.
+clairvoyance - Provides insights into DNS and subdomain configurations.
+cloud-buster - Identifies and exploits misconfigurations in cloud services.
+cloudlist - Lists and analyzes cloud assets and configurations.
+cloudmare - Scans and analyzes cloud infrastructure for vulnerabilities.
+cloudunflare - Identifies and assesses security issues in cloud services.
+cmsscan - Scans Content Management Systems for vulnerabilities.
+cmsscanner - Identifies and analyzes CMS-related security issues.
+cnamulator - Maps and analyzes DNS CNAME records for potential attack surfaces.
+cr3dov3r - Scans for vulnerabilities in cloud environments.
+crawlic - Performs deep crawling and information gathering.
+crosslinked - Finds and analyzes linked resources across domains.
+ct-exposer - Exposes Certificate Transparency logs to discover domains.
+cutycapt - Captures web page screenshots for analysis and reconnaissance.
+d-tect - Detects vulnerabilities and security issues in web applications.
+darkscrape - Scrapes and analyzes dark web data for intelligence.
+davscan - Scans WebDAV servers for vulnerabilities.
+dcdetector - Detects and analyzes Domain Controller configurations.
+detectem - Detects and identifies emerging security threats.
+dns-parallel-prober - Performs parallel DNS probing for enumeration.
+dns2geoip - Maps DNS records to geographical locations.
+dnsbrute - Brute-forces DNS subdomain names.
+dnscobra - Analyzes DNS records for security vulnerabilities.
+dnsenum - Enumerates DNS records and identifies potential issues.
+dnsprobe - Probes DNS servers for various types of records.
+dnsrecon - Performs DNS reconnaissance and enumeration.
+dnssearch - Searches for DNS records and related information.
+dnsspider - Spiders DNS records to find additional information.
+dnstwist - Identifies domain name permutations and potential typosquatting.
+dnswalk - Analyzes and validates DNS zone files.
+dnsx - Performs DNS probing and enumeration with various options.
+domain-analyzer - Analyzes domain-related information for security assessments.
+domained - Performs domain enumeration and analysis.
+domainhunter - Searches for and identifies potential domain vulnerabilities.
+dorkscout - Searches for sensitive information using search engine dorks.
+dradis-ce - Collaborative open-source tool for sharing and managing security assessments.
+dsstore-crawler - Crawls and extracts information from .DS_Store files.
+dumpusers - Dumps user information from various services and systems.
+eapeak - Detects and analyzes EAP (Extensible Authentication Protocol) vulnerabilities.
+easyda - Simplifies Active Directory enumeration and analysis.
+elevate - Identifies and exploits privilege escalation vulnerabilities.
+enteletaor - Performs network enumeration and analysis.
+enum4linux - Extracts information from Linux systems via SMB.
+enum4linux-ng - Next-generation tool for enumerating Linux systems via SMB.
+enumerate-iam - Enumerates AWS IAM roles and policies for security assessments.
+enumerid - Identifies and enumerates IDs and users in various systems.
+exitmap - Maps and analyzes exposed services on networked systems.
+eyewitness - Captures and analyzes screenshots of web applications for reconnaissance.
+facebookosint - Gathers OSINT data from Facebook for intelligence purposes.
+favfreak - Finds and analyzes favicon files for domain enumeration.
+fbi - Identifies and extracts information from various sources and services.
+fbid - Searches for and analyzes Facebook-related data.
+fernmelder - Melds and analyzes vulnerabilities in network services.
+fierce - Performs DNS reconnaissance and brute-forcing.
+fileintel - Analyzes file-based intelligence for security insights.
+finalrecon - Performs comprehensive reconnaissance to finalize intelligence gathering.
+flashlight - Scans and analyzes web applications for vulnerabilities.
+forager - Harvests and analyzes data from various sources for intelligence.
+fport - Identifies open ports and services on networked systems.
+gasmask - Provides anonymity and security features for networked communications.
+gatecrasher - Identifies and exploits vulnerabilities in web applications and services.
+gau - Gathers URLs from various sources for reconnaissance.
+genisys - Performs network and system reconnaissance and vulnerability assessment.
+geoedge - Provides geographical information for IP addresses and domains.
+git-hound - Searches and extracts sensitive information from Git repositories.
+git-wild-hunt - Identifies sensitive data in public Git repositories.
+gitdorker - Finds sensitive data and vulnerabilities in GitHub repositories.
+gitem - Analyzes and enumerates information from Git repositories.
+gitgraber - Extracts sensitive information from Git repositories.
+githack - Exploits and analyzes vulnerabilities in GitHub repositories.
+githound - Searches for sensitive information in Git repositories.
+gitmails - Extracts and analyzes email addresses from Git repositories.
+gitminer - Mines data from Git repositories for security assessment.
+gitrecon - Performs reconnaissance on Git repositories for sensitive data.
+gloom - Analyzes and visualizes network data for threat intelligence.
+go-windapsearch - Searches for Windows LDAP and network data using Go.
+goddi - Performs domain and DNS reconnaissance with a focus on Godaddy domains.
+gomapenum - Enumerates and analyzes network and domain data using Go.
+goodork - Finds and analyzes sensitive data using Google search dorks.
+goofile - Searches and retrieves sensitive files from various sources.
+goofuzz - Fuzzes and tests web applications for security vulnerabilities.
+goog-mail - Analyzes and extracts information from Google Mail accounts.
+googlesub - Finds and analyzes Google subdomains for security assessment.
+goohak - Exploits vulnerabilities in Google-related services.
+goop - Performs reconnaissance on various online services.
+gowitness - Takes and analyzes screenshots of web pages for security assessment.
+gplist - Lists and analyzes Google services and data.
+graphinder - Searches and analyzes data from social media and other sources.
+gsd - Provides data and analysis for various security assessments.
+gwtenum - Enumerates and analyzes network data with a focus on web technologies.
+h8mail - Performs email intelligence and vulnerability assessment.
+hakrevdns - Reverses DNS records to gather intelligence.
+harpoon - Identifies and exploits security vulnerabilities in web applications.
+hasere - Performs reconnaissance on web applications and services.
+hashcheck - Verifies and analyzes hash values for security assessments.
+hatcloud - Analyzes and exploits cloud-based vulnerabilities.
+holehe - Detects exposed credentials and sensitive data leaks.
+homepwn - Assesses vulnerabilities and configurations in home networks.
+hookshot - Hooks and analyzes network traffic for security assessment.
+hoper - Provides network and service reconnaissance for threat intelligence.
+hoppy - Crawls and analyzes web applications for vulnerabilities.
+hosthunter - Finds and analyzes hostnames related to a domain.
+howmanypeoplearearound - Identifies and analyzes people in the vicinity using various methods.
+http-traceroute - Traces the route of HTTP requests for network analysis.
+httpforge - Performs HTTP-based vulnerability assessments and attacks.
+id-entify - Identifies and analyzes user IDs and related data.
+infoga - Gathers and analyzes information from email addresses.
+instagramosint - Extracts and analyzes data from Instagram for OSINT purposes.
+intelplot - Visualizes and analyzes intelligence data for insights.
+inzider - Performs reconnaissance and data extraction from various sources.
+ip-tracer - Traces IP addresses to determine their origin and location.
+ip2clue - Maps IP addresses to potential clues and information.
+iptodomain - Converts IP addresses to domain names and related data.
+ipv6toolkit - Provides tools and utilities for analyzing IPv6 networks.
+isme - Identifies and analyzes Internet Service Management Entities.
+isr-form - Provides reconnaissance and vulnerability analysis for ISR (Intelligence, Surveillance, and Reconnaissance) systems.
+jackdaw - Performs reconnaissance and analysis on networked systems.
+jast - Analyzes and tests web applications for security issues.
+jsearch - Searches and extracts data from various sources for security assessments.
+juumla - Analyzes and tests Joomla-based web applications for vulnerabilities.
+katana-framework - Provides a framework for reconnaissance and vulnerability assessment.
+keye - Analyzes and tests cryptographic keys and related data.
+kiterunner - Identifies and exploits vulnerabilities in web applications.
+knock - Scans and enumerates subdomains and related data.
+lbd - Identifies and analyzes load balancers and related configurations.
+legion - Provides comprehensive reconnaissance and vulnerability assessments.
+lft - Identifies open ports and services on networked systems.
+lhf - Performs reconnaissance and analysis of local host file systems.
+linenum - Enumerates Linux system configurations and vulnerabilities.
+linkedin2username - Extracts usernames from LinkedIn profiles for reconnaissance.
+linkfinder - Finds and extracts links from web pages and applications.
+linux-exploit-suggester - Suggests potential exploits based on Linux system configurations.
+linux-exploit-suggester.sh - A script that suggests exploits based on Linux system configurations.
+littlebrother - Provides network and system monitoring for security insights.
+lulzbuster - Fuzzes and tests web applications for vulnerabilities.
+machinae - Analyzes and assesses machine and system configurations.
+maigret - Performs reconnaissance on online profiles and accounts.
+mail-crawl - Crawls and analyzes email addresses and related data.
+maltego - Performs data mining and visualization for OSINT investigations.
+manspider - Crawls and extracts data from web applications and services.
+mbenum - Enumerates and analyzes data from Microsoft environments.
+mdns-recon - Performs reconnaissance on mDNS (multicast DNS) for network data.
+metabigor - Extracts and analyzes metadata from files and documents.
+metafinder - Finds and analyzes metadata in files and documents.
+metagoofil - Extracts metadata from files and documents for OSINT.
+mildew - Performs network and system reconnaissance for security assessment.
+missidentify - Identifies and analyzes potential misconfigurations and vulnerabilities.
+modscan - Scans and analyzes networked systems for vulnerabilities.
+mptcp-abuse - Exploits vulnerabilities in MultiPath TCP (MPTCP) implementations.
+mqtt-pwn - Exploits vulnerabilities in MQTT (Message Queuing Telemetry Transport) implementations.
+msmailprobe - Probes and analyzes Microsoft Mail services for vulnerabilities.
+nasnum - Identifies and analyzes NAS (Network Attached Storage) systems.
+nbname - Performs reconnaissance on NetBIOS names for network data.
+nbtenum - Enumerates and analyzes NetBIOS information for security assessments.
+nbtool - Provides tools for analyzing NetBIOS network data.
+necromant - Performs reconnaissance and vulnerability assessments on networked systems.
+netdiscover - Discovers and analyzes network devices and configurations.
+netkit-bsd-finger - Provides tools for analyzing and exploiting BSD network services.
+netkit-rusers - Identifies and enumerates users on networked systems.
+netkit-rwho - Provides tools for analyzing networked user information.
+netmask - Analyzes and manages network masks and configurations.
+nipper - Provides network and security configuration analysis tools.
+nohidy - Detects and analyzes hidden services and configurations.
+nsec3walker - Analyzes and exploits NSEC3 (DNS Security Extensions) records.
+ntlmrecon - Performs reconnaissance on NTLM (NT LAN Manager) authentication systems.
+ntp-ip-enum - Enumerates IP addresses and configurations for NTP (Network Time Protocol) services.
+nullinux - Provides tools and utilities for analyzing Linux systems.
+nullscan - Scans and analyzes networked systems for vulnerabilities.
+o-saft - Analyzes and assesses vulnerabilities in web applications.
+o365enum - Enumerates and analyzes Office 365 environments for security issues.
+o365spray - Performs password spraying attacks on Office 365 accounts.
+omnibus - Provides comprehensive tools for security assessment and reconnaissance.
+onioff - Analyzes and assesses security of Onion and non-Onion services.
+osi.ig - Provides tools for analyzing and assessing OSI (Open Systems Interconnection) network layers.
+osint-spy - Gathers and analyzes OSINT (Open Source Intelligence) data.
+osintgram - Extracts and analyzes intelligence data from Instagram.
+osrframework - Provides a suite of tools for OSINT and reconnaissance.
+pagodo - Performs web application reconnaissance and analysis.
+parsero - Parses and analyzes data from various sources for security assessment.
+pass-station - Identifies and manages password-related vulnerabilities.
+pastemonitor - Monitors and analyzes data breaches and password leaks.
+pasv-agrsv - Provides tools for analyzing and managing passive and aggressive reconnaissance.
+pdfgrab - Extracts and analyzes data from PDF documents.
+peepingtom - Provides tools for monitoring and analyzing web applications.
+pepe - Performs network and web application reconnaissance and analysis.
+photon - Extracts and analyzes data from websites for security assessments.
+pmap - Maps and analyzes network ports and services.
+pmapper - Provides tools for analyzing and mapping network data.
+postenum - Enumerates and analyzes data from web applications and services.
+pown - Performs reconnaissance and vulnerability assessments on web applications.
+pret - Provides tools for analyzing and testing web applications.
+protosint - Analyzes and tests protocol implementations for vulnerabilities.
+ptf - Provides a framework for managing and executing penetration testing tools.
+punter - Finds and exploits vulnerabilities in web applications.
+puredns - Performs DNS enumeration and analysis for security assessments.
+pwndora - Searches and analyzes compromised data for security insights.
+pwned - Checks if credentials or data have been exposed in breaches.
+pwned-search - Searches for exposed credentials and data breaches.
+pwnedornot - Checks if data has been compromised in known breaches.
+python-api-dnsdumpster - Uses Python API to interact with DNSDumpster for reconnaissance.
+python-canari - Provides tools for OSINT and security assessments using Python.
+python-witnessme - Uses Python for web application reconnaissance and analysis.
+python2-api-dnsdumpster - Python 2-based API for DNSDumpster interactions.
+python2-canari - Python 2-based tools for OSINT and security assessments.
+python2-shodan - Python 2-based API for interacting with Shodan for reconnaissance.
+raccoon - Provides tools for reconnaissance and vulnerability assessment.
+ranger-scanner - Scans and analyzes networked systems for vulnerabilities.
+rapidscan - Performs fast and efficient reconnaissance and vulnerability scanning.
+rasenum - Enumerates and analyzes network and system data.
+raven - Provides tools for threat intelligence and vulnerability assessment.
+rbac-lookup - Analyzes and evaluates Role-Based Access Control configurations.
+rdwarecon - Performs reconnaissance on hardware and network devices.
+recon-ng - Framework for gathering OSINT and performing reconnaissance.
+reconnoitre - Provides tools for reconnaissance and vulnerability assessment.
+reconscan - Performs reconnaissance and scanning for vulnerabilities.
+recsech - Provides tools for reconnaissance and security research.
+red-hawk - Performs web application and network reconnaissance and vulnerability scanning.
+reverseip - Finds domains hosted on the same IP address.
+ridrelay - Relays and analyzes RID (Relative Identifier) information in Active Directory.
+rifiuti2 - Provides tools for analyzing and managing network data.
+ripdc - Extracts and analyzes Domain Controller information.
+rita - Performs network and DNS reconnaissance for threat intelligence.
+rpctools - Provides tools for analyzing and exploiting RPC (Remote Procedure Call) services.
+sawef - Analyzes and assesses security issues in web applications.
+sb0x - Performs reconnaissance and vulnerability assessments.
+scamper - Provides tools for network probing and analysis.
+scavenger - Finds and analyzes network and system vulnerabilities.
+scrying - Provides tools for visualizing and analyzing security data.
+scylla - Analyzes and assesses network and web application vulnerabilities.
+sdn-toolkit - Provides tools for analyzing and managing Software-Defined Networking (SDN) environments.
+seat - Analyzes and evaluates security configurations and vulnerabilities.
+secretfinder - Finds and analyzes sensitive data in various sources.
+seeker - Performs reconnaissance and data extraction from online sources.
+server-status-pwn - Finds and exploits vulnerabilities in server status pages.
+shard - Analyzes and assesses web applications and systems for vulnerabilities.
+sherlock - Finds and analyzes usernames across multiple platforms.
+shhgit - Searches for sensitive data in public Git repositories.
+shodanhat - Provides tools for analyzing data from Shodan.
+shosubgo - Identifies and analyzes subdomains using Shodan and Go.
+simple-lan-scan - Performs basic LAN scanning and discovery.
+simplyemail - Extracts and analyzes email addresses for security assessments.
+sipi - Provides tools for analyzing and assessing networked systems.
+skiptracer - Performs skip tracing and data extraction for security purposes.
+slackpirate - Finds and analyzes data leaks and vulnerabilities in Slack.
+smap-scanner - Scans and analyzes network services for vulnerabilities.
+smbcrunch - Enumerates and analyzes SMB (Server Message Block) shares and users.
+smbexec - Executes commands on SMB services for exploitation.
+smbmap - Maps and analyzes SMB shares and permissions.
+smbsr - Scans and analyzes SMB services for vulnerabilities.
+smtp-user-enum - Enumerates and analyzes users in SMTP servers.
+snmpcheck - Checks and analyzes SNMP (Simple Network Management Protocol) configurations.
+snoopbrute - Performs brute-force attacks on network services.
+snscrape - Scrapes and analyzes data from social networking sites.
+social-analyzer - Analyzes and gathers data from social media platforms.
+social-mapper - Maps and analyzes social media profiles and connections.
+social-vuln-scanner - Scans social media profiles for vulnerabilities.
+socialpwned - Checks social media profiles for compromised data.
+socialscan - Finds and analyzes data from social media platforms.
+spade - Performs reconnaissance and analysis on web applications.
+spfmap - Maps and analyzes SPF (Sender Policy Framework) records.
+spiderfoot - Automates OSINT gathering and reconnaissance across various data sources.
+spyse - Provides tools for intelligence gathering and reconnaissance.
+ssl-hostname-resolver - Resolves and analyzes SSL/TLS hostnames and certificates.
+stardox - Performs threat intelligence and vulnerability assessment.
+subdomainer - Identifies and enumerates subdomains for a given domain.
+subfinder - Discovers and enumerates subdomains for a given domain.
+subjs - Finds and analyzes JavaScript files for subdomain enumeration.
+sublert - Monitors and alerts for changes in subdomains.
+sublist3r - Enumerates subdomains using various techniques and sources.
+subover - Identifies and analyzes subdomains for security assessments.
+subscraper - Scrapes and enumerates subdomains from various sources.
+svn-extractor - Extracts and analyzes data from SVN repositories.
+swarm - Provides tools for network scanning and vulnerability assessment.
+syborg - Performs advanced network and system reconnaissance.
+tactical-exploitation - Provides tools for tactical exploitation and vulnerability assessment.
+teamsuserenum - Enumerates and analyzes Microsoft Teams users.
+thcrut - Scans and analyzes web applications for vulnerabilities.
+thedorkbox - Provides tools for searching and analyzing data using Google dorks.
+theharvester - Gathers and analyzes email addresses and domain information from public sources.
+tilt - Provides tools for network and system analysis.
+tinfoleak - Extracts and analyzes intelligence from social media profiles.
+token-hunter - Finds and analyzes tokens and credentials exposed in various sources.
+trape - Provides tools for tracking and analyzing web traffic and users.
+treasure - Finds and analyzes valuable data and vulnerabilities.
+trufflehog - Searches for sensitive data and secrets in version control systems.
+twint - Scrapes and analyzes Twitter data for OSINT purposes.
+twofi - Provides tools for dual-factor authentication assessments.
+ubiquiti-probing - Probes and analyzes Ubiquiti network devices for vulnerabilities.
+udork - Uses search engine dorks for reconnaissance and vulnerability assessment.
+uhoh365 - Analyzes and assesses Office 365 environments for security issues.
+upnp-pentest-toolkit - Provides tools for testing and assessing UPnP (Universal Plug and Play) services.
+urlextractor - Extracts and analyzes URLs from various sources.
+userrecon - Performs reconnaissance and enumeration of user accounts.
+userrecon-py - Python-based tool for user account reconnaissance and enumeration.
+v3n0m - Provides tools for phishing and credential harvesting.
+vbrute - Performs brute-force attacks on various services.
+vulmap - Maps and analyzes vulnerabilities across different systems.
+vulnx - Provides tools for vulnerability assessment and exploitation on Linux systems.
+waldo - Performs reconnaissance and data extraction for web applications.
+waybackpack - Extracts and analyzes historical data from the Wayback Machine.
+waybackurls - Retrieves and analyzes URLs from the Wayback Machine.
+wce - Provides tools for credential extraction and exploitation.
+webanalyze - Analyzes and scans web applications for vulnerabilities.
+webkiller - Identifies and exploits web application vulnerabilities.
+websearch - Searches and analyzes web applications and services.
+webtech - Identifies and analyzes technologies used in web applications.
+weebdns - Provides DNS and web analysis tools.
+whatbreach - Identifies and analyzes data breaches.
+whatsmyname - Provides tools for analyzing domain names and related data.
+whatweb - Identifies technologies used on web applications.
+whichcdn - Identifies and analyzes Content Delivery Networks (CDNs).
+wig - Identifies and analyzes web technologies and frameworks.
+windapsearch - Performs searches and analysis on Windows Active Directory environments.
+windows-exploit-suggester - Suggests potential exploits based on Windows system configurations.
+winfo - Provides information and analysis on Windows systems.
+wpsweep - Identifies and analyzes vulnerabilities in WordPress installations.
+yasat - Performs reconnaissance and vulnerability assessments using advanced techniques.
+yeti - Provides tools for threat intelligence and data analysis.
+zgrab2 - Performs network scanning and data extraction using ZGrab.

@@ -1,51 +1,51 @@
-asp-audit
-aztarna
-badministration
-cms-explorer
-cmseek
-cmsscan
-cmsscanner
-davscan
-detectem
-dhcpf
-dnsmap
-domi-owned
-favfreak
-fhttp
-fingerprinter
-fl0p
-fpdns
-fport
-ftpmap
-graphw00f
-httprecon
-httprint
-identywaf
-jomplug
-juumla
-lbmap
-neighbor-cache-fingerprinter
-nullscan
-plecost
-pmap
-propecia
-python-frida-push
-rapidscan
-recsech
-sinfp
-sitediff
-sshprank
-thcrut
-tls-fingerprinting
-tls-prober
-udp-hunter
-userrecon
-vulmap
-vulnx
-wafp
-webanalyze
-webkiller
-webtech
-wpintel
-yasat
-zgrab2
+asp-audit - A tool for auditing and analyzing ASP (Active Server Pages) web applications for security vulnerabilities.
+aztarna - A tool for performing advanced security assessments and exploitations in web applications.
+badministration - A tool for identifying and exploiting poor administration practices in web applications.
+cms-explorer - A tool for discovering and enumerating content management systems (CMS) used by websites.
+cmseek - A tool for discovering and exploiting vulnerabilities in content management systems.
+cmsscan - A tool for scanning and identifying vulnerabilities in content management systems.
+cmsscanner - A tool for scanning and assessing vulnerabilities in various CMS platforms.
+davscan - A tool for scanning and identifying vulnerabilities in WebDAV services.
+detectem - A tool for detecting and analyzing web application technologies and configurations.
+dhcpf - A tool for performing DHCP (Dynamic Host Configuration Protocol) fingerprinting and attacks.
+dnsmap - A tool for performing DNS (Domain Name System) enumeration and mapping.
+domi-owned - A tool for identifying and exploiting vulnerable domains and subdomains.
+favfreak - A tool for discovering and exploiting favicon files for reconnaissance purposes.
+fhttp - A tool for performing HTTP (Hypertext Transfer Protocol) fingerprinting and scanning.
+fingerprinter - A tool for fingerprinting and identifying web application technologies and services.
+fl0p - A tool for performing network and service exploitation.
+fpdns - A tool for DNS-based fingerprinting and service identification.
+fport - A tool for identifying open ports and services on a target system.
+ftpmap - A tool for mapping and enumerating FTP (File Transfer Protocol) services and vulnerabilities.
+graphw00f - A tool for fingerprinting and identifying web application frameworks and technologies.
+httprecon - A tool for performing reconnaissance on HTTP services and web applications.
+httprint - A tool for fingerprinting and identifying web server technologies.
+identywaf - A tool for identifying and analyzing Web Application Firewalls (WAF) and their configurations.
+jomplug - A tool for managing and exploiting vulnerabilities in Joomla! plugins.
+juumla - A tool for assessing and exploiting Joomla! web applications and components.
+lbmap - A tool for mapping and identifying load balancers in a network environment.
+neighbor-cache-fingerprinter - A tool for fingerprinting and analyzing neighbor cache entries in network environments.
+nullscan - A tool for scanning and detecting various network and service vulnerabilities.
+plecost - A tool for performing and analyzing penetration tests on web applications.
+pmap - A tool for mapping and assessing network vulnerabilities and services.
+propecia - A tool for identifying and exploiting vulnerabilities in web applications and services.
+python-frida-push - A Python-based tool for leveraging Frida to perform dynamic analysis and instrumentation.
+rapidscan - A tool for performing rapid network and service vulnerability scanning.
+recsech - A tool for conducting reconnaissance and research on security technologies and techniques.
+sinfp - A tool for performing service fingerprinting and network scanning.
+sitediff - A tool for comparing and identifying differences between web application versions.
+sshprank - A tool for performing SSH (Secure Shell) password guessing and brute-forcing.
+thcrut - A tool for conducting and managing advanced network and application exploits.
+tls-fingerprinting - A tool for fingerprinting and analyzing TLS (Transport Layer Security) implementations.
+tls-prober - A tool for probing and analyzing TLS configurations and vulnerabilities.
+udp-hunter - A tool for scanning and identifying open UDP (User Datagram Protocol) ports and services.
+userrecon - A tool for performing user enumeration and information gathering.
+vulmap - A tool for mapping and identifying vulnerabilities in network services and applications.
+vulnx - A tool for discovering and exploiting vulnerabilities in network and web applications.
+wafp - A tool for detecting and analyzing Web Application Firewalls (WAF) and their effectiveness.
+webanalyze - A tool for analyzing and identifying technologies used in web applications.
+webkiller - A tool for identifying and exploiting web application vulnerabilities.
+webtech - A tool for discovering and analyzing technologies used by websites.
+wpintel - A tool for gathering intelligence and performing security assessments on WordPress installations.
+yasat - A tool for performing advanced security assessments and exploitations.
+zgrab2 - A tool for performing fast and efficient banner grabbing and service identification.

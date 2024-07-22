@@ -1,491 +1,491 @@
-0d1n
-0trace
-a2sv
-adenum
-adminpagefinder
-allthevhosts
-amass
-androidsniffer
-anti-xss
-apache-users
-apachetomcatscanner
-apnbf
-appmon
-arjun
-asp-audit
-assetfinder
-atear
-athena-ssl-scanner
-atscan
-atstaketools
-autorecon
-aws-iam-privesc
-awsbucketdump
-badkarma
-badministration
-barmie
-basedomainname
-bbscan
-billcipher
-bing-lfi-rfi
-bingoo
-blackbox-scanner
-blindy
-blue-hydra
-bluelog
-bluescan
-botb
-braa
-brakeman
-bss
-btscanner
-burpsuite
-c5scan
-caido-cli
-caido-desktop
-camscan
-cangibrina
-cariddi
-cent
-cero
-changeme
-chaosmap
-check-weak-dh-ssh
-chiron
-cipherscan
-cisco-auditing-tool
-cisco-scanner
-clair
-clairvoyance
-cloudflare-enum
-cloudmare
-cloudsploit
-cloudunflare
-cms-few
-cmsfuzz
-cmsmap
-cmsscan
-cmsscanner
-comission
-configpush
-conscan
-cookie-cadger
-corscanner
-corstest
-corsy
-cpfinder
-crackmapexec
-crlfuzz
-ct-exposer
-cvechecker
-cybercrowl
-cyberscan
-d-tect
-darkbing
-darkdump
-darkscrape
-davscan
-davtest
-dawnscanner
-dcrawl
-deblaze
-delldrac
-dependency-check
-dhcpig
-dirb
-dirbuster
-dirbuster-ng
-dirhunt
-dirscanner
-dirscraper
-dirsearch
-dirstalk
-dmitry
-dnmap
-dns2geoip
-dnsa
-dnsbf
-dnsbrute
-dnscan
-dnsenum
-dnsgoblin
-dnspredict
-dnsspider
-dnstwist
-dnswalk
-dockerscan
-dontgo403
-dorkbot
-dpscan
-dripper
-droopescan
-drupal-module-enum
-drupalscan
-drupwn
-dsfs
-dsjs
-dsss
-dsxs
-dvcs-ripper
-easyda
-eazy
-enteletaor
-enum-shares
-enum4linux
-enum4linux-ng
-enumerate-iam
-enumiax
-eos
-eternal-scanner
-evine
-extended-ssrf-search
-fernmelder
-feroxbuster
-fhttp
-fi6s
-fierce
-find-dns
-firewalk
-flashscanner
-flunym0us
-fscan
-fsnoop
-ftp-scanner
-ftp-spider
-ftpmap
-ftpscout
-gatecrasher
-gcpbucketbrute
-gethsploit
-gggooglescan
-ghost-phisher
-git-dump
-git-dumper
-gitdorker
-gittools
-gloom
-gobuster
-goofuzz
-goohak
-goop-dump
-gospider
-grabbb
-graphinder
-graphql-cop
-grepforrfi
-grype
-gtp-scan
-h2buster
-h2t
-habu
-hakrawler
-halberd
-hasere
-hikpwn
-homepwn
-hookshot
-hoppy
-host-extract
-hsecscan
-htcap
-http-enum
-httpforge
-httpgrep
-httpsscanner
-httpx
-icmpquery
-ike-scan
-ikeprobe
-infip
-injectus
-inurlbr
-ipscan
-ipv6toolkit
-isme
-jaadas
-jaeles
-jok3r
-joomlascan
-joomlavs
-juumla
-kadimus
-kalibrate-rtl
-katana-framework
-katana-pd
-kiterunner
-knock
-knxmap
-konan
-krbrelayx
-kube-hunter
-kubestriker
-kubolt
-laf
-ldapdomaindump
-letmefuckit-scanner
-lfi-scanner
-lfisuite
-linenum
-linikatz
-linux-smart-enumeration
-list-urls
-locasploit
-log4j-bypass
-log4j-scan
-logmepwn
-lotophagi
-lulzbuster
-lunar
-magescan
-maligno
-maltego
-manspider
-mantra
-miranda-upnp
-mitm6
-modscan
-mongoaudit
-mooscan
-morxtraversal
-mptcp-abuse
-mqtt-pwn
-msmailprobe
-naabu
-nbname
-nbtenum
-nbtool
-nbtscan
-netexec
-netscan
-netz
-nextnet
-nili
-nmbscan
-nosqli
-nray
-nsdtool
-ntlm-challenger
-ntlm-scanner
-ntlmrecon
-nuclei
-nuclei-templates
-nullinux
-nullscan
-o-saft
-ocs
-okadminfinder
-onesixtyone
-onionscan
-onionsearch
-openscap
-owasp-bywaf
-pagodo
-panhunt
-parameth
-paranoic
-pcredz
-peass
-pentbox
-phonia
-php-malware-finder
-pinkerton
-plcscan
-pmap
-pnscan
-postenum
-pown
-ppfuzz
-ppmap
-ppscan
-praeda
-pret
-propecia
-prowler
-proxybroker2
-proxycheck
-proxyscan
-ptf
-puredns
-pwncat
-pwndora
-pyersinia
-pyfiscan
-pyssltest
-pytbull
-python-api-dnsdumpster
-python-canari
-python2-api-dnsdumpster
-python2-canari
-python2-ldapdomaindump
-python2-shodan
-qark
-raccoon
-ranger-scanner
-rapidscan
-ratproxy
-rbac-lookup
-rdp-sec-check
-reconscan
-recsech
-red-hawk
-relay-scanner
-responder
-retire
-rext
-ripdc
-rlogin-scanner
-routerhunter
-rpctools
-rtlizer
-s3scanner
-sambascan
-sandcastle
-sandmap
-sandy
-sb0x
-scamper
-scanless
-scanqli
-scanssh
-scap-security-guide
-scap-workbench
-scoutsuite
-scrape-dns
-sdn-toolkit
-sdnpwn
-seat
-second-order
-see-surf
-shareenum
-shocker
-shortfuzzy
-shuffledns
-simple-lan-scan
-sipscan
-sipshock
-sitadel
-skipfish
-slurp-scanner
-smap-scanner
-smbcrunch
-smbexec
-smbmap
-smbspider
-smbsr
-smtp-test
-smtp-user-enum
-smtp-vrfy
-smtptx
-smuggler
-snallygaster
-snmpattack
-snmpenum
-snmpscan
-snoopbrute
-snyk
-spade
-spiga
-spipscan
-sploitego
-sprayhound
-sprayingtoolkit
-ssdp-scanner
-sshprank
-sshscan
-ssl-hostname-resolver
-sslcaudit
-sslmap
-sslscan2
-sslyze
-ssrfmap
-stacs
-sticky-keys-hunter
-storm-ring
-strutscan
-subdomainer
-subjack
-sublist3r
-subover
-subscraper
-svn-extractor
-swarm
-synscan
-tactical-exploitation
-taipan
-tfsec
-thcrut
-tiger
-tlsenum
-tlsx
-topera
-torcrawl
-traxss
-typo3scan
-ubiquiti-probing
-udork
-udp-hunter
-udsim
-umap
-uniscan
-unix-privesc-check
-upnp-pentest-toolkit
-uptux
-urldigger
-v3n0m
-vane
-vanguard
-vbrute
-vbscan
-vcsmap
-vhostscan
-videosnarf
-viproy-voipkit
-visql
-vsaudit
-vulmap
-vulnerabilities-spider
-vulnx
-w13scan
-wafw00f
-waldo
-wapiti
-wascan
-wcvs
-webanalyze
-webborer
-webenum
-webhunter
-webpwn3r
-webrute
-webscarab
-websploit
-webtech
-webxploiter
-weirdaal
-whitewidow
-wifiscanmap
-wig
-winfo
-witchxtool
-wnmap
-wordpresscan
-wpintel
-wpseku
-x-scan
-x8
-xcname
-xpire-crossdomain-scanner
-xsrfprobe
-xss-freak
-xsscon
-xssscan
-xsstracer
-xsstrike
-xssya
-xwaf
-yaaf
-yasat
-yasuo
-ycrawler
-zackattack
-zeus
+0d1n - Exploits vulnerabilities in web applications by creating 0-day exploits.
+0trace - Traces the route of a packet to a target IP address.
+a2sv - Performs vulnerability scanning on web applications.
+adenum - Enumerates DNS subdomains and related records.
+adminpagefinder - Searches for common admin page URLs on a web server.
+allthevhosts - Discovers virtual hosts on a web server.
+amass - Performs DNS enumeration and network mapping.
+androidsniffer - Analyzes network traffic from Android devices.
+anti-xss - Tests for Cross-Site Scripting (XSS) vulnerabilities.
+apache-users - Enumerates users from Apache web servers.
+apachetomcatscanner - Scans Apache Tomcat servers for vulnerabilities.
+apnbf - Scans for vulnerabilities in APN (Access Point Name) configurations.
+appmon - Monitors and analyzes application traffic.
+arjun - Detects and enumerates HTTP parameters in web applications.
+asp-audit - Audits ASP.NET applications for security issues.
+assetfinder - Finds assets associated with a domain.
+atear - Identifies potential vulnerabilities in web applications.
+athena-ssl-scanner - Scans SSL/TLS configurations for weaknesses.
+atscan - Scans and assesses security of web applications and APIs.
+atstaketools - Provides a set of tools for vulnerability assessment and exploitation.
+autorecon - Automates reconnaissance tasks for network and web application testing.
+aws-iam-privesc - Analyzes AWS IAM configurations for privilege escalation opportunities.
+awsbucketdump - Dumps contents of AWS S3 buckets.
+badkarma - Identifies misconfigurations and vulnerabilities in web applications.
+badministration - Discovers misconfigurations and vulnerabilities in administrative interfaces.
+barmie - Scans for vulnerabilities and security misconfigurations.
+basedomainname - Retrieves and analyzes domain names for security assessments.
+bbscan - Performs scanning for vulnerabilities in web applications.
+billcipher - Identifies vulnerabilities and security issues in web applications.
+bing-lfi-rfi - Searches Bing for Local and Remote File Inclusion vulnerabilities.
+bingoo - Finds and analyzes potential security issues using Bing search engine.
+blackbox-scanner - Scans applications without access to source code.
+blindy - Performs blind fuzzing to find vulnerabilities in applications.
+blue-hydra - Scans for Bluetooth devices and services.
+bluelog - Logs and analyzes Bluetooth device interactions.
+bluescan - Scans for Bluetooth devices and services.
+botb - Detects and analyzes bots on a network.
+braa - Analyzes the security of web applications.
+brakeman - Scans Ruby on Rails applications for security vulnerabilities.
+bss - Provides scanning and enumeration for security assessments.
+btscanner - Scans and analyzes Bluetooth devices and their services.
+burpsuite - A comprehensive web vulnerability scanner and security testing tool.
+c5scan - Identifies security vulnerabilities in cloud environments.
+caido-cli - Command-line tool for vulnerability scanning and enumeration.
+caido-desktop - Desktop application for vulnerability scanning and analysis.
+camscan - Scans for vulnerabilities in webcam systems.
+cangibrina - Performs reconnaissance and vulnerability scanning.
+cariddi - Scans for vulnerabilities in web applications.
+cent - Provides centralized vulnerability scanning and assessment.
+cero - Detects and analyzes web application vulnerabilities.
+changeme - Finds default or weak credentials in applications and services.
+chaosmap - Maps and analyzes network and web application vulnerabilities.
+check-weak-dh-ssh - Checks for weak Diffie-Hellman parameters in SSH configurations.
+chiron - Provides vulnerability scanning and analysis for web applications.
+cipherscan - Scans and evaluates SSL/TLS cipher configurations.
+cisco-auditing-tool - Audits Cisco devices for security vulnerabilities.
+cisco-scanner - Scans Cisco devices for security issues.
+clair - Scans Docker images for vulnerabilities.
+clairvoyance - Provides vulnerability analysis for Docker images.
+cloudflare-enum - Enumerates Cloudflare services and configurations.
+cloudmare - Analyzes and enumerates Cloudflare security configurations.
+cloudsploit - Scans cloud services for misconfigurations and vulnerabilities.
+cloudunflare - Identifies and analyzes security configurations behind Cloudflare.
+cms-few - Scans for vulnerabilities in web applications and content management systems.
+cmsfuzz - Fuzzes content management systems for vulnerabilities.
+cmsmap - Enumerates and tests content management systems for vulnerabilities.
+cmsscan - Scans and assesses content management systems for security issues.
+cmsscanner - Scans content management systems for vulnerabilities.
+comission - Provides vulnerability scanning and assessment tools.
+configpush - Automates the deployment of security configurations.
+conscan - Scans for vulnerabilities and configuration issues.
+cookie-cadger - Analyzes and extracts cookies from web applications.
+corscanner - Scans web applications for Cross-Origin Resource Sharing (CORS) misconfigurations.
+corstest - Tests web applications for CORS security issues.
+corsy - Analyzes and assesses CORS configurations in web applications.
+cpfinder - Finds and enumerates control panels and administrative interfaces.
+crackmapexec - Provides network scanning and exploitation capabilities.
+crlfuzz - Fuzzes applications to find Carriage Return Line Feed (CRLF) vulnerabilities.
+ct-exposer - Exposes and analyzes Certificate Transparency logs for security issues.
+cvechecker - Checks for known CVEs (Common Vulnerabilities and Exposures) in applications.
+cybercrowl - Crawls websites to find vulnerabilities and security issues.
+cyberscan - Scans for vulnerabilities and security issues in web applications.
+d-tect - Detects and analyzes security vulnerabilities in web applications.
+darkbing - Uses Bing search engine for deep web and vulnerability reconnaissance.
+darkdump - Dumps and analyzes data from deep web sources.
+darkscrape - Scrapes deep web sources for security intelligence.
+davscan - Scans web servers for WebDAV vulnerabilities.
+davtest - Tests WebDAV implementations for security issues.
+dawnscanner - Provides comprehensive scanning for vulnerabilities in web applications.
+dcrawl - Crawls and analyzes web applications for security issues.
+deblaze - Detects and analyzes vulnerabilities in web applications.
+delldrac - Scans and audits Dell DRAC interfaces for security issues.
+dependency-check - Analyzes software dependencies for known vulnerabilities.
+dhcpig - Captures and analyzes DHCP traffic for security assessments.
+dirb - Directory and file brute-forcer for web applications.
+dirbuster - Directory and file brute-forcer for web applications.
+dirbuster-ng - Next-generation directory and file brute-forcer.
+dirhunt - Hunts for directories and files on web servers.
+dirscanner - Scans for directories and files on web servers.
+dirscraper - Scrapes directories and files from web servers.
+dirsearch - Directory and file brute-forcer for web applications.
+dirstalk - Enumerates and scans directories and files on web servers.
+dmitry - Deep Magic Information Gathering tool for reconnaissance.
+dnmap - DNS enumeration tool that integrates with Nmap.
+dns2geoip - Maps DNS records to geographical locations.
+dnsa - Scans and analyzes DNS records for security assessments.
+dnsbf - Performs DNS brute-forcing to find subdomains.
+dnsbrute - Brute-forces DNS records to find subdomains.
+dnscan - Scans DNS records for security issues and enumeration.
+dnsenum - Enumerates DNS records and subdomains.
+dnsgoblin - Provides DNS enumeration and brute-forcing capabilities.
+dnspredict - Predicts and enumerates potential DNS subdomains.
+dnsspider - Spiders and enumerates DNS records and subdomains.
+dnstwist - Detects domain name permutations to find typosquatting attacks.
+dnswalk - Walks through DNS zones and analyzes records.
+dockerscan - Scans Docker containers for security vulnerabilities.
+dontgo403 - Detects and analyzes 403 Forbidden errors for potential information leakage.
+dorkbot - Automates the use of Google dorks for vulnerability scanning.
+dpscan - Scans and analyzes web applications for security issues.
+dripper - Extracts sensitive data from web applications.
+droopescan - Scans Drupal sites for vulnerabilities.
+drupal-module-enum - Enumerates Drupal modules for potential vulnerabilities.
+drupalscan - Scans Drupal sites for security vulnerabilities.
+drupwn - Identifies and exploits vulnerabilities in Drupal sites.
+dsfs - Detects and scans file system vulnerabilities.
+dsjs - Scans JavaScript files for security issues.
+dsss - Provides comprehensive scanning for security vulnerabilities in web applications.
+dsxs - Scans and analyzes web applications for security issues.
+dvcs-ripper - Extracts and analyzes data from distributed version control systems.
+easyda - Automates data extraction and vulnerability analysis.
+eazy - Provides easy-to-use tools for vulnerability scanning and analysis.
+enteletaor - Detects and analyzes security issues in applications and systems.
+enum-shares - Enumerates shared resources on a network.
+enum4linux - Retrieves information from Windows systems via SMB.
+enum4linux-ng - Next-generation tool for enumerating information from Windows systems.
+enumerate-iam - Enumerates AWS IAM roles and policies for security assessment.
+enumiax - Enumerates and analyzes IAM configurations for security issues.
+eos - Provides security scanning and enumeration tools.
+eternal-scanner - Scans for vulnerabilities related to the EternalBlue exploit.
+evine - Identifies vulnerabilities and security issues in applications.
+extended-ssrf-search - Searches for Server-Side Request Forgery (SSRF) vulnerabilities.
+fernmelder - Scans and analyzes network vulnerabilities.
+feroxbuster - Brute-forces directories and files on web servers.
+fhttp - Provides HTTP-based vulnerability scanning and analysis.
+fi6s - Scans for vulnerabilities in web applications and services.
+fierce - DNS reconnaissance and enumeration tool.
+find-dns - Finds and analyzes DNS records for security assessments.
+firewalk - Analyzes and maps network firewall rules.
+flashscanner - Scans for vulnerabilities in Adobe Flash applications.
+flunym0us - Provides fuzzing capabilities for security testing.
+fscan - Scans networks and applications for vulnerabilities.
+fsnoop - Monitors file system changes for security assessments.
+ftp-scanner - Scans FTP servers for vulnerabilities.
+ftp-spider - Spider and enumerates files on FTP servers.
+ftpmap - Maps and analyzes FTP server structures.
+ftpscout - Scans FTP servers for security issues.
+gatecrasher - Identifies and exploits vulnerabilities in web applications.
+gcpbucketbrute - Brute-forces and enumerates Google Cloud Storage buckets.
+gethsploit - Retrieves and analyzes exploits for vulnerabilities.
+gggooglescan - Uses Google search for vulnerability scanning.
+ghost-phisher - Creates fake access points and phishing pages for security testing.
+git-dump - Dumps and analyzes Git repositories for sensitive information.
+git-dumper - Extracts and dumps data from Git repositories.
+gitdorker - Searches Git repositories for sensitive information.
+gittools - Provides tools for analyzing and exploiting Git repositories.
+gloom - Scans and analyzes network traffic for vulnerabilities.
+gobuster - Directory and file brute-forcer for web servers.
+goofuzz - Fuzzes web applications and services for vulnerabilities.
+goohak - Exploits vulnerabilities found in web applications.
+goop-dump - Dumps and analyzes data from web applications.
+gospider - Web spider for crawling and analyzing web applications.
+grabbb - Scans and extracts information from web applications.
+graphinder - Analyzes and maps network graphs for security assessments.
+graphql-cop - Scans GraphQL endpoints for security vulnerabilities.
+grepforrfi - Searches for Remote File Inclusion (RFI) vulnerabilities.
+grype - Scans container images for known vulnerabilities.
+gtp-scan - Scans and tests for vulnerabilities in GTP (GPRS Tunneling Protocol).
+h2buster - Scans for vulnerabilities in HTTP/2 implementations.
+h2t - Analyzes HTTP/2 traffic for security issues.
+habu - Provides reconnaissance and scanning tools for web applications.
+hakrawler - Crawls and analyzes web applications for vulnerabilities.
+halberd - Tests and analyzes HTTP servers for security issues.
+hasere - Scans and identifies vulnerabilities in web applications.
+hikpwn - Identifies and exploits vulnerabilities in Hikvision devices.
+homepwn - Scans and analyzes home network devices for vulnerabilities.
+hookshot - Monitors and analyzes network traffic for security issues.
+hoppy - Provides vulnerability scanning and analysis tools.
+host-extract - Extracts and analyzes host information from network traffic.
+hsecscan - Scans and assesses network and web application security.
+htcap - Captures and analyzes HTTP traffic for security issues.
+http-enum - Enumerates HTTP headers and parameters for security analysis.
+httpforge - Analyzes and tests HTTP servers for security vulnerabilities.
+httpgrep - Greps and analyzes HTTP responses for security issues.
+httpsscanner - Scans HTTPS configurations for vulnerabilities.
+httpx - Scans and analyzes HTTP and HTTPS endpoints.
+icmpquery - Queries and analyzes ICMP traffic for network reconnaissance.
+ike-scan - Scans and analyzes IPsec IKE (Internet Key Exchange) configurations.
+ikeprobe - Probes and assesses IKE configurations for vulnerabilities.
+infip - Provides information gathering and reconnaissance capabilities.
+injectus - Detects and exploits injection vulnerabilities in applications.
+inurlbr - Searches for specific keywords in URLs for security assessment.
+ipscan - Scans IP addresses and provides detailed information on hosts.
+ipv6toolkit - Provides tools for analyzing and testing IPv6 networks.
+isme - Scans and evaluates Internet Security Management Environments.
+jaadas - Detects and analyzes web application vulnerabilities.
+jaeles - A flexible and modular web application security testing framework.
+jok3r - Scans and finds security issues in web applications.
+joomlascan - Scans Joomla websites for vulnerabilities.
+joomlavs - Performs vulnerability scanning on Joomla sites.
+juumla - Security scanner for Joomla content management systems.
+kadimus - Scans and assesses security in network environments.
+kalibrate-rtl - Provides RTL-SDR support for calibrating and scanning radio signals.
+katana-framework - A modular framework for penetration testing and security assessments.
+katana-pd - Penetration testing tool with a focus on network discovery and enumeration.
+kiterunner - Automates reconnaissance and vulnerability scanning tasks.
+knock - Finds subdomains by brute-forcing and DNS enumeration.
+knxmap - Maps and analyzes KNX (building automation) networks for vulnerabilities.
+konan - Security assessment tool for web applications.
+krbrelayx - Exploits Kerberos relay attacks to access internal resources.
+kube-hunter - Scans Kubernetes clusters for security issues.
+kubestriker - Provides tools for attacking and testing Kubernetes clusters.
+kubolt - A tool for auditing Kubernetes cluster security.
+laf - Provides web application vulnerability scanning and exploitation tools.
+ldapdomaindump - Dumps and analyzes LDAP directory data for security assessment.
+letmefuckit-scanner - Scans for vulnerabilities in web applications.
+lfi-scanner - Detects Local File Inclusion (LFI) vulnerabilities in web applications.
+lfisuite - A suite of tools for finding and exploiting LFI vulnerabilities.
+linenum - Enumerates Linux system configurations for privilege escalation.
+linikatz - Extracts and analyzes credentials from Linux systems.
+linux-smart-enumeration - Enumerates potential privilege escalation vectors on Linux systems.
+list-urls - Lists URLs from web applications for security assessment.
+locasploit - A local exploitation framework for testing vulnerabilities.
+log4j-bypass - Tests for Log4j vulnerability bypasses.
+log4j-scan - Scans for Log4j vulnerabilities in applications.
+logmepwn - Exploits Log4j vulnerabilities for security testing.
+lotophagi - Detects and analyzes security issues in web applications.
+lulzbuster - Fuzzes directories and files for security vulnerabilities.
+lunar - Scans and analyzes network vulnerabilities.
+magescan - Scans Magento sites for security vulnerabilities.
+maligno - Scans for malware and security issues in web applications.
+maltego - Provides information gathering and analysis tools for security assessments.
+manspider - Crawls and analyzes web applications for security issues.
+mantra - A security testing framework for web applications.
+miranda-upnp - Scans for UPnP (Universal Plug and Play) vulnerabilities.
+mitm6 - Man-in-the-Middle attacks and analysis tool for IPv6 networks.
+modscan - Scans for Modbus protocol vulnerabilities.
+mongoaudit - Audits MongoDB databases for security issues.
+mooscan - Scans for vulnerabilities in network services.
+morxtraversal - Tests for Directory Traversal vulnerabilities.
+mptcp-abuse - Tests for security issues in Multipath TCP (MPTCP) implementations.
+mqtt-pwn - Scans and exploits vulnerabilities in MQTT (Message Queuing Telemetry Transport) brokers.
+msmailprobe - Probes for vulnerabilities in Microsoft Exchange mail servers.
+naabu - Fast port scanning tool for network reconnaissance.
+nbname - Enumerates NetBIOS names and information from networked systems.
+nbtenum - Enumerates NetBIOS shares and information from networked systems.
+nbtool - Provides tools for NetBIOS enumeration and scanning.
+nbtscan - Scans and enumerates NetBIOS information on networks.
+netexec - Executes commands on remote systems via network protocols.
+netscan - Scans networks for security vulnerabilities.
+netz - Provides network scanning and enumeration capabilities.
+nextnet - Network discovery and scanning tool.
+nili - Provides information gathering and reconnaissance capabilities.
+nmbscan - Scans for NetBIOS names and shares on a network.
+nosqli - Detects and exploits SQL injection vulnerabilities.
+nray - Provides network reconnaissance and scanning tools.
+nsdtool - Scans and analyzes DNS configurations and records.
+ntlm-challenger - Challenges NTLM authentication to identify vulnerabilities.
+ntlm-scanner - Scans for NTLM authentication vulnerabilities and weaknesses.
+ntlmrecon - Reconnaissance tool for NTLM authentication issues.
+nuclei - Vulnerability scanner with customizable templates.
+nuclei-templates - Provides a collection of templates for Nuclei vulnerability scanner.
+nullinux - Scans and assesses Linux systems for security vulnerabilities.
+nullscan - Scans networks and systems for security vulnerabilities.
+o-saft - Provides tools for automated security testing and vulnerability assessment.
+ocs - Scans and analyzes cloud services for security issues.
+okadminfinder - Finds and enumerates administrative interfaces.
+onesixtyone - Scans for open SNMP (Simple Network Management Protocol) services.
+onionscan - Scans Tor (Onion) sites for vulnerabilities.
+onionsearch - Searches and analyzes Tor (Onion) sites for security issues.
+openscap - Provides security compliance scanning and assessment tools.
+owasp-bywaf - Tests for Web Application Firewall (WAF) bypasses using OWASP techniques.
+pagodo - Automated reconnaissance and scanning tool for web applications.
+panhunt - Hunts for web application vulnerabilities.
+parameth - Identifies and analyzes HTTP parameters for security issues.
+paranoic - Provides comprehensive security scanning and analysis tools.
+pcredz - Extracts and analyzes credentials from various sources.
+peass - Privilege escalation scanning tool for Linux and Windows systems.
+pentbox - Provides a suite of tools for penetration testing and security assessments.
+phonia - Identifies and exploits vulnerabilities in web applications.
+php-malware-finder - Detects malware in PHP applications.
+pinkerton - Scans and analyzes web applications for vulnerabilities.
+plcscan - Scans Programmable Logic Controllers (PLCs) for security issues.
+pmap - Provides network and port mapping tools.
+pnscan - Scans network ports and services for security vulnerabilities.
+postenum - Enumerates post-exploitation information from compromised systems.
+pown - Provides tools for vulnerability scanning and exploitation.
+ppfuzz - Fuzzes parameters in web applications to find vulnerabilities.
+ppmap - Maps and analyzes web application parameters for security issues.
+ppscan - Scans web application parameters for vulnerabilities.
+praeda - Provides vulnerability scanning and exploitation tools.
+pret - Provides tools for penetration testing and security assessments.
+propecia - Scans and analyzes network services for vulnerabilities.
+prowler - Security tool for assessing AWS cloud environments.
+proxybroker2 - Finds and manages proxy servers for anonymity.
+proxycheck - Checks and verifies proxy server configurations.
+proxyscan - Scans and analyzes proxy servers for security issues.
+ptf - Penetration Testing Framework for automating security assessments.
+puredns - Performs DNS enumeration and reconnaissance.
+pwncat - Provides post-exploitation capabilities and reverse shell management.
+pwndora - Provides tools for password cracking and management.
+pyersinia - Python-based tool for network attack and security testing.
+pyfiscan - Scans for vulnerabilities using Python.
+pyssltest - Tests SSL/TLS configurations for vulnerabilities.
+pytbull - Fuzzes web applications and APIs for security vulnerabilities.
+python-api-dnsdumpster - Uses Python to dump and analyze DNS information.
+python-canari - Python tool for reconnaissance and data collection.
+python2-api-dnsdumpster - Legacy Python tool for DNS data analysis.
+python2-canari - Legacy Python tool for data collection and reconnaissance.
+python2-ldapdomaindump - Dumps LDAP directory data using Python 2.
+python2-shodan - Uses Python 2 for interacting with Shodan API for reconnaissance.
+qark - Security scanner for finding vulnerabilities in Android applications.
+raccoon - Provides tools for scanning and exploiting vulnerabilities in network services.
+ranger-scanner - Scans for vulnerabilities in web applications and network services.
+rapidscan - Quickly scans networks and web applications for security issues.
+ratproxy - Automated web application vulnerability scanner.
+rbac-lookup - Analyzes and audits Role-Based Access Control (RBAC) configurations.
+rdp-sec-check - Scans Remote Desktop Protocol (RDP) configurations for security issues.
+reconscan - Provides automated reconnaissance and scanning tools.
+recsech - Security scanner and assessment tool for web applications.
+red-hawk - Comprehensive web application and network vulnerability scanner.
+relay-scanner - Scans for relay attacks and vulnerabilities.
+responder - Captures and analyzes network traffic to find authentication vulnerabilities.
+retire - Detects outdated and vulnerable JavaScript libraries in web applications.
+rext - Extracts and analyzes data from web applications and services.
+ripdc - Scans and evaluates data center infrastructure for security vulnerabilities.
+rlogin-scanner - Scans for Rlogin service vulnerabilities on network systems.
+routerhunter - Finds and assesses vulnerabilities in network routers.
+rpctools - Provides tools for scanning and analyzing RPC (Remote Procedure Call) services.
+rtlizer - Analyzes RTL-SDR data for radio signal vulnerabilities.
+s3scanner - Scans Amazon S3 buckets for security issues.
+sambascan - Scans Samba services for vulnerabilities.
+sandcastle - Provides a framework for automated web application security testing.
+sandmap - Network scanning and mapping tool.
+sandy - Scans and identifies vulnerabilities in network services.
+sb0x - Scans and analyzes network security configurations.
+scamper - Network measurement and analysis tool.
+scanless - Provides anonymous port scanning capabilities.
+scanqli - Scans for SQL Injection vulnerabilities in web applications.
+scanssh - Scans SSH services for vulnerabilities.
+scap-security-guide - Provides a guide for implementing SCAP (Security Content Automation Protocol) standards.
+scap-workbench - Tool for working with SCAP content and security assessments.
+scoutsuite - Security auditing tool for cloud service providers.
+scrape-dns - Scrapes DNS information for security assessments.
+sdn-toolkit - Provides tools for analyzing Software-Defined Networks (SDN).
+sdnpwn - Exploits vulnerabilities in Software-Defined Networks (SDN).
+seat - Security assessment and exploitation toolkit.
+second-order - Tests for second-order vulnerabilities in web applications.
+see-surf - Scans and analyzes web application surface areas for vulnerabilities.
+shareenum - Enumerates shared resources on a network.
+shocker - Scans for and exploits security issues in web applications.
+shortfuzzy - Fuzzes short input fields in web applications for vulnerabilities.
+shuffledns - Performs DNS enumeration and shuffling to find subdomains.
+simple-lan-scan - Simple tool for scanning local area networks.
+sipscan - Scans for vulnerabilities in SIP (Session Initiation Protocol) services.
+sipshock - Tests for vulnerabilities and issues in SIP implementations.
+sitadel - Provides security scanning and analysis tools for web applications.
+skipfish - Web application security scanner for identifying vulnerabilities.
+slurp-scanner - Scans and enumerates web application content and directories.
+smap-scanner - Provides scanning and mapping tools for network security.
+smbcrunch - Scans for and exploits vulnerabilities in SMB (Server Message Block) services.
+smbexec - Executes commands on remote systems using SMB protocol.
+smbmap - Provides detailed information on SMB shares and access permissions.
+smbspider - Crawls and enumerates SMB shares for security assessment.
+smbsr - Scans and identifies vulnerabilities in SMB services.
+smtp-test - Tests SMTP servers for configuration issues and vulnerabilities.
+smtp-user-enum - Enumerates valid SMTP users on mail servers.
+smtp-vrfy - Verifies SMTP users and email addresses.
+smtptx - Tests and analyzes SMTP transactions for security issues.
+smuggler - Exploits HTTP request smuggling vulnerabilities.
+snallygaster - Scans and analyzes network services for vulnerabilities.
+snmpattack - Exploits vulnerabilities in SNMP (Simple Network Management Protocol) services.
+snmpenum - Enumerates SNMP data from networked devices.
+snmpscan - Scans for vulnerabilities and issues in SNMP services.
+snoopbrute - Performs brute force attacks on network services.
+snyk - Scans and monitors for vulnerabilities in open source dependencies.
+spade - Provides tools for scanning and analyzing web application vulnerabilities.
+spiga - Security scanning tool for web applications.
+spipscan - Scans SPIP (Système de Publication pour l'Internet Participatif) sites for vulnerabilities.
+sploitego - Integrates with Maltego for detailed security investigations and analysis.
+sprayhound - Performs password spraying attacks and analyzes results.
+sprayingtoolkit - Toolkit for performing password spraying attacks.
+ssdp-scanner - Scans for vulnerabilities in SSDP (Simple Service Discovery Protocol) services.
+sshprank - Analyzes and tests SSH services for security issues.
+sshscan - Scans SSH servers for vulnerabilities and misconfigurations.
+ssl-hostname-resolver - Resolves SSL/TLS hostnames to analyze security configurations.
+sslcaudit - Audits SSL/TLS certificates for vulnerabilities.
+sslmap - Maps and analyzes SSL/TLS configurations for security issues.
+sslscan2 - Scans SSL/TLS services for vulnerabilities and misconfigurations.
+sslyze - Analyzes and tests SSL/TLS configurations for security issues.
+ssrfmap - Detects and exploits Server-Side Request Forgery (SSRF) vulnerabilities.
+stacs - Provides tools for security testing and analysis of web applications.
+sticky-keys-hunter - Detects and exploits Sticky Keys vulnerability on Windows systems.
+storm-ring - Provides network scanning and vulnerability assessment tools.
+strutscan - Scans for vulnerabilities in Apache Struts applications.
+subdomainer - Enumerates subdomains for reconnaissance and security testing.
+subjack - Identifies and exploits subdomain takeover vulnerabilities.
+sublist3r - Enumerates subdomains using various techniques.
+subover - Provides subdomain enumeration and analysis tools.
+subscraper - Scrapes and enumerates subdomains for security assessment.
+svn-extractor - Extracts and analyzes data from Subversion (SVN) repositories.
+swarm - Provides tools for network scanning and vulnerability assessment.
+synscan - Scans for open ports using SYN packets.
+tactical-exploitation - Tools and techniques for tactical exploitation of vulnerabilities.
+taipan - Security tool for web application and network vulnerability assessments.
+tfsec - Scans Terraform configurations for security issues.
+thcrut - Scans and analyzes for security vulnerabilities in web applications.
+tiger - Security auditing and vulnerability assessment tool for Unix systems.
+tlsenum - Enumerates TLS configurations and analyzes for security issues.
+tlsx - Tests and analyzes TLS configurations for vulnerabilities.
+topera - Provides tools for penetration testing and security assessments.
+torcrawl - Crawls and analyzes Tor (Onion) sites for security issues.
+traxss - Provides tools for testing and analyzing SSRF (Server-Side Request Forgery) vulnerabilities.
+typo3scan - Scans TYPO3 content management systems for security vulnerabilities.
+ubiquiti-probing - Scans and analyzes Ubiquiti devices for vulnerabilities.
+udork - Uses Google dorks to find vulnerabilities in web applications.
+udp-hunter - Scans for open UDP ports and vulnerabilities.
+udsim - Simulates and tests UDP-based services for security issues.
+umap - Provides tools for mapping and analyzing network vulnerabilities.
+uniscan - Performs web application security scanning and analysis.
+unix-privesc-check - Checks Unix systems for privilege escalation vulnerabilities.
+upnp-pentest-toolkit - Provides tools for testing and exploiting UPnP (Universal Plug and Play) services.
+uptux - Security testing and analysis tool for Unix-like systems.
+urldigger - Extracts and analyzes URLs from web applications.
+v3n0m - Provides tools for scanning and exploiting web applications.
+vane - Analyzes and scans network services for vulnerabilities.
+vanguard - Provides security testing and analysis tools for web applications.
+vbrute - Brute forces and cracks various types of network passwords.
+vbscan - Scans for vulnerabilities in Visual Basic applications.
+vcsmap - Maps and analyzes version control systems for security issues.
+vhostscan - Scans and enumerates virtual hosts on web servers.
+videosnarf - Provides tools for analyzing video content for security issues.
+viproy-voipkit - Scans and assesses VoIP (Voice over IP) systems for vulnerabilities.
+visql - Analyzes and scans SQL databases for vulnerabilities.
+vsaudit - Provides tools for auditing and analyzing vulnerabilities.
+vulmap - Maps and analyzes vulnerabilities in web applications.
+vulnerabilities-spider - Spiders and scans for vulnerabilities in web applications.
+vulnx - Scans and analyzes vulnerabilities in Unix systems.
+w13scan - Scans for vulnerabilities in web applications.
+wafw00f - Detects and identifies Web Application Firewalls (WAFs).
+waldo - Provides network scanning and vulnerability assessment tools.
+wapiti - Web application vulnerability scanner for identifying security issues.
+wascan - Scans and assesses web applications for security vulnerabilities.
+wcvs - Scans and analyzes version control systems for security issues.
+webanalyze - Analyzes and identifies technologies and vulnerabilities in web applications.
+webborer - Scans for and exploits web application vulnerabilities.
+webenum - Enumerates and identifies vulnerabilities in web applications.
+webhunter - Scans and analyzes web applications for security issues.
+webpwn3r - Provides tools for exploiting vulnerabilities in web applications.
+webrute - Brute forces web application login pages and credentials.
+webscarab - Web application security testing tool for analyzing HTTP traffic.
+websploit - Provides a suite of tools for web application security testing.
+webtech - Identifies and analyzes web technologies for security issues.
+webxploiter - Scans and exploits web application vulnerabilities.
+weirdaal - Provides tools for web application security testing and analysis.
+whitewidow - Web vulnerability scanner for detecting and exploiting security issues.
+wifiscanmap - Scans and maps wireless networks for security assessment.
+wig - Identifies web technologies and services from HTTP responses.
+winfo - Provides tools for information gathering and network reconnaissance.
+witchxtool - Scans and analyzes network services for security vulnerabilities.
+wnmap - Network scanner with advanced features for vulnerability assessment.
+wordpresscan - Scans and analyzes WordPress sites for security vulnerabilities.
+wpintel - Provides intelligence and security assessment tools for WordPress sites.
+wpseku - Scans and assesses WordPress installations for security issues.
+x-scan - Scans and identifies vulnerabilities in web applications.
+x8 - Provides tools for exploiting vulnerabilities in network services.
+xcname - Analyzes and scans DNS configurations for security issues.
+xpire-crossdomain-scanner - Scans for cross-domain policy vulnerabilities.
+xsrfprobe - Tests for Cross-Site Request Forgery (CSRF) vulnerabilities.
+xss-freak - Scans and exploits Cross-Site Scripting (XSS) vulnerabilities.
+xsscon - Analyzes and tests for XSS vulnerabilities in web applications.
+xssscan - Scans for XSS vulnerabilities in web applications.
+xsstracer - Traces and analyzes XSS vulnerabilities in web applications.
+xsstrike - Advanced tool for finding and exploiting XSS vulnerabilities.
+xssya - Scans and tests for XSS vulnerabilities in web applications.
+xwaf - Detects and bypasses Web Application Firewalls (WAFs).
+yaaf - Provides tools for web application security testing.
+yasat - Scans and analyzes security issues in web applications and networks.
+yasuo - Scans and exploits security vulnerabilities in web applications.
+ycrawler - Crawls and analyzes websites for security issues.
+zackattack - Provides tools for exploiting and assessing web application vulnerabilities.
+zeus - Scans and analyzes network services for security vulnerabilities.

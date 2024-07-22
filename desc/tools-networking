@@ -1,185 +1,184 @@
-argus
-argus-clients
-arpwner
-asnmap
-autovpn
-backfuzz
-badkarma
-binproxy
-bittwist
-bypass-firewall-dns-history
-camscan
-chameleon
-chaosreader
-chiron
-chopshop
-cidr2range
-cisco-router-config
-cisco-snmp-enumeration
-cisco-snmp-slap
-coercer
-creak
-crypthook
-cyberscan
-datajackproxy
-dcdetector
-depdep
-detect-sniffer
-dhcpoptinj
-dinouml
-dizzy
-dkmc
-dns-reverse-proxy
-dnsdiag
-dnsfilexfer
-dnsobserver
-dnsteal
-dnsvalidator
-dripcap
-dtp-spoof
-dublin-traceroute
-espionage
-evillimiter
-exabgp
-fakenetbios
-firecat
-fuzzowski
-girsh
-gtp-scan
-hharp
-hoaxshell
-hpfeeds
-http-traceroute
-hyenae
-hyperfox
-icmpsh
-ifchk
-infection-monkey
-intercepter-ng
-interlace
-ip-https-tools
-ipaudit
-ipdecap
-ipv6toolkit
-jnetmap
-jok3r
-krbrelayx
-latd
-ldapdomaindump
-lft
-libtins
-ligolo-ng
-malcom
-maltrail
-mapcidr
-massdns
-meterssh
-middler
-mikrotik-npk
-mitm6
-mitmer
-morxtunel
-mots
-motsa-dns-spoofing
-mptcp-abuse
-mrtparse
-nacker
-nbtool
-neighbor-cache-fingerprinter
-nemesis
-netactview
-netcommander
-netmap
-netscan
-netsed
-networkmap
-netzob
-nextnet
-nfdump
-nfex
-nfsshell
-ngrok
-nield
-nipper
-nkiller2
-nohidy
-nsdtool
-nullscan
-obfs4proxy
-opensvp
-packetq
-packetsender
-pcapfex
-pcapfix
-pcapteller
-pcapxray
-phantap
-pivotsuite
-plcscan
-prometheus-firewall
-promiscdetect
-pth-toolkit
-pwnat
-pwncat
-pyersinia
-pyminifakedns
-python-cymruwhois
-python2-cymruwhois
-python2-hpfeeds
-python2-ldapdomaindump
-rdp-sec-check
-redsocks
-responder
-ridrelay
-rinetd
-routerhunter
-samplicator
-sbd
-scamper
-sdn-toolkit
-sdnpwn
-seth
-simple-lan-scan
-skydive
-sniffjoke
-sniffles
-snmp-fuzzer
-snmpattack
-snmpcheck
-snort
-sockstat
-sprayhound
-ssdp-scanner
-ssh-mitm
-starttls-mitm
-stegosip
-stenographer
-sylkie
-t50
-tabi
-tcpcontrol-fuzzer
-tcpcopy
-tcpdstat
-tcpextract
-tcptraceroute
-tcpwatch
-tftp-proxy
-topera
-torpy
-tunna
-turner
-udpastcp
-udptunnel
-umit
-uw-offish
-villain
-webfixy
-websockify
-wifichannelmonitor
-windivert
-wondershaper
-xfltreat
-xxeserv
-zackattack
-zeek
-zeek-aux
+argus - A network monitoring tool for capturing and analyzing network traffic.
+argus-clients - Tools that work with Argus for processing and querying network data.
+arpwner - A tool for performing ARP (Address Resolution Protocol) poisoning attacks.
+asnmap - A tool for scanning and enumerating Autonomous System Numbers (ASNs).
+autovpn - A tool for automating VPN (Virtual Private Network) connections.
+backfuzz - A fuzzing tool for testing and identifying vulnerabilities in applications.
+badkarma - A tool for exploiting and managing vulnerabilities in DNS services.
+binproxy - A tool for analyzing and manipulating binary data in network traffic.
+bittwist - A tool for injecting and manipulating network packets.
+bypass-firewall-dns-history - A tool for bypassing firewalls and analyzing DNS history.
+camscan - A tool for scanning and analyzing IP cameras and related devices.
+chameleon - A tool for evading detection and altering network traffic.
+chaosreader - A tool for analyzing network packet captures and reconstructing sessions.
+chiron - A tool for performing vulnerability assessments and security testing.
+chopshop - A tool for analyzing and reconstructing network traffic and file systems.
+cidr2range - A tool for converting CIDR (Classless Inter-Domain Routing) notations to IP ranges.
+cisco-router-config - A tool for analyzing and managing Cisco router configurations.
+cisco-snmp-enumeration - A tool for enumerating SNMP (Simple Network Management Protocol) data from Cisco devices.
+cisco-snmp-slap - A tool for performing attacks against SNMP on Cisco devices.
+coercer - A tool for coercing and manipulating network protocols for testing.
+creak - A tool for analyzing and exploiting vulnerabilities in web applications.
+crypthook - A tool for monitoring and analyzing cryptographic operations and keys.
+cyberscan - A tool for performing comprehensive security scans and assessments.
+datajackproxy - A tool for proxying and manipulating network data.
+dcdetector - A tool for detecting and analyzing domain controller configurations and vulnerabilities.
+depdep - A tool for managing and analyzing dependencies in software projects.
+detect-sniffer - A tool for detecting network sniffers and monitoring tools.
+dhcpoptinj - A tool for performing DHCP (Dynamic Host Configuration Protocol) option injection attacks.
+dinouml - A tool for generating and analyzing UML (Unified Modeling Language) diagrams.
+dizzy - A tool for performing automated network assessments and vulnerability scans.
+dkmc - A tool for performing network and security assessments.
+dns-reverse-proxy - A tool for setting up and managing DNS reverse proxies.
+dnsdiag - A tool for diagnosing and troubleshooting DNS configurations and issues.
+dnsfilexfer - A tool for transferring files using DNS tunneling techniques.
+dnsobserver - A tool for monitoring and analyzing DNS traffic.
+dnsteal - A tool for performing DNS-based data exfiltration attacks.
+dnsvalidator - A tool for validating and testing DNS configurations.
+dripcap - A tool for capturing and analyzing network packets in real-time.
+dtp-spoof - A tool for spoofing and manipulating DTP (Dynamic Trunking Protocol) traffic.
+dublin-traceroute - A tool for performing and analyzing traceroutes in network diagnostics.
+espionage - A tool for performing espionage and intelligence gathering in network environments.
+evillimiter - A tool for limiting and controlling network traffic for penetration testing.
+exabgp - A tool for manipulating and analyzing BGP (Border Gateway Protocol) data.
+fakenetbios - A tool for spoofing and analyzing NetBIOS traffic.
+firecat - A tool for performing advanced network and application-level attacks.
+fuzzowski - A fuzzing tool for discovering vulnerabilities in applications and services.
+girsh - A tool for analyzing and managing network traffic and security events.
+gtp-scan - A tool for scanning and analyzing GTP (GPRS Tunneling Protocol) traffic.
+hharp - A tool for performing ARP (Address Resolution Protocol) poisoning and spoofing attacks.
+hoaxshell - A tool for managing and interacting with remote shells and command execution.
+hpfeeds - A tool for managing and analyzing security event feeds.
+http-traceroute - A tool for performing traceroutes over HTTP.
+hyenae - A tool for performing and managing security assessments and tests.
+hyperfox - A tool for enhancing security and privacy in the Firefox browser.
+icmpsh - A tool for performing remote command execution over ICMP (Internet Control Message Protocol).
+ifchk - A tool for checking and analyzing network interface configurations.
+infection-monkey - A tool for simulating and managing infections in network environments.
+intercepter-ng - A tool for performing man-in-the-middle attacks and network monitoring.
+interlace - A tool for performing advanced network and security assessments.
+ip-https-tools - A tool for managing and analyzing IP over HTTPS connections.
+ipaudit - A tool for auditing and analyzing IP address usage and security.
+ipdecap - A tool for decoding and analyzing IP packet data.
+ipv6toolkit - A toolkit for analyzing and testing IPv6 networks and configurations.
+jnetmap - A tool for mapping and visualizing network topologies.
+jok3r - A tool for performing advanced penetration testing and security assessments.
+krbrelayx - A tool for performing Kerberos relay attacks and tests.
+latd - A tool for performing local area network assessments and tests.
+ldapdomaindump - A tool for dumping and analyzing LDAP (Lightweight Directory Access Protocol) data.
+lft - A tool for performing network and security assessments.
+libtins - A C++ library for network packet manipulation and analysis.
+ligolo-ng - A tool for performing network tunneling and penetration testing.
+malcom - A tool for managing and analyzing malware samples and threats.
+maltrail - A tool for detecting and analyzing malicious network traffic.
+mapcidr - A tool for mapping and analyzing CIDR (Classless Inter-Domain Routing) ranges.
+massdns - A tool for performing DNS enumeration and resolution.
+meterssh - A tool for managing and interacting with SSH sessions.
+middler - A tool for performing man-in-the-middle attacks and network monitoring.
+mikrotik-npk - A tool for managing and analyzing MikroTik RouterOS NPK packages.
+mitm6 - A tool for performing man-in-the-middle attacks over IPv6.
+mitmer - A tool for performing and managing man-in-the-middle attacks.
+morxtunel - A tool for creating and managing secure network tunnels.
+mots - A tool for performing and managing security tests and assessments.
+motsa-dns-spoofing - A tool for performing DNS spoofing attacks.
+mptcp-abuse - A tool for testing and exploiting MPTCP (MultiPath TCP) implementations.
+mrtparse - A tool for parsing and analyzing MRT (Multi-Protocol Label Switching Routing) data.
+nacker - A tool for performing network and security assessments.
+nbtool - A tool for analyzing and managing NetBIOS data.
+neighbor-cache-fingerprinter - A tool for fingerprinting network devices based on neighbor cache data.
+nemesis - A tool for crafting and injecting network packets.
+netactview - A tool for visualizing and analyzing network activity.
+netcommander - A tool for managing and analyzing network configurations.
+netmap - A tool for mapping and visualizing network topologies and configurations.
+netscan - A tool for scanning and discovering network devices and services.
+netsed - A tool for editing and manipulating network traffic in real-time.
+networkmap - A tool for visualizing and analyzing network topologies.
+netzob - A tool for analyzing and reconstructing network protocols.
+nextnet - A tool for managing and analyzing next-generation network configurations.
+nfdump - A tool for collecting and analyzing NetFlow data.
+nfex - A tool for extracting and analyzing NetFlow data.
+nfsshell - A tool for managing and analyzing NFS (Network File System) traffic.
+ngrok - A tool for exposing local services to the internet through secure tunnels.
+nield - A tool for managing and analyzing network interfaces and configurations.
+nipper - A tool for auditing and analyzing network device configurations.
+nkiller2 - A tool for performing and managing denial-of-service attacks.
+nohidy - A tool for managing and analyzing network privacy and anonymity.
+nsdtool - A tool for managing and analyzing NSD (Name Server Daemon) configurations.
+nullscan - A tool for performing network scans and vulnerability assessments.
+obfs4proxy - A tool for obfuscating and anonymizing network traffic.
+opensvp - A tool for managing and analyzing VPN (Virtual Private Network) configurations.
+packetq - A tool for managing and analyzing network packets.
+packetsender - A tool for sending and analyzing network packets.
+pcapfex - A tool for extracting and analyzing data from PCAP files.
+pcapfix - A tool for repairing and fixing corrupted PCAP files.
+pcapteller - A tool for analyzing and interpreting PCAP files.
+pcapxray - A tool for visualizing and analyzing PCAP data.
+phantap - A tool for managing and analyzing phantom network traffic.
+pivotsuite - A tool for managing and analyzing network pivot points and security.
+plcscan - A tool for scanning and analyzing PLC (Programmable Logic Controller) devices.
+prometheus-firewall - A tool for managing and analyzing firewall configurations with Prometheus integration.
+promiscdetect - A tool for detecting and analyzing promiscuous network modes.
+pth-toolkit - A toolkit for performing pass-the-hash attacks and security tests.
+pwnat - A tool for performing NAT (Network Address Translation) traversal and management.
+pwncat - A tool for managing and interacting with remote shells and payloads.
+pyersinia - A Python tool for performing network attacks and assessments.
+pyminifakedns - A Python library for simulating and analyzing DNS traffic.
+python-cymruwhois - A Python library for querying and analyzing WHOIS data.
+python2-cymruwhois - A Python 2 library for querying and analyzing WHOIS data.
+python2-hpfeeds - A Python 2 library for managing and analyzing HPFeeds.
+rdp-sec-check - A tool for checking and securing RDP (Remote Desktop Protocol) configurations.
+redsocks - A tool for redirecting and managing network traffic through SOCKS proxies.
+responder - A tool for performing man-in-the-middle attacks and analyzing network traffic.
+ridrelay - A tool for relaying RID (Relative Identifier) attacks in Windows environments.
+rinetd - A tool for redirecting network traffic between interfaces.
+routerhunter - A tool for discovering and analyzing network routers.
+samplicator - A tool for capturing and analyzing network traffic samples.
+sbd - A tool for performing and managing network and security assessments.
+scamper - A tool for performing network measurements and diagnostics.
+sdn-toolkit - A toolkit for managing and analyzing Software-Defined Networking (SDN) configurations.
+sdnpwn - A tool for performing and managing SDN (Software-Defined Networking) attacks.
+seth - A tool for performing advanced network security assessments.
+simple-lan-scan - A tool for performing simple LAN (Local Area Network) scans.
+skydive - A tool for network visibility and monitoring.
+sniffjoke - A tool for detecting and analyzing network sniffers and monitoring tools.
+sniffles - A tool for capturing and analyzing network traffic.
+snmp-fuzzer - A tool for fuzzing SNMP (Simple Network Management Protocol) implementations.
+snmpattack - A tool for performing SNMP-based attacks.
+snmpcheck - A tool for checking and analyzing SNMP configurations and vulnerabilities.
+snort - An open-source intrusion detection system for monitoring and analyzing network traffic.
+sockstat - A tool for analyzing and managing network socket statistics.
+sprayhound - A tool for performing and managing spray attacks and security tests.
+ssdp-scanner - A tool for scanning and analyzing SSDP (Simple Service Discovery Protocol) services.
+ssh-mitm - A tool for performing man-in-the-middle attacks over SSH.
+starttls-mitm - A tool for performing man-in-the-middle attacks on STARTTLS connections.
+stegosip - A tool for performing steganography and analysis on SIP (Session Initiation Protocol) traffic.
+stenographer - A tool for capturing and analyzing network packets.
+sylkie - A tool for performing and managing advanced network security assessments.
+t50 - A tool for performing network scans and attacks.
+tabi - A tool for analyzing and managing network traffic and security.
+tcpcontrol-fuzzer - A tool for fuzzing and testing TCP (Transmission Control Protocol) implementations.
+tcpcopy - A tool for copying and replaying network traffic.
+tcpdstat - A tool for analyzing and managing TCP traffic statistics.
+tcpextract - A tool for extracting files and data from TCP streams.
+tcptraceroute - A tool for performing traceroutes over TCP connections.
+tcpwatch - A tool for monitoring and analyzing TCP traffic.
+tftp-proxy - A tool for proxying and analyzing TFTP (Trivial File Transfer Protocol) traffic.
+topera - A tool for managing and analyzing network traffic and security operations.
+torpy - A tool for managing and interacting with Tor networks and configurations.
+tunna - A tool for creating and managing network tunnels over various protocols.
+turner - A tool for performing network assessments and testing.
+udpastcp - A tool for performing and managing UDP (User Datagram Protocol) to TCP (Transmission Control Protocol) conversions.
+udptunnel - A tool for tunneling UDP traffic over other protocols.
+umit - A tool for managing and analyzing network interfaces and configurations.
+uw-offish - A tool for performing advanced security assessments and testing.
+villain - A tool for performing and managing advanced security exploits.
+webfixy - A tool for managing and fixing web application vulnerabilities.
+websockify - A tool for proxying and analyzing WebSocket traffic.
+wifichannelmonitor - A tool for monitoring and analyzing WiFi channels.
+windivert - A tool for capturing and manipulating network traffic on Windows.
+wondershaper - A tool for managing and shaping network bandwidth.
+xfltreat - A tool for processing and analyzing network traffic files.
+xxeserv - A tool for performing and managing XML external entity (XXE) attacks.
+zackattack - A tool for performing advanced network and security assessments.
+zeek - An open-source network analysis framework for monitoring and analyzing network traffic.
+zeek-aux - Additional tools and scripts for extending Zeek's functionality.

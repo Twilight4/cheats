@@ -1,164 +1,164 @@
-apkleaks
-archivebox
-aurebeshjs
-ba-testpkg
-base64dump
-bettercap-ui
-bqm
-bulk-extractor
-bvi
-catana
-cheat-sh
-checkiban
-cisco-router-config
-cloakify
-commentor
-credmap
-crosstool-ng
-ctf-party
-cve-api
-dbd
-ddosify
-decodify
-deen
-densityscout
-depix
-der-ascii
-dnsfilexfer
-dnsvalidator
-dradis-ce
-dsd
-dumpsmbshare
-ent
-etherchange
-evilgrade
-evillimiter
-exrex
-extracthosts
-eyeballer
-eyewitness
-fakemail
-ffuf-scripts
-filegps
-find3
-firefox-security-toolkit
-flare
-fstealer
-genlist
-geoipgen
-getsploit
-gf
-gg-images
-ghost-py
-gibberish-detector
-githubcloner
-gmsadumper
-graffiti
-grammarinator
-gtfo
-gtfoblookup
-h2spec
-hackersh
-halcyon-ide
-http-put
-httpscreenshot
-hurl
-hxd
-imagegrep
-imagemounter
-imhex
-infip
-intensio-obfuscator
-inundator
-ipcountry
-ipobfuscator
-ja3
-jast
-jsfuck
-kh2hc
-klar
-latd
-laudanum
-ldapscripts
-leo
-linkedin2username
-luyten
-magictree
-mailsend-go
-malice
-mapcidr
-maskprocessor
-mibble
-minimodem
-mkyara
-mrtparse
-msfdb
-mysql2sqlite
-netactview
-networkmap
-nishang
-nmap-parse-output
-one-lin3r
-osert
-outguess
-packetq
-pass-station
-pastemonitor
-payloadsallthethings
-pcapfix
-pencode
-pixd
-pulledpork
-pwdlogy
-pwfuzz-rs
-pwnedpasswords
-pyaxmlparser
-pydictor
-pyinstaller
-python-google-streetview
-python-mmbot
-python2-darts.util.lru
-python2-exrex
-python2-google-streetview
-qrgen
-rabid
-rawsec-cli
-rbkb
-redpoint
-reptor
-rogue-mysql-server
-rr
-rtfm
-rulesfinder
-sakis3g
-schnappi-dhcp
-sh00t
-shelling
-sipi
-sleuthql
-smali-cfgs
-snow
-stacs
-stompy
-suricata-verify
-tcpxtract
-tempomail
-threatspec
-tls-map
-tnscmd
-token-reverser
-uatester
-uberfile
-unisec
-usernamer
-valhalla
-vba2graph
-vfeed
-visualize-logs
-wcc
-web2ldap
-wikigen
-wordlistctl
-wordlister
-wxhexeditor
-xpl-search
+apkleaks - A tool for detecting and extracting sensitive information from Android APK files.
+archivebox - A tool for archiving and indexing web pages and online content.
+aurebeshjs - A JavaScript library for converting Aurebesh (Star Wars alphabet) text.
+ba-testpkg - A tool for testing and analyzing binary packages and their security.
+base64dump - A tool for decoding and analyzing base64-encoded data.
+bettercap-ui - A user interface for Bettercap, a tool for network attacks and monitoring.
+bqm - A tool for managing and analyzing security questionnaires and assessments.
+bulk-extractor - A tool for extracting information from disk images and files.
+bvi - A binary file editor for performing low-level edits on binary files.
+catana - A tool for automated security assessments and vulnerability management.
+cheat-sh - A tool for accessing and querying cheat sheets for various tools and programming languages.
+checkiban - A tool for validating and checking IBAN (International Bank Account Number) formats.
+cisco-router-config - A tool for analyzing and managing Cisco router configurations.
+cloakify - A tool for obfuscating and encrypting data to protect it from unauthorized access.
+commentor - A tool for managing and analyzing comments in code and documents.
+credmap - A tool for mapping and analyzing credential exposure and leaks.
+crosstool-ng - A tool for building cross-compilation toolchains for various architectures.
+ctf-party - A tool for managing and organizing Capture The Flag (CTF) challenges and competitions.
+cve-api - An API for querying and retrieving Common Vulnerabilities and Exposures (CVE) data.
+dbd - A tool for database discovery and enumeration.
+ddosify - A tool for performing and managing Distributed Denial of Service (DDoS) attacks.
+decodify - A tool for decoding and analyzing encoded data formats.
+deen - A tool for detecting and analyzing data encoding and encryption methods.
+densityscout - A tool for mapping and analyzing data density in network environments.
+depix - A tool for recovering and reconstructing pixelated images.
+der-ascii - A tool for converting DER (Distinguished Encoding Rules) encoded data to ASCII.
+dnsfilexfer - A tool for transferring files using DNS (Domain Name System) tunneling techniques.
+dnsvalidator - A tool for validating and analyzing DNS configurations and records.
+dradis-ce - An open-source tool for managing and sharing information in security assessments.
+dsd - A tool for analyzing and detecting data security breaches and leaks.
+dumpsmbshare - A tool for dumping and analyzing SMB (Server Message Block) shares.
+ent - A tool for analyzing the entropy and randomness of data.
+etherchange - A tool for managing and analyzing network interface configurations.
+evilgrade - A tool for exploiting vulnerabilities in software update mechanisms.
+evillimiter - A tool for limiting and controlling network traffic in penetration testing.
+exrex - A tool for generating and testing regular expressions.
+extracthosts - A tool for extracting host information from various data sources.
+eyeballer - A tool for visualizing and analyzing network traffic and data flows.
+eyewitness - A tool for taking screenshots and gathering information about web applications.
+fakemail - A tool for generating and managing fake email addresses.
+ffuf-scripts - Scripts for enhancing the functionality of FFUF (Fuzz Faster U Fool) tool.
+filegps - A tool for extracting GPS metadata from files.
+find3 - A tool for locating and identifying data breaches and leaks.
+firefox-security-toolkit - A toolkit for enhancing security and privacy in the Firefox browser.
+flare - A tool for performing forensic analysis and reverse engineering.
+fstealer - A tool for stealing and managing files from remote systems.
+genlist - A tool for generating and managing lists for various security assessments.
+geoipgen - A tool for generating and analyzing geographic IP address information.
+getsploit - A tool for discovering and retrieving exploit payloads.
+gf - A tool for filtering and searching for specific patterns in security-related data.
+gg-images - A tool for searching and analyzing images using Google Images.
+ghost-py - A Python-based tool for performing advanced security assessments and analyses.
+gibberish-detector - A tool for detecting and analyzing gibberish or meaningless text.
+githubcloner - A tool for cloning and managing GitHub repositories.
+gmsadumper - A tool for dumping and analyzing Google Mobile Services (GMS) data.
+graffiti - A tool for tagging and annotating network traffic and data.
+grammarinator - A tool for analyzing and correcting grammar in text data.
+gtfo - A tool for escaping restricted environments and sandboxing.
+gtfoblookup - A tool for looking up and analyzing GTFOBins (Unix binaries for privilege escalation).
+h2spec - A tool for testing and analyzing HTTP/2 implementations and configurations.
+hackersh - A tool for performing and managing hacking activities and assessments.
+halcyon-ide - An Integrated Development Environment (IDE) for security research and analysis.
+http-put - A tool for performing HTTP PUT requests to test for upload vulnerabilities.
+httpscreenshot - A tool for taking screenshots of web pages over HTTPS.
+hurl - A tool for testing and debugging HTTP requests.
+hxd - A tool for editing and analyzing binary files and data.
+imagegrep - A tool for searching and extracting information from image files.
+imagemounter - A tool for mounting and analyzing disk images.
+imhex - A tool for performing hexadecimal analysis and editing.
+infip - A tool for gathering and analyzing information about IP addresses.
+intensio-obfuscator - A tool for obfuscating code to protect it from reverse engineering.
+inundator - A tool for performing and managing flood attacks on networks.
+ipcountry - A tool for mapping IP addresses to their corresponding countries.
+ipobfuscator - A tool for obfuscating IP addresses to protect privacy.
+ja3 - A tool for generating and analyzing JA3 fingerprints for SSL/TLS traffic.
+jast - A tool for analyzing and processing JSON-based security data.
+jsfuck - A tool for obfuscating JavaScript code using creative techniques.
+kh2hc - A tool for converting Kerberos tickets to hashcat-compatible formats.
+klar - A tool for scanning and analyzing Docker images for vulnerabilities.
+latd - A tool for performing local area network attacks and assessments.
+laudanum - A tool for automating and managing security assessments.
+ldapscripts - A tool for performing LDAP (Lightweight Directory Access Protocol) queries and attacks.
+leo - A tool for managing and analyzing security intelligence data.
+linkedin2username - A tool for extracting and analyzing usernames from LinkedIn profiles.
+luyten - A tool for analyzing and decompiling Java bytecode.
+magictree - A tool for visualizing and analyzing hierarchical data structures.
+mailsend-go - A tool for sending emails and managing mail servers using Go language.
+malice - A framework for managing and analyzing malware samples and threats.
+mapcidr - A tool for mapping and analyzing CIDR (Classless Inter-Domain Routing) ranges.
+maskprocessor - A tool for generating and processing password lists with masks.
+mibble - A tool for working with SNMP (Simple Network Management Protocol) MIB (Management Information Base) files.
+minimodem - A tool for digital data transmission over audio channels.
+mkyara - A tool for managing and analyzing YARA rules for malware detection.
+mrtparse - A tool for parsing and analyzing MRT (Multi-Protocol Label Switching Routing) data.
+msfdb - A database tool for managing Metasploit Framework data and configurations.
+mysql2sqlite - A tool for converting MySQL databases to SQLite format.
+netactview - A tool for visualizing and analyzing network activity.
+networkmap - A tool for mapping and visualizing network topologies.
+nishang - A PowerShell-based tool for penetration testing and exploitation.
+nmap-parse-output - A tool for parsing and analyzing Nmap scan results.
+one-lin3r - A tool for generating one-liner scripts for various tasks.
+osert - A tool for performing operational security assessments and analyses.
+outguess - A tool for steganography and extracting hidden information from images.
+packetq - A tool for managing and analyzing network packets and traffic.
+pass-station - A tool for managing and analyzing passwords and credentials.
+pastemonitor - A tool for monitoring and analyzing pastebin data for leaks.
+payloadsallthethings - A collection of various payloads for penetration testing and exploitation.
+pcapfix - A tool for fixing and repairing corrupted PCAP (Packet Capture) files.
+pencode - A tool for encoding and decoding data for security testing.
+pixd - A tool for extracting and analyzing data from image files.
+pulledpork - A tool for managing and updating Snort IDS rules.
+pwdlogy - A tool for analyzing and managing password logs.
+pwfuzz-rs - A Rust-based tool for fuzzing and testing passwords.
+pwnedpasswords - A tool for checking passwords against known data breaches.
+pyaxmlparser - A Python library for parsing and analyzing Android APK files.
+pydictor - A tool for generating and managing dictionaries for password cracking.
+pyinstaller - A tool for packaging Python applications into standalone executables.
+python-google-streetview - A Python library for accessing Google Street View data.
+python-mmbot - A Python-based chatbot for automating security tasks.
+python2-darts.util.lru - A Python library for implementing Least Recently Used (LRU) caching.
+python2-exrex - A Python library for working with regular expressions.
+python2-google-streetview - A Python library for accessing Google Street View data in Python 2.
+qrgen - A tool for generating and managing QR codes.
+rabid - A tool for performing and managing security assessments and tests.
+rawsec-cli - A command-line tool for security analysis and testing.
+rbkb - A tool for analyzing and managing keyboard input data.
+redpoint - A tool for managing and analyzing red team operations and assessments.
+reptor - A tool for performing and managing security exploits and vulnerabilities.
+rogue-mysql-server - A tool for setting up and managing rogue MySQL servers for testing.
+rr - A tool for managing and analyzing data recovery and forensics.
+rtfm - A tool for automating and managing security assessments and testing.
+rulesfinder - A tool for discovering and managing security rules and signatures.
+sakis3g - A tool for managing 3G/4G network connections and configurations.
+schnappi-dhcp - A tool for performing DHCP-based attacks and assessments.
+sh00t - A tool for performing and managing web application attacks.
+shelling - A tool for managing and interacting with remote shells.
+sipi - A tool for managing and analyzing SIP (Session Initiation Protocol) traffic.
+sleuthql - A tool for performing SQL-based forensic analysis and querying.
+smali-cfgs - A tool for analyzing and managing Smali code control flow graphs.
+snow - A tool for managing and analyzing network snowball attacks.
+stacs - A tool for analyzing and managing security control systems.
+stompy - A tool for performing and managing network attacks and assessments.
+suricata-verify - A tool for verifying and testing Suricata IDS/IPS rules.
+tcpxtract - A tool for extracting files and data from TCP streams.
+tempomail - A tool for generating temporary email addresses.
+threatspec - A tool for managing and analyzing threat intelligence data.
+tls-map - A tool for mapping and analyzing TLS (Transport Layer Security) configurations.
+tnscmd - A tool for managing and analyzing TNS (Transparent Network Substrate) configurations.
+token-reverser - A tool for reversing and decoding authentication tokens.
+uatester - A tool for performing and managing user acceptance testing.
+uberfile - A tool for managing and analyzing large files and datasets.
+unisec - A tool for managing and analyzing unified security configurations.
+usernamer - A tool for generating and analyzing usernames for security assessments.
+valhalla - A tool for performing and managing advanced security assessments.
+vba2graph - A tool for converting VBA (Visual Basic for Applications) code into graphs.
+vfeed - A tool for feeding and managing vulnerability data.
+visualize-logs - A tool for visualizing and analyzing log files and data.
+wcc - A tool for performing web content crawling and analysis.
+web2ldap - A tool for converting web data into LDAP (Lightweight Directory Access Protocol) entries.
+wikigen - A tool for generating and analyzing wiki content.
+wordlistctl - A tool for managing and controlling wordlists for security testing.
+wordlister - A tool for generating and managing lists of words for password cracking and other uses.
+wxhexeditor - A hexadecimal editor for performing low-level data edits.
+xpl-search - A tool for searching and analyzing exploit payloads and vulnerabilities.

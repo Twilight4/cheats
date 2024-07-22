@@ -1,42 +1,42 @@
-blacknurse
-davoset
-ddosify
-dhcpig
-dnsdrdos
-fhttp
-goldeneye
-habu
-httpbog
-hulk
-iaxflood
-impulse
-inviteflood
-nkiller2
-ntpdos
-phpstress
-pwnloris
-python-argparse
-python-beautifultable
-python-bs4
-python-delegator.py
-python-dhcplib
-python-isc_dhcp_leases
-python-ping3
-python-pygeoip
-python-python-geoip
-python-requests-cache
-python-scapy-http
-python-wget
-python2-scapy
-slowloris
-slowloris-py
-synflood
-synner
-t50
-tcgetkey
-thc-ssl-dos
-torshammer
-ufonet
-wifi-pumpkin
-wreckuests
-athena-dos
+blacknurse - A tool for launching Denial of Service (DoS) attacks targeting network services.
+davoset - A tool for automated network and application security testing.
+ddosify - A tool for generating and managing distributed denial-of-service (DDoS) attacks.
+dhcpig - A tool for exploiting vulnerabilities in DHCP (Dynamic Host Configuration Protocol) services.
+dnsdrdos - A tool for launching DNS amplification and reflection DDoS attacks.
+fhttp - A tool for performing HTTP-based DoS attacks.
+goldeneye - A tool for conducting HTTP flood attacks to overwhelm web servers.
+habu - A tool for network security assessment and vulnerability exploitation.
+httpbog - A tool for launching HTTP-based denial-of-service attacks.
+hulk - A tool for performing HTTP DoS attacks to disrupt web services.
+iaxflood - A tool for flooding IAX (Inter-Asterisk eXchange) protocol connections.
+impulse - A tool for generating network traffic to test and stress services.
+inviteflood - A tool for flooding VoIP systems with invitation requests to cause disruptions.
+nkiller2 - A tool for performing TCP SYN flood attacks to overwhelm network services.
+ntpdos - A tool for exploiting vulnerabilities in NTP (Network Time Protocol) services for DoS attacks.
+phpstress - A tool for generating high loads on PHP-based web applications to test their robustness.
+pwnloris - A tool for exploiting the Slowloris attack vector to perform HTTP DoS attacks.
+python-argparse - A Python library for parsing command-line arguments.
+python-beautifultable - A Python library for generating and formatting tables in a readable format.
+python-bs4 - A Python library (Beautiful Soup) for parsing HTML and XML documents.
+python-delegator.py - A Python library for managing and delegating process execution.
+python-dhcplib - A Python library for interacting with and manipulating DHCP protocols.
+python-isc_dhcp_leases - A Python script for managing and querying ISC DHCP lease files.
+python-ping3 - A Python library for sending ICMP echo requests (pings) to test connectivity.
+python-pygeoip - A Python library for accessing and using GeoIP databases to determine geographical locations.
+python-python-geoip - Another library for GeoIP functionality in Python, similar to python-pygeoip.
+python-requests-cache - A Python library for caching HTTP requests made with the requests library.
+python-scapy-http - A Python script for crafting and analyzing HTTP packets using Scapy.
+python-wget - A Python wrapper for downloading files via HTTP/FTP.
+python2-scapy - A Python 2 library for crafting and analyzing network packets using Scapy.
+slowloris - A tool for performing Slowloris attacks to exhaust web server resources.
+slowloris-py - A Python implementation of the Slowloris attack for HTTP DoS.
+synflood - A tool for launching SYN flood attacks to overwhelm network services.
+synner - A tool for generating and managing SYN flood attacks.
+t50 - A tool for generating traffic to test network and service resilience against DoS attacks.
+tcgetkey - A tool for obtaining and managing terminal control keys.
+thc-ssl-dos - A tool for performing SSL/TLS-based denial-of-service attacks.
+torshammer - A tool for launching DDoS attacks over the Tor network.
+ufonet - A tool for conducting DDoS attacks with a focus on web applications.
+wifi-pumpkin - A tool for creating and managing rogue Wi-Fi access points to capture data.
+wreckuests - A tool for generating and managing HTTP requests for stress testing and security assessments.
+athena-dos - A tool for performing advanced DoS attacks on network services.

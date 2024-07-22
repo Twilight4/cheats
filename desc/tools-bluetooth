@@ -1,18 +1,18 @@
-blue-hydra
-bluebugger
-bluelog
-bluepot
-blueprint
-blueranger
-bluescan
-bluesnarfer
-bluphish
-bss
-bt_audit
-btcrack
-btlejack
-btproxy-mitm
-btscanner
-crackle
-fl0p
-spooftooph
+blue-hydra - A Bluetooth scanning and discovery tool for identifying nearby devices.
+bluebugger - A tool for exploiting Bluetooth vulnerabilities to gain unauthorized access to devices.
+bluelog - A tool for logging and analyzing Bluetooth device activity.
+bluepot - A Bluetooth honeypot designed to attract and analyze Bluetooth attacks.
+blueprint - A tool for mapping and analyzing Bluetooth device networks.
+blueranger - A tool for scanning and enumerating Bluetooth devices and services.
+bluescan - A tool for scanning and identifying Bluetooth devices in range.
+bluesnarfer - A tool for extracting information from Bluetooth-enabled devices without authorization.
+bluphish - A tool for phishing attacks targeting Bluetooth users.
+bss - A tool for detecting and analyzing Bluetooth Low Energy (BLE) signals.
+bt_audit - A tool for auditing and assessing Bluetooth device security.
+btcrack - A tool for cracking Bluetooth pairing codes and encryption keys.
+btlejack - A tool for capturing and manipulating Bluetooth Low Energy (BLE) traffic.
+btproxy-mitm - A man-in-the-middle proxy tool for intercepting and manipulating Bluetooth traffic.
+btscanner - A tool for scanning and discovering Bluetooth devices and their services.
+crackle - A tool for cracking encryption and hashes associated with Bluetooth communications.
+fl0p - A tool for exploiting vulnerabilities in Bluetooth communication protocols.
+spooftooph - A tool for spoofing Bluetooth devices and impersonating legitimate connections.
