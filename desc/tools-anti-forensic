@@ -1,4 +1,4 @@
-ropeadope
-saruman
-secure-delete
-steghide
+ropeadope - A tool for creating and managing stealthy reverse shells.
+saruman - A tool for advanced payload management and execution.
+secure-delete - A tool for securely deleting files to prevent recovery.
+steghide - A tool for embedding data within various types of files, such as images or audio.

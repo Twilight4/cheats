@@ -1,132 +1,132 @@
-airgeddon
-apt2
-armitage
-atscan
-attacksurfacemapper
-automato
-autonessus
-autonse
-autopwn
-autorecon
-autosploit
-autovpn
-aws-iam-privesc
-awsbucketdump
-barq
-bashfuscator
-binex
-blackeye
-blueranger
-bopscrk
-brutex
-byepass
-cewl
-cheat-sh
-cisco-snmp-enumeration
-cloudsploit
-clusterd
-cmsmap
-codeql
-commix
-cook
-crunch
-darkspiritz
-deathstar
-domained
-dorknet
-dorkscout
-dracnmap
-easyda
-empire
-findsploit
-firstorder
-fstealer
-gitdump
-githubcloner
-glue
-google-explorer
-goohak
-gooscan
-hackersh
-harpoon
-hate-crack
-infection-monkey
-intersect
-inurlbr
-invoke-cradlecrafter
-invoke-dosfuscation
-invoke-obfuscation
-ipmipwn
-jaidam
-kernelpop
-killcast
-koadic
-lazydroid
-ldapscripts
-legion
-linikatz
-lyricpass
-maskprocessor
-masscan-automation
-massexpconsole
-mentalist
-merlin-server
-metasploit-autopwn
-msf-mpc
-msfenum
-nfspy
-nfsshell
-nullscan
-octopwnweb
-openscap
-pastejacker
-pastemonitor
-pasv-agrsv
-penbox
-pentestgpt
-pentmenu
-pin
-powerops
-ptf
-pwndrop
-pyfuscation
-python-arsenic
-python2-shodan
-recomposer
-reptor
-rsmangler
-sakis3g
-sandmap
-sc-make
-scap-security-guide
-scap-workbench
-search1337
-shellerator
-shellme
-shellpop
-shellz
-simple-ducky
-sipvicious
-sploitctl
-spookflare
-statsprocessor
-thefatrat
-tiger
-torctl
-traxss
-ttpassgen
-unix-privesc-check
-username-anarchy
-usernamer
-valhalla
-vbsmin
-veil
-voiphopper
-wifi-autopwner
-wikigen
-winpwn
-wmd
-wnmap
-xcat
-zeratool
-zirikatu
+airgeddon - A multi-use bash script for managing and attacking wireless networks.
+apt2 - A framework for automated penetration testing and vulnerability assessment.
+armitage - A graphical user interface for Metasploit, enhancing usability and collaboration.
+atscan - A tool for automated scanning and enumeration of web application vulnerabilities.
+attacksurfacemapper - A tool for mapping and analyzing attack surfaces in web applications.
+automato - A tool for automating various penetration testing tasks.
+autonessus - An automated tool for running and managing Nessus scans.
+autonse - A tool for automating network security evaluations.
+autopwn - A tool for automatically exploiting known vulnerabilities in systems.
+autorecon - A tool for automatically conducting network reconnaissance and vulnerability scanning.
+autosploit - A tool for automatically exploiting vulnerabilities and running Metasploit modules.
+autovpn - A tool for automating the setup and management of VPN connections.
+aws-iam-privesc - A tool for identifying and exploiting privilege escalation vulnerabilities in AWS IAM.
+awsbucketdump - A tool for dumping the contents of AWS S3 buckets.
+barq - A network analysis tool for scanning and monitoring network traffic.
+bashfuscator - A tool for obfuscating bash scripts to evade detection.
+binex - A tool for analyzing and manipulating binary files.
+blackeye - A phishing tool for creating and managing fake login pages.
+blueranger - A tool for scanning and attacking Bluetooth devices.
+bopscrk - A tool for cracking passwords and other security credentials.
+brutex - A tool for brute-forcing various types of authentication mechanisms.
+byepass - A tool for bypassing security measures and restrictions.
+cewl - A tool for generating custom wordlists by scraping web pages.
+cheat-sh - A tool for searching and displaying cheat sheets for various commands and tools.
+cisco-snmp-enumeration - A tool for enumerating SNMP information from Cisco devices.
+cloudsploit - A tool for detecting security misconfigurations in cloud environments.
+clusterd - A tool for clustering and analyzing security data.
+cmsmap - A tool for scanning and exploiting vulnerabilities in content management systems (CMS).
+codeql - A tool for querying code for vulnerabilities and other issues using a custom query language.
+commix - A tool for exploiting command injection vulnerabilities in web applications.
+cook - A tool for generating payloads and managing exploits.
+crunch - A wordlist generator for brute-forcing passwords.
+darkspiritz - A tool for advanced network and web application attacks.
+deathstar - A tool for conducting sophisticated network attacks and exploitation.
+domained - A tool for domain enumeration and information gathering.
+dorknet - A tool for searching and exploiting web vulnerabilities using Google dorks.
+dorkscout - A tool for discovering vulnerabilities using search engine dorks.
+dracnmap - An advanced network scanning tool integrated with Nmap.
+easyda - A tool for automating data analysis and exploitation tasks.
+empire - A post-exploitation framework for PowerShell and Python.
+findsploit - A tool for locating exploits for known vulnerabilities.
+firstorder - A tool for managing and executing first-order attacks.
+fstealer - A tool for stealing files and data from compromised systems.
+gitdump - A tool for extracting sensitive data from Git repositories.
+githubcloner - A tool for cloning repositories from GitHub.
+glue - A tool for integrating and managing various security tools and frameworks.
+google-explorer - A tool for leveraging Google search to discover vulnerabilities and sensitive information.
+goohak - A tool for exploiting vulnerabilities in Google services.
+gooscan - A tool for scanning and enumerating vulnerabilities in operating systems.
+hackersh - A tool for creating and managing hacker-oriented reverse shells.
+harpoon - A tool for launching and managing network-based attacks.
+hate-crack - A tool for cracking passwords and cryptographic hashes.
+infection-monkey - A tool for simulating malware infections and network attacks.
+intersect - A tool for finding and exploiting intersections between different vulnerabilities.
+inurlbr - A tool for scanning web applications for vulnerabilities using URL-based techniques.
+invoke-cradlecrafter - A PowerShell script for creating and managing malicious payloads.
+invoke-dosfuscation - A PowerShell tool for obfuscating denial-of-service attacks.
+invoke-obfuscation - A PowerShell tool for obfuscating scripts to evade detection.
+ipmipwn - A tool for exploiting vulnerabilities in IPMI (Intelligent Platform Management Interface) systems.
+jaidam - A tool for advanced data analysis and exploitation.
+kernelpop - A tool for exploiting kernel-level vulnerabilities in operating systems.
+killcast - A tool for terminating and managing processes involved in attacks.
+koadic - A post-exploitation framework for managing and controlling compromised systems.
+lazydroid - A tool for automating Android security assessments and exploitation.
+ldapscripts - A suite of scripts for interacting with and exploiting LDAP services.
+legion - A powerful tool for network exploitation and post-exploitation activities.
+linikatz - A tool for extracting and manipulating credentials from Linux systems.
+lyricpass - A tool for generating and managing password lists using song lyrics.
+maskprocessor - A tool for creating and processing custom password masks for cracking.
+masscan-automation - A tool for automating scans with Masscan for rapid network reconnaissance.
+massexpconsole - A tool for managing and executing Masscan scans and exports.
+mentalist - A tool for advanced mentalist-style exploitation techniques.
+merlin-server - A command and control server for the Merlin framework.
+metasploit-autopwn - An automated tool for exploiting vulnerabilities using Metasploit.
+msf-mpc - A Metasploit module for enhanced payload capabilities.
+msfenum - A tool for enumerating information using Metasploit.
+nfspy - A tool for spying on and analyzing NFS (Network File System) shares.
+nfsshell - A tool for interacting with and exploiting NFS services.
+nullscan - A tool for scanning and identifying network vulnerabilities.
+octopwnweb - A tool for performing web-based exploitation and attacks.
+openscap - A framework for automating security compliance and vulnerability assessment.
+pastejacker - A tool for finding and exploiting sensitive information in public paste sites.
+pastemonitor - A tool for monitoring and alerting on sensitive information leaks in paste sites.
+pasv-agrsv - A tool for exploiting vulnerabilities in passive and aggressive scan modes.
+penbox - A tool for managing and executing penetration testing engagements.
+pentestgpt - A tool for integrating GPT-based assistance into penetration testing workflows.
+pentmenu - A menu-based tool for organizing and accessing penetration testing tools.
+pin - A tool for managing and utilizing PIN-based authentication exploits.
+powerops - A tool for managing and executing PowerShell-based operations.
+ptf - The PenTesters Framework for managing and automating penetration testing tools.
+pwndrop - A tool for creating and managing malicious payloads for exploitation.
+pyfuscation - A Python tool for obfuscating scripts to evade detection.
+python-arsenic - A Python tool for creating and managing advanced security exploits.
+python2-shodan - A Python 2 library for interacting with Shodan and searching for vulnerabilities.
+recomposer - A tool for recomposing and manipulating data for exploitation.
+reptor - A tool for advanced exploitation and payload management.
+rsmangler - A tool for mangling and transforming strings for security testing.
+sakis3g - A tool for managing 3G modems and connectivity.
+sandmap - A tool for scanning and mapping network services.
+sc-make - A tool for creating and managing security controls and configurations.
+scap-security-guide - A set of security configuration guides for compliance with SCAP standards.
+scap-workbench - A tool for working with SCAP content to assess security compliance.
+search1337 - A search tool for finding vulnerabilities and exploits.
+shellerator - A tool for generating and managing reverse shells.
+shellme - A tool for creating and deploying reverse shell payloads.
+shellpop - A tool for managing and using reverse shell payloads.
+shellz - A tool for crafting and executing reverse shells.
+simple-ducky - A tool for creating and deploying payloads for USB Rubber Ducky.
+sipvicious - A tool for scanning and exploiting SIP (Session Initiation Protocol) vulnerabilities.
+sploitctl - A tool for managing and controlling exploit modules.
+spookflare - A tool for detecting and exploiting security issues in web applications.
+statsprocessor - A tool for processing and analyzing security statistics and data.
+thefatrat - A tool for generating and managing payloads and backdoors.
+tiger - A tool for performing security audits and vulnerability assessments.
+torctl - A tool for controlling and managing Tor network connections.
+traxss - A tool for exploiting cross-site scripting (XSS) vulnerabilities.
+ttpassgen - A tool for generating and managing password lists and hashes.
+unix-privesc-check - A tool for checking Unix systems for privilege escalation vulnerabilities.
+username-anarchy - A tool for generating and managing username lists for security testing.
+usernamer - A tool for discovering and analyzing usernames in security assessments.
+valhalla - A tool for advanced penetration testing and vulnerability exploitation.
+vbsmin - A tool for creating and managing VBScript-based payloads.
+veil - A framework for generating and obfuscating payloads to evade detection.
+voiphopper - A tool for scanning and exploiting vulnerabilities in VoIP (Voice over IP) systems.
+wifi-autopwner - A tool for automating the exploitation of Wi-Fi networks.
+wikigen - A tool for generating and managing wiki-based payloads.
+winpwn - A tool for exploiting and managing vulnerabilities in Windows systems.
+wmd - A tool for managing and deploying Windows-based exploits and payloads.
+wnmap - A tool for scanning and enumerating Windows network services.
+xcat - A tool for advanced cross-platform exploitation and security testing.
+zeratool - A tool for creating and managing zero-day exploits.
+zirikatu - A tool for advanced network and system exploitation.

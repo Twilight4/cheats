@@ -1,64 +1,64 @@
-aesshell
-arcane
-azazel
-backcookie
-backdoor-apk
-backdoor-factory
-backdoorppt
-backorifice
-barq
-cymothoa
-debinject
-demiguise
-donut
-dr0p1t-framework
-dragon-backdoor
-eggshell
-enyelkm
-evil-winrm
-evilpdf
-exe2image
-gobd
-harness
-hercules-payload
-hotpatch
-icmpsh
-jynx2
-k55
-kimi
-lfi-image-helper
-linux-inject
-meterssh
-microsploit
-ms-sys
-msf-mpc
-netbus
-nxcrypt
-php-findsock-shell
-pivotsuite
-pixload
-poly
-powerstager
-pwncat
-python-pyrasite
-remot3d
-riwifshell
-rspet
-rubilyn
-saruman
-sb0x
-shellter
-sherlocked
-shootback
-sub7
-trixd00r
-tsh
-tsh-sctp
-u3-pwn
-unicorn-powershell
-vlany
-webacoo
-webshells
-webspa
-weevely
-zipexec
+aesshell - A reverse shell tool for gaining remote control over a system.
+arcane - A tool for creating and using encrypted reverse shells.
+azazel - A Metasploit module for exploiting Windows vulnerabilities.
+backcookie - A tool for managing and manipulating web cookies.
+backdoor-apk - A tool for injecting backdoors into Android APK files.
+backdoor-factory - A tool for injecting backdoors into executables.
+backdoorppt - A tool for adding malicious payloads to PowerPoint presentations.
+backorifice - A remote administration tool with a focus on covert operation.
+barq - A tool for network analysis and monitoring.
+cymothoa - A remote access tool that allows for persistent connections.
+debinject - A tool for injecting code into Debian-based executables.
+demiguise - A tool for obfuscating and hiding malicious code.
+donut - A tool for creating shellcode from various file types.
+dr0p1t-framework - A framework for creating and managing payloads.
+dragon-backdoor - A backdoor tool with features for remote control and data exfiltration.
+eggshell - A reverse shell tool designed for stealth and persistence.
+enyelkm - A tool for exploiting vulnerabilities in web applications.
+evil-winrm - A tool for exploiting Windows Remote Management (WinRM) for remote access.
+evilpdf - A tool for creating malicious PDF files with embedded payloads.
+exe2image - A tool for converting executable files into images to evade detection.
+gobd - A tool for interacting with and exploiting binary data.
+harness - A tool for managing and deploying payloads.
+hercules-payload - A tool for generating and using malicious payloads.
+hotpatch - A tool for patching running processes on a system.
+icmpsh - A tool for creating reverse shells over ICMP.
+jynx2 - A tool for bypassing security measures and exploiting vulnerabilities.
+k55 - A tool for network security assessment and exploitation.
+kimi - A tool for creating and managing malicious payloads.
+lfi-image-helper - A tool for exploiting local file inclusion vulnerabilities with images.
+linux-inject - A tool for injecting code into Linux processes.
+meterssh - A tool for managing and interacting with SSH sessions.
+microsploit - A lightweight framework for exploiting vulnerabilities.
+ms-sys - A tool for manipulating the Windows system structure.
+msf-mpc - A Metasploit module for enhanced payload capabilities.
+netbus - A remote administration tool for networked systems.
+nxcrypt - A tool for encrypting and decrypting files.
+php-findsock-shell - A PHP-based reverse shell for remote access.
+pivotsuite - A tool for managing and using pivot points in network exploitation.
+pixload - A tool for hiding payloads within image files.
+poly - A tool for polymorphic shellcode generation.
+powerstager - A tool for staging and executing payloads in PowerShell.
+pwncat - A post-exploitation tool for interactive remote access.
+python-pyrasite - A Python tool for injecting code into running processes.
+remot3d - A remote access tool for covert operations.
+riwifshell - A wireless reverse shell tool for remote control.
+rspet - A tool for generating and using remote shells.
+rubilyn - A tool for exploiting and managing remote vulnerabilities.
+saruman - A tool for advanced payload management and execution.
+sb0x - A tool for creating and managing shellcode payloads.
+shellter - A tool for injecting payloads into executables to bypass detection.
+sherlocked - A tool for exploiting and managing remote systems.
+shootback - A tool for launching attacks in response to detected intrusions.
+sub7 - A remote administration tool with a wide range of features.
+trixd00r - A tool for creating and managing network backdoors.
+tsh - A tool for managing and executing network shells.
+tsh-sctp - A variant of TSH for managing SCTP (Stream Control Transmission Protocol) shells.
+u3-pwn - A tool for exploiting vulnerabilities in USB U3 devices.
+unicorn-powershell - A tool for generating and executing PowerShell payloads.
+vlany - A tool for creating and managing VLAN-based attacks.
+webacoo - A web application security tool for vulnerability assessment.
+webshells - A tool for managing and deploying web-based shells.
+webspa - A web application exploitation tool for creating and managing payloads.
+weevely - A PHP web shell for remote access and control.
+zipexec - A tool for executing payloads within ZIP files.
