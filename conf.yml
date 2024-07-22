@@ -31,3 +31,9 @@ cheatpaths:
     path: /home/twilight/.config/cheat/tools
     tags: [ tools ]
     readonly: false
+
+  # Tools categories with description - frgc/fchtt
+  - name: desc
+    path: /home/twilight/.config/cheat/desc
+    tags: [ desc ]
+    readonly: true
