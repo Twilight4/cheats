@@ -1,161 +1,161 @@
-ad-miner
-adape-script
-adfspray
-aesshell
-agafi
-amber
-analyzepesig
-antiransom
-atstaketools
-backorifice
-bloodhound
-bloodhound-python
-bloodyad
-brute12
-cachedump
-certipy
-certsync
-chrome-decode
-chromensics
-cminer
-coercer
-crackmapexec
-creddump
-dcdetector
-de4dot
-demiguise
-directorytraversalscan
-dnspy
-donpapi
-dotpeek
-dragon-backdoor
-dumpacl
-dumpusers
-eraser
-etherchange
-evilclippy
-evtkit
-extractusnjrnl
-filefuzz
-fport
-fuzztalk
-gadgettojscript
-ghostdelivery
-go-windapsearch
-goddi
-gomapenum
-gplist
-gsd
-gtalk-decode
-harness
-hekatomb
-hercules-payload
-hoaxshell
-hollows-hunter
-httpbog
-httprecon
-hxd
-hyperion-crypter
-ikeprobe
-indx2csv
-indxcarver
-intercepter-ng
-inzider
-jackdaw
-juicy-potato
-kekeo
-kerberoast
-lethalhta
-log-file-parser
-lolbas
-malwareanalyser
-mbenum
-mft2csv
-mftcarver
-mftrcrd
-mftref2name
-mimikatz
-missidentify
-modifycerttemplate
-mrkaplan
-nbname
-nbtenum
-nbtscan
-netbus
-netexec
-netripper
-netstumbler
-nirsoft
-nishang
-ntds-decode
-ntfs-file-extractor
-ntfs-log-tracker
-o365enum
-o365spray
-ollydbg
-openpuff
-orakelcrackert
-pafish
-pe-bear
-pe-sieve
-periscope
-persistencesniper
-pextractor
-pingcastle
-pkinittools
-pmap
-pmdump
-powercloud
-powerlessshell
-powermft
-powerops
-powershdll
-powersploit
-ppee
-promiscdetect
-rasenum
-rcrdcarver
-rdp-sec-check
-rdwarecon
-regreport
-regview
-resourcehacker
-rpcsniffer
-rpctools
-secure2csv
-setowner
-shad0w
-shadowexplorer
-shed
-shellter
-sigthief
-sipscan
-sireprat
-skype-dump
-spade
-sqldict
-sqlpowerinjector
-sub7
-sysinternals-suite
-talon
-thumbcacheviewer
-tunna
-uacme
-unsecure
-upnp-pentest-toolkit
-usnjrnl2csv
-usnparser
-wce
-wesng
-wifichannelmonitor
-windivert
-windows-binaries
-windows-privesc-check
-windowsspyblocker
-winfo
-winhex
-winpwn
-wpsweep
-x-scan
-x64dbg
-zipexec
+ad-miner - Extracts and analyzes Active Directory data to identify potential security issues.
+adape-script - Automates various Active Directory enumeration tasks using scripts.
+adfspray - Performs password spraying attacks against Active Directory Federation Services (ADFS).
+aesshell - Provides an interface for interacting with AES-encrypted data.
+agafi - Collects and analyzes information from AD environments and security settings.
+amber - A framework for automating Active Directory attacks and exploitation.
+analyzepesig - Analyzes and verifies the signatures of Portable Executable (PE) files.
+antiransom - Provides tools for detecting and mitigating ransomware attacks.
+atstaketools - A collection of tools for Active Directory security assessments and exploitation.
+backorifice - Remote administration tool that allows control over Windows machines (historically used for unauthorized access).
+bloodhound - Analyzes Active Directory environments to identify attack paths and security weaknesses.
+bloodhound-python - Python-based implementation of BloodHound for AD enumeration and analysis.
+bloodyad - Provides tools for exploiting vulnerabilities in Active Directory environments.
+brute12 - Performs brute force attacks against various services and protocols.
+cachedump - Extracts cached credentials from Windows systems.
+certipy - Tool for analyzing and exploiting certificate-related vulnerabilities in Active Directory.
+certsync - Synchronizes and manages SSL/TLS certificates across multiple systems.
+chrome-decode - Decodes and extracts data from Chrome browser files and artifacts.
+chromensics - Forensic analysis tool for examining Google Chrome browser artifacts.
+cminer - Cryptocurrency mining tool for leveraging computational resources.
+coercer - Automates coercion attacks to exploit system vulnerabilities.
+crackmapexec - Network penetration testing tool for managing and exploiting SMB, LDAP, and other services.
+creddump - Extracts credentials from Windows systems using various techniques.
+dcdetector - Detects and analyzes domain controllers in a network environment.
+de4dot - Deobfuscates .NET assemblies to reveal their original code.
+demiguise - Provides tools for hiding and revealing data in network communications.
+directorytraversalscan - Scans for directory traversal vulnerabilities in web applications.
+dnspy - .NET debugger and assembly editor for reverse engineering .NET applications.
+donpapi - Scans and exploits vulnerabilities in web applications related to authentication.
+dotpeek - Decompiles .NET assemblies to source code for analysis and debugging.
+dragon-backdoor - Remote access tool providing stealthy control over compromised systems.
+dumpacl - Dumps Access Control Lists (ACLs) from Windows systems for security assessment.
+dumpusers - Extracts user account information from systems or databases.
+eraser - Securely erases files and data to prevent recovery.
+etherchange - Provides tools for modifying Ethernet frame data for security testing.
+evilclippy - Generates malicious payloads to be delivered via clipboard data.
+evtkit - Extracts and analyzes Windows Event Logs for forensic investigation.
+extractusnjrnl - Extracts and parses USN Journal entries from NTFS volumes.
+filefuzz - Fuzz testing tool for identifying vulnerabilities in file processing systems.
+fport - Identifies open ports and the applications using them on Windows systems.
+fuzztalk - Provides tools for network fuzzing and protocol analysis.
+gadgettojscript - Converts and executes JScript payloads for penetration testing.
+ghostdelivery - Delivers and executes malicious payloads in a stealthy manner.
+go-windapsearch - Searches and enumerates Active Directory objects using Go language tools.
+goddi - Provides various tools for exploiting domain generation algorithms and related vulnerabilities.
+gomapenum - Enumerates and maps services and configurations using Go-based tools.
+gplist - Lists and manages various types of security-related data and resources.
+gsd - Provides security detection tools for identifying system and network vulnerabilities.
+gtalk-decode - Decodes and analyzes Google Talk (GChat) communication data.
+harness - Provides a framework for managing and executing penetration testing tasks.
+hekatomb - Automated tool for performing high-speed attacks on network services.
+hercules-payload - Generates and manages payloads for penetration testing and exploitation.
+hoaxshell - Shell environment for performing various security testing and exploitation tasks.
+hollows-hunter - Detects and analyzes hollow processes and other anti-forensic techniques.
+httpbog - Tools for analyzing and manipulating HTTP traffic for security testing.
+httprecon - Performs reconnaissance and analysis of HTTP services and applications.
+hxd - Hex editor for examining and modifying binary files and data.
+hyperion-crypter - Encrypts and obfuscates executable files to evade detection.
+ikeprobe - Performs analysis and attacks against IPsec and IKE (Internet Key Exchange) protocols.
+indx2csv - Converts Windows Index files to CSV format for data analysis.
+indxcarver - Recovers data from Windows Index files for forensic purposes.
+intercepter-ng - Man-in-the-middle attack tool for intercepting and analyzing network traffic.
+inzider - Provides advanced network scanning and vulnerability assessment tools.
+jackdaw - Performs network reconnaissance and data collection for security assessments.
+juicy-potato - Exploits Windows privileges to escalate and maintain access on systems.
+kekeo - Provides tools for Kerberos ticket manipulation and exploitation.
+kerberoast - Extracts and cracks Kerberos service tickets to retrieve service account credentials.
+lethalhta - Provides tools for advanced threat analysis and assessment.
+log-file-parser - Analyzes and parses log files for security events and forensic investigation.
+lolbas - Lists and analyzes living-off-the-land binaries and scripts for security assessments.
+malwareanalyser - Analyzes and identifies malware based on its behavior and characteristics.
+mbenum - Enumerates and analyzes Windows systems for security assessments.
+mft2csv - Converts Master File Table (MFT) records to CSV format for forensic analysis.
+mftcarver - Recovers data from the Master File Table of NTFS volumes.
+mftrcrd - Retrieves and analyzes Master File Table records from NTFS volumes.
+mftref2name - Converts MFT record references to file names for forensic analysis.
+mimikatz - Extracts credentials and performs other security assessments on Windows systems.
+missidentify - Provides tools for identifying and analyzing misconfigurations and security issues.
+modifycerttemplate - Modifies certificate templates in Active Directory environments.
+mrkaplan - Provides tools for network reconnaissance and exploitation tasks.
+nbname - Scans and enumerates NetBIOS names and related information on a network.
+nbtenum - Enumerates NetBIOS names and shares for security assessment.
+nbtscan - Scans networks for NetBIOS information and vulnerabilities.
+netbus - Remote administration tool that allows control over Windows systems (historically used for unauthorized access).
+netexec - Executes commands and scripts on remote systems over the network.
+netripper - Provides tools for network traffic analysis and manipulation.
+netstumbler - Scans and analyzes wireless networks for security vulnerabilities.
+nirsoft - Suite of small utilities for Windows system and network analysis.
+nishang - Collection of PowerShell scripts for penetration testing and exploitation.
+ntds-decode - Decodes and analyzes NTDS.dit files from Active Directory for security assessment.
+ntfs-file-extractor - Extracts files from NTFS volumes for forensic analysis.
+ntfs-log-tracker - Tracks and analyzes NTFS log files for security and forensic purposes.
+o365enum - Enumerates Office 365 environments to gather information and assess security.
+o365spray - Performs password spraying attacks against Office 365 accounts.
+ollydbg - Debugger for analyzing and reverse-engineering binary executables.
+openpuff - Steganography tool for hiding and encrypting data within various file types (already listed).
+orakelcrackert - Cracks passwords and cryptographic keys using various techniques.
+pafish - Detects anti-analysis and evasion techniques used by malware.
+pe-bear - Analyzes and manipulates Portable Executable (PE) files for reverse engineering.
+pe-sieve - Scans and detects injected code in PE files for security analysis.
+periscope - Provides tools for performing security assessments and vulnerability analysis.
+persistencesniper - Detects and analyzes persistence mechanisms used by malware.
+pextractor - Extracts and analyzes information from Portable Executable (PE) files.
+pingcastle - Analyzes Active Directory environments to identify security issues and risks.
+pkinittools - Provides tools for analyzing and exploiting PKINIT (Public Key Cryptography for Initial Authentication).
+pmap - Maps network services and configurations for security assessment.
+pmdump - Dumps memory and other system information for analysis and forensic investigation.
+powercloud - Provides tools for managing and analyzing cloud-based security configurations.
+powerlessshell - Provides a minimal shell environment for testing and exploitation purposes.
+powermft - Analyzes and manages Master File Table (MFT) records for forensic purposes.
+powerops - Provides various PowerShell-based tools for security assessments and exploitation.
+powershdll - Powershell-based tool for DLL injection and analysis.
+powersploit - Collection of PowerShell scripts for penetration testing and exploitation.
+ppee - Analyzes and extracts data from Portable Executable (PE) files.
+promiscdetect - Detects and analyzes potential privacy and security threats in applications.
+rasenum - Enumerates Remote Access Service (RAS) configurations and vulnerabilities.
+rcrdcarver - Recovers data from file system records for forensic analysis.
+rdp-sec-check - Analyzes and assesses the security of Remote Desktop Protocol (RDP) configurations.
+rdwarecon - Performs hardware reconnaissance and analysis for security assessments.
+regreport - Generates reports on Windows Registry settings and configurations.
+regview - Provides a graphical interface for viewing and analyzing Windows Registry data.
+resourcehacker - Edits and modifies resources in executable files and DLLs.
+rpcsniffer - Captures and analyzes RPC (Remote Procedure Call) traffic for security analysis.
+rpctools - Provides various tools for analyzing and exploiting RPC services.
+secure2csv - Converts security-related data to CSV format for analysis and reporting.
+setowner - Changes file and directory ownership for security and administrative purposes.
+shad0w - Provides tools for stealthy operations and exploitation in network environments.
+shadowexplorer - Allows browsing and recovering files from Windows Shadow Copies.
+shed - Provides tools for managing and analyzing security data and logs.
+shellter - Dynamic shellcode injection tool for injecting malicious payloads into executable files.
+sigthief - Extracts and analyzes cryptographic signatures from files.
+sipscan - Scans and analyzes SIP (Session Initiation Protocol) traffic for security vulnerabilities.
+sireprat - Provides tools for analyzing and exploiting system and network vulnerabilities.
+skype-dump - Extracts and analyzes Skype communication data for forensic purposes.
+spade - Provides tools for network and security assessments, including fuzzing and scanning.
+sqldict - Creates and uses custom dictionaries for SQL injection attacks.
+sqlpowerinjector - Performs SQL injection attacks and data extraction using advanced techniques.
+sub7 - Remote administration tool that allows control over Windows systems (historically used for unauthorized access).
+sysinternals-suite - Collection of advanced tools for Windows system and network analysis.
+talon - Provides tools for network reconnaissance and security assessments.
+thumbcacheviewer - Views and analyzes thumbnail cache files for forensic purposes.
+tunna - Provides tools for creating and managing tunneling connections for network traffic.
+uacme - Provides tools for automating UAC (User Account Control) bypass techniques.
+unsecure - Identifies and fixes security vulnerabilities in system configurations.
+upnp-pentest-toolkit - Tools for testing and exploiting UPnP (Universal Plug and Play) vulnerabilities.
+usnjrnl2csv - Converts USN Journal entries to CSV format for forensic analysis.
+usnparser - Parses and analyzes USN Journal files from NTFS volumes.
+wce - Provides tools for extracting and analyzing Windows credentials and tokens.
+wesng - Tools for Windows Event Log analysis and security assessment.
+wifichannelmonitor - Monitors and analyzes Wi-Fi channels for security vulnerabilities.
+windivert - Captures and modifies network traffic on Windows systems.
+windows-binaries - Provides various tools for analyzing and manipulating Windows binaries.
+windows-privesc-check - Checks Windows systems for potential privilege escalation vulnerabilities.
+windowsspyblocker - Provides tools for blocking and analyzing spyware and tracking applications.
+winfo - Extracts and analyzes Windows system information and configurations.
+winhex - Hex editor for examining and modifying binary files and data on Windows systems.
+winpwn - Provides tools for exploiting Windows systems and gaining unauthorized access.
+wpsweep - Scans and analyzes WordPress installations for security vulnerabilities.
+x-scan - Scans and analyzes network services and systems for security assessment.
+x64dbg - Debugger for analyzing and reverse-engineering 64-bit applications.
+zipexec - Executes and manages files within ZIP archives for security testing.

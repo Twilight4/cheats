@@ -1,13 +1,13 @@
-matroschka
-openpuff
-openstego
-pngcheck
-silenteye
-stegcracker
-stegdetect
-steghide
-stegosip
-stegoveritas
-stegseek
-stegsolve
-stepic
+matroschka - Tool for analyzing and extracting data from Matroska container files used in multimedia.
+openpuff - Steganography tool for hiding and encrypting data within various file types.
+openstego - Provides steganography and watermarking capabilities for hiding data within images.
+pngcheck - Analyzes PNG files to detect and repair issues related to file structure and encoding.
+silenteye - GUI-based tool for embedding and extracting data within image files using steganography.
+stegcracker - Cracks passwords and keys used in steganography to access hidden data.
+stegdetect - Detects the presence of steganography in image files by analyzing statistical anomalies.
+steghide - Allows embedding and extracting data in various file formats using steganography.
+stegosip - Provides steganographic communication tools for hiding messages within SIP (Session Initiation Protocol) messages.
+stegoveritas - A steganography tool for embedding hidden messages within image files.
+stegseek - Tool for searching for hidden data in steganographic images by analyzing possible payloads.
+stegsolve - Helps in visualizing and analyzing steganographic images to uncover hidden data.
+stepic - Simple steganography tool for hiding text within images and other files.

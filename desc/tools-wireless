@@ -1,57 +1,57 @@
-airflood
-airgeddon
-airopy
-apnbf
-atear
-auto-eap
-batman-alfred
-boopsuite
-create_ap
-crozono
-eapeak
-eaphammer
-eapmd5pass
-fern-wifi-cracker
-freewifi
-fuzzap
-g72x++
-hashcatch
-hoover
-hostapd-wpe
-howmanypeoplearearound
-intercepter-ng
-jcrack
-killerbee
-kismet-earth
-kismon
-mfcuk
-mousejack
-mtscan
-netattack
-netdiscover
-netstumbler
-pidense
-python-trackerjacker
-rfidiot
-roguehostapd
-sniff-probe-req
-timegen
-ufo-wardriving
-waidps
-wifi-autopwner
-wifi-honey
-wifi-pumpkin
-wifibroot
-wifichannelmonitor
-wificurse
-wifijammer
-wifiphisher
-wifiscanmap
-wifitap
-wireless-ids
-wirouter-keyrec
-wlan2eth
-wpa-bruteforcer
-wpa2-halfhandshake-crack
-zulu
-zykeys
+airflood - A tool for performing denial-of-service attacks on Wi-Fi networks by flooding them with deauthentication packets.
+airgeddon - A multi-use bash script for managing various Wi-Fi attacks, including deauthentication, PMKID capture, and more.
+airopy - A Python library and framework for interacting with Wi-Fi networks and performing attacks.
+apnbf - Automated tool for brute-forcing Access Points (AP) with non-broadcast SSIDs.
+atear - A tool for performing aircrack-ng attacks on WEP and WPA/WPA2 encrypted networks.
+auto-eap - Automates attacks against EAP (Extensible Authentication Protocol) methods used in Wi-Fi authentication.
+batman-alfred - An implementation of the Batman (Better Approach To Mobile Adhoc Networking) protocol for creating and managing ad-hoc networks.
+boopsuite - A suite of tools for network attacks, including MITM (Man-in-the-Middle) attacks, and vulnerability scanning.
+create_ap - A script for creating a Wi-Fi access point (AP) on Linux systems.
+crozono - A tool for Wi-Fi network scanning and analysis, specifically for detecting rogue access points.
+eapeak - A tool for capturing and analyzing EAP (Extensible Authentication Protocol) packets in wireless networks.
+eaphammer - A tool for attacking EAP authentication in Wi-Fi networks, including capturing handshakes and performing password attacks.
+eapmd5pass - Extracts and cracks EAP-MD5 authentication credentials from captured network traffic.
+fern-wifi-cracker - A GUI-based tool for cracking Wi-Fi passwords and performing wireless network attacks.
+freewifi - Scans for and connects to open or unsecured Wi-Fi networks.
+fuzzap - Fuzzing tool for discovering vulnerabilities in Wi-Fi access points and routers.
+g72x++ - A tool for performing various attacks on GSM networks, including GPRS and 3G.
+hashcatch - Captures and cracks Wi-Fi hashes from network traffic.
+hoover - A tool for gathering information on nearby Wi-Fi networks and connected devices.
+hostapd-wpe - An extended version of hostapd (host access point daemon) for creating fake Wi-Fi access points to capture authentication handshakes.
+howmanypeoplearearound - Scans for and enumerates the number of devices connected to a Wi-Fi network.
+intercepter-ng - A tool for capturing and analyzing network traffic, focusing on intercepting and manipulating communications.
+jcrack - A tool for cracking Wi-Fi passwords by leveraging various cryptographic techniques.
+killerbee - A set of tools for attacking Zigbee and other 802.15.4 wireless networks.
+kismet-earth - A tool for visualizing and analyzing Wi-Fi networks on a map using Kismet.
+kismon - A monitoring tool for Kismet that provides a graphical interface for analyzing Wi-Fi network data.
+mfcuk - A tool for performing brute-force attacks against Mifare Classic RFID cards.
+mousejack - Exploits vulnerabilities in wireless keyboards and mice to gain unauthorized access.
+mtscan - Scans for and identifies vulnerabilities in multi-tenant systems and networks.
+netattack - A suite of tools for performing various network attacks, including DoS and MITM.
+netdiscover - A network discovery tool that identifies live hosts and services on a network.
+netstumbler - A tool for discovering and analyzing wireless networks (historically used on Windows systems).
+pidense - Scans for and identifies processes and network services on a system.
+python-trackerjacker - A Python tool for tracking and analyzing Wi-Fi networks and devices.
+rfidiot - A tool for exploiting and analyzing RFID vulnerabilities.
+roguehostapd - Creates rogue access points to capture Wi-Fi credentials and other network data.
+sniff-probe-req - Sniffs and analyzes Wi-Fi probe requests to gather information about nearby networks and devices.
+timegen - Generates and manipulates time-based data for security testing and analysis.
+ufo-wardriving - Tools for wardriving and scanning Wi-Fi networks for security assessments.
+waidps - A tool for detecting and exploiting vulnerabilities in Wi-Fi networks and devices.
+wifi-autopwner - Automates Wi-Fi network attacks, including password cracking and network enumeration.
+wifi-honey - Sets up Wi-Fi honeypots to attract and analyze potential attackers.
+wifi-pumpkin - Provides a suite of tools for Wi-Fi network attacks and security assessments, including deauthentication and MITM.
+wifibroot - Performs various attacks on Wi-Fi networks, including brute-force attacks on WPA/WPA2 passwords.
+wifichannelmonitor - Monitors and analyzes Wi-Fi channels for security vulnerabilities and network performance.
+wificurse - A tool for performing various attacks and security assessments on Wi-Fi networks.
+wifijammer - Jams Wi-Fi networks by sending deauthentication packets to disrupt connectivity.
+wifiphisher - Performs phishing attacks on Wi-Fi networks to capture user credentials.
+wifiscanmap - Scans and maps Wi-Fi networks for security analysis and vulnerability assessment.
+wifitap - Provides tools for capturing and analyzing Wi-Fi network traffic and vulnerabilities.
+wireless-ids - Implements intrusion detection systems (IDS) for monitoring and analyzing wireless network traffic.
+wirouter-keyrec - Recovers and analyzes router keys and credentials for network security assessments.
+wlan2eth - Converts wireless LAN (WLAN) traffic to Ethernet for analysis and monitoring.
+wpa-bruteforcer - Performs brute-force attacks on WPA/WPA2 encrypted Wi-Fi networks.
+wpa2-halfhandshake-crack - Cracks WPA2 handshakes captured during partial authentication processes.
+zulu - Provides tools for analyzing and exploiting various network and wireless security vulnerabilities.
+zykeys - Tools for analyzing and exploiting vulnerabilities in ZyXEL routers and devices.

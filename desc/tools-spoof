@@ -1,31 +1,31 @@
-admid-pack
-aranea
-arpoison
-cisco-snmp-slap
-dns-spoof
-evil-ssdp
-fakedns
-fakenetbios
-habu
-hharp
-impulse
-inundator
-krbrelayx
-lsrtunnel
-mailsend-go
-mitm6
-mots
-motsa-dns-spoofing
-multimac
-nbnspoof
-netcommander
-portspoof
-pyminifakedns
-rbndr
-responder
-ridrelay
-samplicator
-sylkie
-synner
-wifi-pumpkin
-xcavator
+admid-pack - Provides tools for managing and analyzing administrative interfaces and their security.
+aranea - Framework for creating and executing web application attacks.
+arpoison - Performs ARP poisoning attacks to intercept and manipulate network traffic.
+cisco-snmp-slap - Exploits SNMP vulnerabilities in Cisco devices for network information retrieval.
+dns-spoof - Performs DNS spoofing attacks to redirect or intercept network traffic.
+evil-ssdp - Exploits SSDP (Simple Service Discovery Protocol) vulnerabilities for network attacks.
+fakedns - Provides tools for simulating DNS servers to test and exploit network vulnerabilities.
+fakenetbios - Simulates NetBIOS traffic for network attacks and information gathering.
+habu - Network attack and analysis tool with various functionalities for security testing.
+hharp - Automated tool for conducting high-speed ARP poisoning attacks.
+impulse - Provides network reconnaissance and attack capabilities for security assessment.
+inundator - Performs flood attacks to overwhelm network services and systems.
+krbrelayx - Exploits Kerberos relay attacks to gain unauthorized access to systems.
+lsrtunnel - Sets up tunnels for various network services to bypass firewalls and security controls.
+mailsend-go - Sends emails using SMTP for testing and phishing purposes.
+mitm6 - Performs man-in-the-middle attacks on IPv6 networks to intercept and manipulate traffic.
+mots - Provides tools for network scanning and attack automation.
+motsa-dns-spoofing - Specialized DNS spoofing tool for network attacks and testing.
+multimac - Allows manipulation of network interfaces to perform various attacks.
+nbnspoof - Performs NetBIOS name service spoofing to intercept and manipulate network traffic.
+netcommander - Provides tools for comprehensive network management and security testing.
+portspoof - Hides and protects services by spoofing port responses to avoid detection.
+pyminifakedns - Lightweight DNS spoofing tool written in Python for testing and attacks.
+rbndr - Network reconnaissance tool that provides detailed information on network devices.
+responder - Captures and analyzes network credentials and data through various protocols.
+ridrelay - Relays and exploits RID (Relative Identifier) attacks on Windows networks.
+samplicator - Tool for capturing and analyzing network traffic for security assessment.
+sylkie - Provides advanced network scanning and exploitation capabilities.
+synner - Performs SYN flood attacks to test and exploit network security.
+wifi-pumpkin - Creates fake Wi-Fi networks to perform phishing attacks and capture data (Note: already listed earlier).
+xcavator - Data mining tool for extracting and analyzing information from various sources.

@@ -1,78 +1,78 @@
-anontwi
-blackeye
-bridgekeeper
-brute-force
-cardpwn
-catphish
-chameleonmini
-cr3dov3r
-credsniper
-crosslinked
-domainhunter
-facebookosint
-facebrok
-fbi
-fbid
-genisys
-gg-images
-git-hound
-gitmails
-gitrecon
-gloom
-gocabrito
-gomapenum
-gophish
-h8mail
-hashcheck
-hemingway
-hiddeneye
-hiddeneye-legacy
-holehe
-hookshot
-instagramosint
-jeopardize
-lazagne
-linkedin2username
-littlebrother
-maigret
-muraena
-omnibus
-osi.ig
-osint-spy
-osrframework
-pepe
-phishingkithunter
-phoneinfoga
-phonia
-pown
-protosint
-pwned-search
-pwnedornot
-qrljacker
-raven
-reelphish
-scavenger
-scylla
-seeker
-set
-sherlock
-simpleemailspoofer
-skiptracer
-slackpirate
-snscrape
-social-analyzer
-social-mapper
-social-vuln-scanner
-socialpwned
-spf
-tinfoleak
-token-hunter
-trape
-twint
-userrecon
-userrecon-py
-websploit
-whatbreach
-whatsmyname
-wifi-pumpkin
-wifiphisher
+anontwi - Provides anonymity while using Twitter by creating anonymous accounts.
+blackeye - Phishing toolkit for creating fake login pages to capture credentials.
+bridgekeeper - Assesses and secures network bridges and related configurations.
+brute-force - Performs brute force attacks on various services to crack passwords.
+cardpwn - Scans for vulnerabilities in payment card systems.
+catphish - Creates phishing pages and collects credentials from victims.
+chameleonmini - Emulates various RFID tags for security testing and analysis.
+cr3dov3r - Collects and analyzes credentials from various sources and breaches.
+credsniper - Scans and finds leaked or compromised credentials.
+crosslinked - Detects cross-site scripting and other web vulnerabilities.
+domainhunter - Finds and analyzes expired and available domains for security purposes.
+facebookosint - Gathers open-source intelligence from Facebook profiles and data.
+facebrok - Extracts and analyzes information from Facebook accounts.
+fbi - Searches and retrieves information related to Federal Bureau of Investigation (FBI) records.
+fbid - Collects and analyzes Facebook IDs and related data.
+genisys - Provides tools for gathering and analyzing security intelligence.
+gg-images - Performs reverse image search on Google Images.
+git-hound - Searches GitHub repositories for sensitive information and credentials.
+gitmails - Extracts email addresses from GitHub repositories.
+gitrecon - Analyzes GitHub repositories to discover sensitive data and security issues.
+gloom - Tool for performing reconnaissance and data collection.
+gocabrito - Provides tools for security testing and analysis of networks and applications.
+gomapenum - Enumerates and maps Google Maps data for security analysis.
+gophish - Framework for managing phishing campaigns and collecting credentials.
+h8mail - Searches and finds data breaches for email addresses.
+hashcheck - Verifies and analyzes hashes for file integrity and security.
+hemingway - Analyzes and improves the readability and quality of text.
+hiddeneye - Phishing toolkit that provides various options for creating fake login pages.
+hiddeneye-legacy - Older version of HiddenEye for phishing and credential harvesting.
+holehe - Checks if an email address is involved in known data breaches.
+hookshot - Performs network scanning and security assessments.
+instagramosint - Gathers open-source intelligence from Instagram profiles.
+jeopardize - Identifies and exploits vulnerabilities in systems and applications.
+lazagne - Recovers passwords stored by various applications.
+linkedin2username - Extracts usernames from LinkedIn profiles.
+littlebrother - Provides reconnaissance and scanning tools for security testing.
+maigret - Searches for user information across multiple online services.
+muraena - Monitors and analyzes network traffic for security issues.
+omnibus - Collects and analyzes a wide range of security data and intelligence.
+osi.ig - Provides tools and resources for open-source intelligence gathering.
+osint-spy - Gathers open-source intelligence from various online sources.
+osrframework - Framework for open-source intelligence gathering and analysis.
+pepe - Performs reconnaissance and vulnerability assessment of network services.
+phishingkithunter - Detects phishing kits and fake login pages.
+phoneinfoga - Performs reconnaissance on phone numbers to gather information.
+phonia - Provides tools for analyzing and exploiting phone-based vulnerabilities.
+pown - Provides tools for network reconnaissance and exploitation.
+protosint - Gathers open-source intelligence from various protocol services.
+pwned-search - Searches for breached data related to email addresses.
+pwnedornot - Checks if an email address is involved in known breaches.
+qrljacker - Exploits QR code vulnerabilities for credential theft and phishing.
+raven - Provides tools for network scanning and security analysis.
+reelphish - Manages and executes phishing campaigns to gather credentials.
+scavenger - Performs reconnaissance and gathers data from various sources.
+scylla - Identifies and exploits vulnerabilities in web applications and services.
+seeker - Provides tools for reconnaissance and data collection from various sources.
+set - Social Engineering Toolkit for creating phishing attacks and social engineering campaigns.
+sherlock - Finds usernames across multiple social media platforms.
+simpleemailspoofer - Spoofs email addresses for testing and reconnaissance purposes.
+skiptracer - Performs advanced searches and data collection for tracing individuals.
+slackpirate - Gathers data from Slack channels and workspaces.
+snscrape - Scrapes data from social media platforms for intelligence gathering.
+social-analyzer - Analyzes social media profiles and activity for security assessments.
+social-mapper - Maps and analyzes social media relationships and connections.
+social-vuln-scanner - Scans social media profiles for security vulnerabilities.
+socialpwned - Checks social media accounts for exposure in data breaches.
+spf - Provides tools for analyzing SPF (Sender Policy Framework) records.
+tinfoleak - Gathers and analyzes data leaks from various sources.
+token-hunter - Finds and extracts tokens and API keys from repositories and services.
+trape - Provides tools for tracking and analyzing web application vulnerabilities.
+twint - Twitter scraping tool for collecting data from Twitter profiles.
+userrecon - Gathers information on users from various online sources.
+userrecon-py - Python version of UserRecon for gathering user information.
+websploit - Web application security testing suite for identifying vulnerabilities.
+whatbreach - Checks if data has been breached using an email address.
+whatsmyname - Provides tools for analyzing and gathering information on names and identities.
+wifi-pumpkin - Creates fake Wi-Fi networks to perform phishing attacks and capture data.
+wifiphisher - Performs Wi-Fi phishing attacks to capture user credentials and data.
