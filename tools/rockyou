@@ -1,0 +1,6 @@
+if [ ! -f /usr/share/payloads/seclists/Passwords/Leaked-Databases/rockyou.txt ]; then
+    echo "Expanding Rockyou list..."
+    zcat /usr/share/wordlists/rockyou.txt.gz > /usr/share/wordlists/rockyou.txt
+    rm /usr/share/wordlists/rockyou.txt.gz
+    echo
+fi

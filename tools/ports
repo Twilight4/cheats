@@ -8,7 +8,7 @@ SMTP       25         Email (MTA)                  No
 DNS        53/tcp-udp DNS Resolver                 No
 DHCP       67,68/udp  Network communication        Yes
 TFTP       69/udp     File Transfer                No
-HTTP       80         WWW                          No
+HTTP       80,8000    WWW                          No
 Kerberos   88         Authentication Service       Yes
 POP3       110        Email (MDA)                  No
 RPC        111,135    Portmapper                   No                    
@@ -16,8 +16,8 @@ NTP        123        Network Time                 Yes
 SMB        139,445    Sharing Access               Yes
 SNMP       161/udp    Network Management           1,2,2c; No - 3; Yes
 IMAP4      143        Email (MDA)                  No
-LDAP       389/tcp-udp Directory Access            No
-HTTPS      443        Secure WWW                   Yes
+LDAP       389,636    Directory Access             No
+HTTPS      443,8080   Secure WWW                   Yes
 SMTPS      465        Email (MTA)                  Yes
 SMTPS      587        Email (MTA)                  Yes/STARTTLS
 IPMI       623/udp    asf-rmcp                     Yes       
@@ -26,6 +26,7 @@ RSYNC      873        rsync                        Yes
 FTPS       990        File Transfer                Yes
 IMAP4S     993        Email (MDA)                  Yes
 POP3S      995        Email (MDA)                  Yes
+SOCKS      1080       SOCKS                        Yes
 MSSQL      1433,1444  MS SQL Server                Yes
 Oracle     1521       Oracle TNS Database          Yes
 NFS        2049       Network File Sharing         No
@@ -33,4 +34,5 @@ MONGODB    27017      mongodb                      Yes
 MySQL      3306       MySQL Database               No
 RDP        3389       Remote Access                Yes
 PostgreSQL 5432       PostgreSQL Database          Yes
+VNC        5900       VNC                          No
 WinRM      5985,5986  Windows Remote Management    5985 (HTTP), 5986 (HTTPS)
