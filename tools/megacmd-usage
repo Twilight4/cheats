@@ -1,0 +1,36 @@
+Source: https://github.com/meganz/MEGAcmd/blob/master/UserGuide.md
+
+Login:
+  mega-login <email> <password> | <session_id>
+  mega-logout --keep-session
+                      keep session so that you can log in with the <session_id>
+  mega-whoami -l
+                      extended info
+  mega-session
+                      print current session ID
+  mega-killsession -a | <session_id>
+                      -a flag kills all session except current one
+
+Browse (interactive session):
+  cd <path>
+  ls -h -a --tree | -r
+  pwd
+  du -h
+  find --type=f --pattern=Snapchat* -l
+  mount
+
+Moving/Copying Files (interactive session):
+  mkdir -p <path>
+  cp <src_path> <dst_path>
+  put -c -q <local_file_path> <remote_dst_path>
+  get -m -q <remote_path> <local_path>
+  preview -s <remote_path> <local_path>
+  thumbnail -s <remote_path> <local_path>
+  mv <src_path> <dst_path>
+  rm -r -f <path>
+  sync <local_path> <remote_path>
+  exclude -a <pattern>
+
+Backup:
+  Source: https://github.com/meganz/MEGAcmd/blob/master/contrib/docs/BACKUPS.md
+  backup <local_path> <remote_path> --period="<PERIODSTRING>" --num-backups=<N>
