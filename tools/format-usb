@@ -1,0 +1,9 @@
+Format USB:
+  sudo fdisk -l
+  lsblk -fp /dev/sdb
+  sudo umount /dev/sdb1
+  sudo wipefs -a /dev/sdb
+  sudo fdisk -l /dev/sdb
+
+Format with Fat32 file system:
+  sudo mkfs.vfat -n 'SanDisk 64GB' -I /dev/sdb

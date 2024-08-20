@@ -1,6 +1,6 @@
 Source: https://github.com/meganz/MEGAcmd/blob/master/UserGuide.md
 
-Login:
+Login/Sessions:
   mega-login <email> <password> | <session_id>
   mega-logout --keep-session
                       keep session so that you can log in with the <session_id>
@@ -11,15 +11,7 @@ Login:
   mega-killsession -a | <session_id>
                       -a flag kills all session except current one
 
-Browse (interactive session):
-  cd <path>
-  ls -h -a --tree | -r
-  pwd
-  du -h
-  find --type=f --pattern=Snapchat* -l
-  mount
-
-Moving/Copying Files (interactive session):
+Moving/Copying Files from Remote/Local:
   mkdir -p <path>
   cp <src_path> <dst_path>
   put -c -q <local_file_path> <remote_dst_path>
@@ -30,6 +22,14 @@ Moving/Copying Files (interactive session):
   rm -r -f <path>
   sync <local_path> <remote_path>
   exclude -a <pattern>
+
+Browsing:
+  cd <path>
+  ls -h -a --tree | -r
+  pwd
+  du -h
+  find --type=f --pattern=Snapchat* -l
+  mount
 
 Backup:
   Source: https://github.com/meganz/MEGAcmd/blob/master/contrib/docs/BACKUPS.md
