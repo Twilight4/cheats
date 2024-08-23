@@ -18,6 +18,7 @@ Options:
   -L                       Use username wordlist
   -p                       Specify a single password
   -P                       Path specifying the full path of wordlist
+  -e nsr                   n - null password, s - use usernames as passwords, r - use reverse username as password ex. root - toor
   -f/-F                    Stop after the first successful login
   -t <threads>             Number of threads per target
   -C <wordlist>            Credential stuffing - colon separated "login:pass" format, instead of -L/-P options

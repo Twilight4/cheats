@@ -1,0 +1,11 @@
+DMitry (deepmagic information gathering tool).
+
+Usage:
+  dmitry -wnse <DOMAIN>
+
+Options:
+  -w          check in whois database
+  -n          check in netcraft.com database
+  -s          look for subdomains
+  -e          look for emails associated with given domain
+  -p          actively scans for open ports

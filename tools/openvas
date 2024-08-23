@@ -1,0 +1,5 @@
+First step after installation:
+  openvas-setup
+
+Start the server:
+  openvas-start

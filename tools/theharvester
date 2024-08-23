@@ -1,5 +1,12 @@
 theHarvester - tool designed to gather emails, domain information, hostnames, employee names, subdomains, open ports and banners using search engines and Maltego
 
+Usage:
+  theharvester -d <DOMAIN> -b <SOURCES> -s
+
+Options:
+  -s         use shodan for searching
+  -b         sources list, you can use 'all' for all sources
+
 # Create list of sources in a file - sources.txt
 baidu
 bufferoverun
