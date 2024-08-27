@@ -2,7 +2,8 @@ Usage:
   zip <OPTIONS> <OUTPUT.zip> <FILE_TO_COMRPESS>
 
 Example Usage:
-  zip -e directory.zip directory
+  zip -r directory.zip directory
 
 Options:
   -e       encrypt
+  -r       recurse into directories
