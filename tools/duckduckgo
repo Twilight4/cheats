@@ -1,0 +1,13 @@
+Search Operators:
+  ""                   Find results with exact search phrase
+  -dogs                no dogs in the search results
+  +dogs                more dogs in the search results
+  filetype:pdf         search for pdfs
+  site:example.com     search on examples.com
+  -site:example.com    do not search on examples.com
+  intitle:dogs         search with 'dogs' in title of the website
+  inurl:dogs           search with 'dogs' in the URL
+  \                    go directly to the first search result
+  !                    to directly search in other websites
+  ! safeon             turn on safe search
+  ! safeoff            turn off safe search

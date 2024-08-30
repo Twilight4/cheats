@@ -6,7 +6,7 @@ Popular search modifiers that work with many popular search engines:
 - =walkthrough intitle:Trymackme=    Find pages with a specific term in the page title
 - =challenge inurl:tryhackme=        Find pages with a specific term in the page URL
 
-Commands:
+Search Operators:
   site      Returns results only from the specified website address
   -site     Exclude a specific site from results
   inurl     Returns results that have the specified word in the URL
@@ -17,9 +17,9 @@ Commands:
 Examples:
   site      site:example.com
   -site     -site:example.com
-      inurl     inurl:admin
-	  filetype  filetype:pdf
-	  intitle   intitle:admin
+  inurl     inurl:admin
+  filetype  filetype:pdf
+  intitle   intitle:admin
   ""        "search phrase"  
 
 Examples of confidential information extracted by search engines include:
