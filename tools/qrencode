@@ -1,0 +1,11 @@
+Usage - Print in terminal:
+  qrencode -t ansi256utf8 string
+
+Options:
+  -o <output_image>       path to output to image
+  -r <input_file>         path to file for input
+  -t ansi256utf8          choose type, this one prints in terminal (default png)
+
+Unnecessary Options:
+  -s <number>             size in pixels (default 3)
+  -l {LMQH}               error correction level - low, medium, high (default L)
