@@ -1,13 +1,25 @@
+Commands:
+  crontab -e                   install new cronjob
+  crontab -l                   list current cronjobs
+  tail -f /var/log/syslog      check logs of the running cronjobs
+
 Options:
   # = ID
-  m = Minute
-  h = Hour
-  dom = Day of the month
-  mon = Month
-  dow = Day of the week
+  m = Minute (0-59)
+  h = Hour (0-23)
+  dom = Day of the month (1-31)
+  mon = Month (1-12)
+  dow = Day of the week (0-6)
   user = What user the command will run as
   command = What command should be run
 
+Optional syntax (use instead of stars for the cronjob):
+  @hourly
+  @monthly
+  @daily
+  @weekly
+  @reboot (run after each reboot)
+
 For Example:
-  #  m   h dom mon dow user  command
-  17 *   1  *   *   *  root  cd / && run-parts --report /etc/cron.hourly
+  m h dom mon dow user  command
+  * 1  *   *   *  root  cd / && run-parts --report /etc/cron.hourly
