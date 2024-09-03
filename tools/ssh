@@ -1,3 +1,9 @@
+Set up proxy:
+  ssh -f -N -D 9050 -i pivot <USER>@<TARGET_IP>
+
 Options:
-  -f            send the command to the shell's background right before executing it remotely
-  -N            tells SSH not to execute any commands remotely
+  -f   Send the command to the shell's background right before executing it remotely
+  -N   Tells SSH not to execute any commands remotely
+  -D   Bind the port to 9050
+  -i   Name
+  -C   Compress the data
