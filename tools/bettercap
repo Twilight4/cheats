@@ -1,0 +1,4 @@
+Commands:
+  net.show              Show devices connected to the network
+  net.recon.on          Enable recon of devices
+  net.recon.off         Turn off recon
