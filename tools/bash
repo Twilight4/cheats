@@ -18,6 +18,7 @@ awk '{print $NF}'                                             Print the last col
 awk '{print $2,$5}'                                           Print the second and fifth columns
 awk '{printf "%-25s %s\n", $1, $2}'                           Print with the second column starting at 25 spaces
 awk -F "https://" '{print $2}'                                Use a string as a delimiter, then print the second column
+awk '!/^#/'                                                   Exclude printing lines that begin with #
 
 cut -f 2-                                                     Print from the second column to the end of the line
 cut -d ' ' -f2                                                Cut with a delimiter of a space, then print the second field
@@ -25,6 +26,9 @@ cut -d ' ' -f2-5                                              Cut with a delimit
 cut -d ' ' -f2-                                               Cut with a delimiter of a space, then print the second field to the end
 
 rg -i                                                         Search for a pattern in a case-insensitive way
+rg -A <num>                                                   Print lines after context
+rg -B <num>                                                   Print lines before context
+rg -C <num>                                                   Print lines before and after context
 rg -v -i                                                      Search for lines that do not match the pattern, in a case-insensitive way
 rg -l -i                                                      List only the filenames that contain the matching pattern
 rg -i -l | xargs $EDITOR                                      Find files containing the pattern, and open them with the default editor
