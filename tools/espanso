@@ -1,0 +1,14 @@
+Installation:
+  paru -S espanso-wayland
+  espanso service register
+  espanso start
+  espanso status
+  espanso install typofixer-en
+  espanso install contractions-en
+
+Check path to the config:
+  espanso path
+
+Edit configuration file:
+  espanso edit
+  
