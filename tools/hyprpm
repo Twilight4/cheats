@@ -1,4 +1,5 @@
 Commands:
+  reload                         Reload hyprpm state. Ensure all enabled plugins are loaded.
   hyprpm reload                  Load plugins into Hyprland
   hyprpm disable <name>          Disable plugin
   hyprpm enable <name>           Enable plugin
