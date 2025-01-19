@@ -1,0 +1,13 @@
+shutdown in 10 min:
+  sudo shutdown +10 "System will shut down in 10 minutes for maintenance."
+
+shutdown at specific time:
+  sudo shutdown 22:30
+
+restart system in 5min:
+  sudo shutdown -r +5
+
+shutdown in 2 hours:;
+  sudo shutdown +120
+
+ 
