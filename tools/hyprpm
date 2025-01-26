@@ -1,9 +1,8 @@
 Commands:
-  reload                         Reload hyprpm state. Ensure all enabled plugins are loaded.
-  hyprpm reload                  Load plugins into Hyprland
+  hyprpm reload                  Ensure all enabled plugins are loaded into Hyprland
   hyprpm disable <name>          Disable plugin
   hyprpm enable <name>           Enable plugin
-  hyprctl plugin list            Show loaded plugins
+  hyprctl list                   Show loaded plugins
   hyprpm list                    List all installed plugins
   hyprpm add [url] [git rev]     Install a new plugin repository from git
   hyprpm remove [url/name]       Remove an installed plugin repository
