@@ -1,0 +1,5 @@
+Install packages in package.json file
+npm install
+
+Execute the server.js file which starts the application:
+node server.js

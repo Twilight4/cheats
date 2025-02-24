@@ -1,0 +1,26 @@
+start nginx
+nginx
+
+show config files location
+nginx -V
+
+get options
+nginx -h
+
+restart nginx
+nginx -s reload
+
+stop nginx
+nginx -s stop
+
+print logs
+tail -f /usr/local/var/log/nginx/access.log
+
+create folder for nginx certificates
+mkdir ~/nginx-certs
+cd ~/nginx-certs
+
+create self-signed certificate
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout nginx-selfsigned.key -out nginx-selfsigned.crt
+
+Official NGINX Directives docs: https://nginx.org/en/docs/dirindex.html
