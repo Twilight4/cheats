@@ -1,6 +1,20 @@
+Usage example:
+  docker pull centos
+  docker run -dt --name test centos
+  docker ps
+  docker exec -it test bash
+  docker stop test
+  docker start test
+  docker stats
+  docker run -itd --rm -p 80:80 --name name nginx 
+
 ##############################################################################
 # DOCKER
 ##############################################################################
+# Network
+docker network create <name>                # Create new network bridge
+docker network ls                           # list network bridges
+docker run -itd --rm --network <name> --name name nginx         # Run on the new network
 docker build -t friendlyname .              # Create image using this directory's Dockerfile
 docker run -p 4000:80 friendlyname          # Run "friendlyname" mapping port 4000 to 80
 docker run -d -p 4000:80 friendlyname       # Same thing, but in detached mode
@@ -31,6 +45,7 @@ docker network prune                        # Remove all unused networks
 ##############################################################################
 docker-compose up                               # Create and start containers
 docker-compose up -d                            # Create and start containers in detached mode
+docker-compose ps                               # Show containers only within docker-compose environment
 docker-compose down                             # Stop and remove containers, networks, images, and volumes
 docker-compose logs                             # View output from containers
 docker-compose restart                          # Restart all service
