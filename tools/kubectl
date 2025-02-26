@@ -32,8 +32,6 @@ Show information about pods:
 kubectl describe services <service_name>
 
 
-
-
 List information about a resource with more details:
 kubectl get pod|service|deployment|ingress|... -o wide
 

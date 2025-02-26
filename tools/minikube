@@ -1,0 +1,38 @@
+Docs: https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download
+More information: <https://github.com/kubernetes/minikube>.
+
+Start your cluster:
+minikube start
+
+Start your cluster with docker as driver:
+minikube start --driver docker
+
+Stop the running cluster:
+minikube stop
+
+Delete the cluster:
+minikube delete
+
+Check status of the cluster:
+minikube status
+
+To configure docker environment variables:
+minikube docker-env
+
+To start view the dashboard in a browser:
+minikube dashboard
+
+To list all services:
+minikube service list
+
+To start a service in a browser:
+minikube service <service>
+
+Get the IP address of the cluster:
+minikube ip
+
+Access a service named my_service exposed via a node port and get the URL:
+minikube service my_service --url
+
+Open the Kubernetes dashboard in a browser:
+minikube dashboard
