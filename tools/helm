@@ -1,0 +1,41 @@
+Add a new helm repository:
+helm repo add repository_name
+
+Update helm repositories:
+helm repo update
+
+Delete a helm repository:
+helm repo remove repository_name
+
+List added repositries:
+helm repo ls
+
+Install a helm chart:
+helm install <chart_name>
+
+Ugprade a helm chart:
+helm upgrade <chart_name>
+
+Rollback a helm chart:
+helm rollback <chart_name>
+
+Uninstall a helm chart:
+helm uninstall <release_name>
+
+List helm releases in your environment:
+helm list [flags]
+
+Get status of a release:
+helm status <release>
+
+Search the available chart using the search command:
+helm search <chart_name>
+
+Create a helm chart:
+helm create <chart_name>
+
+Download helm chart as a tar archive:
+helm get <chart_release_name>
+
+Update helm dependencies:
+helm dependency update

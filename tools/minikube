@@ -16,11 +16,11 @@ minikube delete
 Check status of the cluster:
 minikube status
 
+Check version:
+minikube version
+
 To configure docker environment variables:
 minikube docker-env
-
-To start view the dashboard in a browser:
-minikube dashboard
 
 To list all services:
 minikube service list
@@ -28,11 +28,35 @@ minikube service list
 To start a service in a browser:
 minikube service <service>
 
-Get the IP address of the cluster:
-minikube ip
+To get the URL of a specific service:
+minikube service --url <service-name>
 
-Access a service named my_service exposed via a node port and get the URL:
-minikube service my_service --url
+List all the available add-ons:
+minikube addons list
+
+Enable an addon from the list:
+minikube addons enable dashboard
 
 Open the Kubernetes dashboard in a browser:
 minikube dashboard
+
+If you just want the dashboard URL, execute the following command. It will start the proxy and displays the Kubernetes dashboard URL in the output:
+minikube dashboard --url
+
+Get the IP address of the cluster:
+minikube ip
+
+You can have multiple minikube cluster instances in your workstation using minikube profiles. creates a minikube cluster with the profile name dev:
+minikube start -p dev
+
+List all the profiles using the list command:
+minikube profile list
+
+Delete a minikube profile:
+minikube delete -p stage
+
+Switch to the dev profile:
+minikube profile dev
+
+Determine the current profile:
+minikube profile

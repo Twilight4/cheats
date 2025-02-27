@@ -1,0 +1,46 @@
+Usage:  
+  eksctl create cluster [options]
+
+Options:  
+  --name string                    Specify the name of the EKS cluster (e.g., `eks-spot-cluster`).  
+                                   This is a required field.  
+  --region string                  Specify the AWS region where the cluster will be created (e.g., `us-west-2`).  
+                                   This is a required field.  
+  --vpc-id string                  Specify the ID of the existing VPC to use for the cluster (e.g., `vpc-0951fe2c76e36eab9`).  
+                                   If not provided, a new VPC will be created.  
+  --vpc-cidr string                Specify the CIDR block for the VPC (e.g., `10.0.0.0/16`).  
+                                   This is required if a new VPC is being created.  
+  --subnets-public string          Specify a comma-separated list of public subnet IDs (e.g., `subnet-01b8ff5eaa0b39c10,subnet-0e5de906289149fc0`).  
+                                   These subnets must belong to the specified VPC.  
+  --managed                        Create a managed node group for the cluster.  
+                                   This is required for creating managed node groups.  
+  --nodegroup-name string          Specify the name of the managed node group (e.g., `ng-workers` or `ng-spot`).  
+                                   This is required for each node group.  
+  --node-type string               Specify the instance type for the node group (e.g., `t3.small` or `t3.medium`).  
+                                   This is required for each node group.  
+  --nodes-min int                  Specify the minimum number of nodes in the node group (e.g., `2` or `3`).  
+                                   This is required for each node group.  
+  --nodes-max int                  Specify the maximum number of nodes in the node group (e.g., `4` or `6`).  
+                                   This is required for each node group.  
+  --ssh-access                     Enable SSH access to the nodes in the node group.  
+                                   This is optional but recommended for debugging.  
+  --ssh-public-key string          Specify the name of the SSH public key to use for node access (e.g., `techiescamp`).  
+                                   This is required if `--ssh-access` is enabled.  
+  --node-labels string             Specify labels for the nodes in the node group (e.g., `role=workers` or `role=builders`).  
+                                   Labels are key-value pairs used for organizing and selecting nodes.  
+  --node-zones string              Specify the availability zones for the node group (e.g., `us-west-2a,us-west-2b,us-west-2c`).  
+                                   This ensures nodes are distributed across the specified zones.  
+  --tags string                    Specify tags for the node group (e.g., `Name=ng-db` or `Name=ng-spot`).  
+                                   Tags are key-value pairs used for resource management.  
+  --spot                           Use spot instances for the node group.  
+                                   This is optional and can reduce costs but may result in less reliable node availability.  
+  --install-vpc-controllers        Install the AWS EBS CSI driver as an addon.  
+                                   This is required for managing EBS volumes in the cluster.  
+  --install-eks-pod-identity-agent Install the EKS Pod Identity Agent as an addon.  
+                                   This is required for managing pod identities in the cluster.  
+  --auto-apply-pod-identity-associations   Automatically apply pod identity associations.  
+                                   This is optional but recommended for simplifying pod identity management.  
+
+Commands:  
+  create cluster                   Create a new EKS cluster with the specified configuration.  
+  delete cluster                   Delete an existing EKS cluster and associated resources.  
