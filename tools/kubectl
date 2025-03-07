@@ -11,6 +11,11 @@ Usage:
 Example kubectl expose command to quickly create kubernetes services for a deployment:
   kubectl expose deployment my-app --type=NodePort --name=my-service --port=80 --targetport=8080 --nodeport=3000
 
+Rollout commands:
+  kubectl rollout history deployment/<deployment>         Check the history of previous deploys
+  kubectl rollout status deployment/<deployment>          Get the status of your deployment
+  kubectl rollout undo deployment/<deployment name>       Rollback to the previous deployment (shown in the rollout history)
+
 Commands:
   get                     Generally used to get the status of an existing Kubernetes resource
   apply                   Executes manifest files to create, modify K8 resources
