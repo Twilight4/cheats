@@ -1,92 +1,109 @@
-List working nodes:
-kubectl get nodes
+Commands cheatsheet: https://kubernetes.io/docs/reference/kubectl/quick-reference/
+Commands docs: https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands
 
-Print the address of the master and cluster services:
-kubectl cluster-info
+Usage:
+  kubectl [commmand] [type] [name] [flags]
+  [command]               The operation you want to perform
+  [type]                  The resource type you want to command
+  [name]                  Specifies the name of the resource. Names are case-sensitive. If the name is omitted, details for all resources are displayed
+  [flags]                 Specifies optional flags
 
-Create a pod:
-kubectl run <pad_name> --image=<docker_image> --port=80
+Example kubectl expose command to quickly create kubernetes services for a deployment:
+  kubectl expose deployment my-app --type=NodePort --name=my-service --port=80 --targetport=8080 --nodeport=3000
 
-List pods:
-kubectl get pods
+Commands:
+  get                     Generally used to get the status of an existing Kubernetes resource
+  apply                   Executes manifest files to create, modify K8 resources
+  create                  Create specific K8 cluster-level resources: ConfigMap, Deployment, Job, Namespace, Role, Secret
+  delete                  Delete resources filenames, stdin, resources and names, or by resources and label select
+  edit                    Edit a resource from the default editor. Edit a deployed manifest file and apply the changes.
+  expose                  Expose as resource as Kubernetes service
+  describe                Show details of a specific resource or group of resources
+  annotation              key value data that can be applied to resources
+  auth                    Inspect if you are authorized to perform an action
+  autoscale               Create an autoscaler that automatically chooses and sets the number of pods that run in a Kubernetes cluster
+  cp                      Copy files and directories to and from containers
+  diff                    diffs the online configuration with local config
+  exec                    Execute a command within a container
+  kustomize               Print a set of API resources generated from instructions in a kustomization.yaml file
+  label                   update labels on a resource
+  logs                    print the logs for a container in a pod or specific resource
+  patch                   Update fields of a resource using strategic merge patch, a JSON merge patch, or a JSON patch
+  port                    orward — Forward one or more local ports to a pod.
+  proxy                   Creates a proxy server between localhost and the Kubernetes API Server
+  run                     Create and run a container image in a pod
+  scale                   Set a new size for a Deployment, ReplicaSet, Replication Controller, or StatefulSet
+  cluster-info            Print the address of the master and cluster services
+  api-resources           To display complete list of supported resources
+  explain                 To display an explanation of a specific resource
+  options                 To display list of global command-line options
+  top pod|node            Display resource (CPU/Memory/Storage) usage of nodes or pods
 
-Delete pod:
-kubectl delete pods <pad_name>
+Types:
+  all
+  nodes --> no
+  bindings
+  componentstatuses --> cs
+  configmaps --> cm
+  endpoints --> ep
+  events --> ev
+  limitranges --> limits
+  namespaces --> ns
+  persistentvolumeclaims --> pvc
+  persistentvolumes --> pv
+  pods --> po
+  podtemplates
+  replicationcontrollers --> rc
+  resourcequotas --> quota
+  secrets
+  serviceaccounts --> sa
+  services --> svc
+  mutatingwebhookconfigurations
+  validatingwebhookconfigurations
+  customresourcedefinitions --> crd
+  apiservices
+  controllerrevisions
+  daemonsets --> ds
+  deployments --> deploy
+  replicasets --> rs
+  satefulsets --> sts
+  tokenreviews
+  localsubjectaccessreviews
+  selfsubjectaccessreviews
+  selfsubjectrulesreviews
+  subjectaccessreviews
+  horizontalpodautoscalers
+  cronjobs --> cj
+  jobs
+  certificatesigningrequests --> csr
+  leases
+  endpointslices
+  events --> ev
+  ingresses --> ing
+  flowschemas
+  prioritylevelconfigurations
+  ingressclasses
+  networkpolicies --> netpol
+  runtimeclasses
+  poddisruptionbudgets --> pdb
+  podsecuritypolicies --> psp
+  clusterrolebindings
+  clusterroles
+  rolebindings
+  roles
+  priorityclasses --> pc
+  csidrivers
+  csinodes
+  storageclasses --> sc
+  volumeattachments
 
-Delete deployment:
-kubectl delete deployment <deployment_name>
-
-Delete file from kubernetes:
-kubectl delete -f <file_name>
-
-Show information about pods:
-kubectl describe pods
-
-Deploy the deployment file:
-kubectl apply -f <deployment_file>.yaml
-
-List deployment files:
-kubectl get deployments
-
-Edit the deployment file:
-kubectl edit <deployment_file>
-
-List services:
-kubectl get svc
-
-Show information about pods:
-kubectl describe services <service_name>
-
-List all resources with different types:
-kubectl get all
-
-To display all resources in all namespaces:
-kubectl get all -A
-
-Display configmap information:
-kubectl get configmap
-
-Display secret information:
-kubectl get secret
-
-Print the logs for a container in a pod or specified resource:
-kubectl logs <pod_name>
-
-Stream the logs for a container in a pod or specified resource:
-kubectl logs <pod_name> -f
-
-List information about a resource with more details:
-kubectl get pod|service|deployment|ingress|... -o wide
-
-To display complete list of supported resources:
-kubectl api-resources
-
-To display an explanation of a specific resource:
-kubectl explain resource_name
-
-To display an explanation of a specific field of resource:
-kubectl explain resource_name.field_name
-
-To display list of global command-line options:
-kubectl options
-
-To set up `kubectl` autocomplete in bash (press Tab to use):
-source <(kubectl completion bash)
-
-To order events by `creationTimestamp`:
-kubectl get events --sort-by='.metadata.creationTimestamp'
-
-To switch context of a specific cluster:
-kubectl config use-context CONTEXT_NAME [options]
-
-Update specified pod with the label 'unhealthy' and the value 'true':
-kubectl label pods name unhealthy=true
-
-Display resource (CPU/Memory/Storage) usage of nodes or pods:
-kubectl top pod|node
-
-Display an explanation of a specific field:
-kubectl explain pods.spec.containers
-
-Run command in an existing pod:
-kubectl exec pod_name -- ls /
+Flags:
+  -o wide        List information about a resource with more details
+  -A             (used with ex. 'kubectl get all -A') - more information
+  -f             Specify file name
+  --sort-by='.metadata.creationTimestamp'      To order events by creationTimestamp
+  --type
+  --name
+  --port
+  --targetport
+  --nodeport

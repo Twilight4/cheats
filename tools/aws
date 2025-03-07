@@ -47,3 +47,22 @@ aws s3 sync <source> <target>
 ##           aws s3 sync s3://bucket_1 s3://bucket_2
 Sync all contents from source to target, but this will remove all missing files and objects from the target that are not present in source:
 aws s3 sync <source> <target> --delete
+
+#CloudFormation
+Create a CloudFormation stack:
+aws cloudformation create-stack --stack-name MyNewStack --template-body file://template.yaml
+
+Monitor the stack creation process by checking the stack status:
+aws cloudformation describe-stacks --stack-name MyNewStack --query "Stacks[0].StackStatus"
+
+Retrieve the stack outputs to confirm the S3 bucket was created successfully:
+aws cloudformation describe-stacks --stack-name MyNewStack --query "Stacks[0].Outputs"
+
+Update the stack using the following command:
+aws cloudformation update-stack --stack-name MyNewStack --template-body file://template.yaml
+
+Delete the CloudFormation stack:
+aws cloudformation delete-stack --stack-name MyNewStack
+
+Verify the stack deletion is complete by checking the status:
+aws cloudformation describe-stacks --stack-name MyNewStack
