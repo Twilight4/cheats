@@ -1,22 +1,17 @@
-Usage example:
-  docker pull centos
-  docker run -dt --name test centos
-  docker ps
-  docker exec -it test bash
-  docker stop test
-  docker start test
-  docker stats
-  docker run -itd --rm -p 80:80 --name name nginx 
-
-General Commands:
+Common Commands:
+  pull                                 Pull all image service 
+  run -dt --name <name> <image>        Start the container
+  run -itd --rm -p 80:80 --name <name> nginx   Start the nginx image container and expose on port 80
   ps                                   See a list of all running containers
   ps -a                                See a list of all containers, even the ones not running
   stop <hash>                          Gracefully stop the specified container
+  start <hash>                         Start the specified container
   kill <hash>                          Force shutdown of the specified container
   rm <hash>                            Remove the specified container from this machine
   rm -f <hash>                         Remove force specified container from this machine
   rm $(docker ps -a -q)                Remove all containers from this machine
   exec -it [container-id] bash         Enter a running container
+  stats                                Show containers stats
   logs <container-id> -f               Live tail a container's logs
   login                                Log in this CLI session using your Docker credentials
 
