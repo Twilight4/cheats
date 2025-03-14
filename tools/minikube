@@ -1,4 +1,4 @@
-Docs: https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download
+Docs/Installation: https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download
 More information: <https://github.com/kubernetes/minikube>.
 
 Start your cluster:

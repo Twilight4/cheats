@@ -11,6 +11,9 @@ Usage:
 Example kubectl expose command to quickly create kubernetes services for a deployment:
   kubectl expose deployment my-app --type=NodePort --name=my-service --port=80 --targetport=8080 --nodeport=3000
 
+Example kubectl interactive shell access to a running pod (1 container case):
+  kubectl exec --stdin --tty my-pod -- /bin/bash
+
 Rollout commands:
   kubectl rollout history deployment/<deployment>         Check the history of previous deploys
   kubectl rollout status deployment/<deployment>          Get the status of your deployment
@@ -57,6 +60,7 @@ Types:
   persistentvolumeclaims --> pvc
   persistentvolumes --> pv
   pods --> po
+  hpa
   podtemplates
   replicationcontrollers --> rc
   resourcequotas --> quota
