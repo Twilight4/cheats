@@ -2,6 +2,7 @@
 aws help
 aws --version     # Show the current AWS CLI version
 aws configure     # Configure your AWS Key ID, AWS Secret, default region and default output format for the AWS CLI
+aws configure list     # Show your auth options
 aws configure --profile <profile_name> # Configure using the profile name. By default, the list of profile is stored in ~/.aws.credentials (Linux and MacOS)
 
 # EC2

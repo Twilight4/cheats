@@ -1,3 +1,9 @@
+Scripts:
+  da                                   Select a docker container to start and attach to
+  ds                                   Select a running docker container to stop
+  drm                                  Select a docker container to remove
+  drmi                                 Select a docker image or images to remove
+
 Common Commands:
   pull                                 Pull all image service 
   run -dt --name <name> <image>        Start the container

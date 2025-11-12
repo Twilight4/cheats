@@ -1,0 +1,46 @@
+Scripts:
+  fgs
+  fgl
+  fgm
+  fgb
+  fgcom
+  gitnewrepo
+  reposize
+  gcl
+
+Common Commands:
+  git init                            # Initialize git repo
+  git status                          # status of changes
+  git add *                           # add all files
+  git commit -m "message"             # commit changes
+  git remote add origin <url_to_github_repo>      # Sync to the remote repository 
+  git push origin <branch_name ex. master>           # push changes to branch master
+  git pull origin <branch_name ex. master> <or_URL>     # pull changes from remote to master branch
+  git diff <commit_id_1> <commit_id_2>     # View changes of the commit
+  git retrieve <commit_id>           # revert a commit to a previous version (git log)
+  git checkout <commit_id>           # open the commit version
+  git log                             # view log changes
+
+Branching:
+  git branch                          # List branches
+  git branch <new_of_new_branch>      # Create a new branch
+  git branch -D <branch_name>         # Delete branch
+  git checkout <branch_name>          # Switch to other branch
+
+Stash:
+  git stash                           # Save changes (tracked files) to a new stash
+  git stash -u                        # Save changes including untracked files
+  git stash -a                        # Save all changes including ignored files
+  git stash list                      # List all stashes
+  git stash show                      # Show summary of most recent stash
+  git stash show -p                   # Show full diff of most recent stash
+  git stash apply                     # Apply most recent stash without removing it
+  git stash pop                       # Apply and remove the most recent stash
+  git stash drop                      # Delete most recent stash
+  git stash clear                     # Remove all stashes
+  git stash branch <branch_name>      # Create new branch from a stash and apply it
+  git stash push -m "message"         # Save stash with a custom message
+
+Merging:
+  
+Workflows:
