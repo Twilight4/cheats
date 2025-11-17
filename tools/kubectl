@@ -14,6 +14,9 @@ Example kubectl expose command to quickly create kubernetes services for a deplo
 Example kubectl interactive shell access to a running pod (1 container case):
   kubectl exec --stdin --tty my-pod -- /bin/bash
 
+View your cluster information:
+  kubectl config view --minify --flatten --context=<NAME>
+
 Rollout commands:
   kubectl rollout history deployment/<deployment>         Check the history of previous deploys
   kubectl rollout status deployment/<deployment>          Get the status of your deployment
