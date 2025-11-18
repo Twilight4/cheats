@@ -86,6 +86,7 @@ Types:
   subjectaccessreviews
   horizontalpodautoscalers
   cronjobs --> cj
+  crontabs --> ct
   jobs
   certificatesigningrequests --> csr
   leases
