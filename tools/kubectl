@@ -15,7 +15,7 @@ Example kubectl interactive shell access to a running pod (1 container case):
   kubectl exec --stdin --tty my-pod -- /bin/bash
 
 View your cluster information:
-  kubectl config view --minify --flatten --context=<NAME>
+  kubectl config view --minify --flatten --context=<minikube/kind>
 
 Rollout commands:
   kubectl rollout history deployment/<deployment>         Check the history of previous deploys
