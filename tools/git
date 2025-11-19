@@ -13,9 +13,10 @@ Common Commands:
   git status                          # status of changes
   git add *                           # add all files
   git commit -m "message"             # commit changes
-  git remote add origin <url_to_github_repo>      # Sync to the remote repository 
-  git push origin <branch_name ex. master>           # push changes to branch master
-  git pull origin <branch_name ex. master> <or_URL>     # pull changes from remote to master branch
+  git remote add origin <git@github.com:name/repo.git>      # Set a new repo
+  git branch -M main                  # set default branch to main
+  git push -u origin <branch_name ex. master>              # push changes to branch master
+  git pull -u origin <branch_name ex. master> <or_URL>     # pull changes from remote to master branch
   git diff <commit_id_1> <commit_id_2>     # View changes of the commit
   git retrieve <commit_id>           # revert a commit to a previous version (git log)
   git checkout <commit_id>           # open the commit version
