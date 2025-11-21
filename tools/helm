@@ -13,6 +13,7 @@ Repository:
 Helm charts management:
   helm install <chart_name>                Install a helm chart
   helm upgrade <chart_name>                Ugprade a helm chart
+  helm upgrade --install <chart_name>      Ugprade a helm chart (manage the existing resources instead of creating duplicates)
   helm rollback <chart_name>               Rollback a helm chart
   helm uninstall <release_name>            Uninstall a helm chart
 

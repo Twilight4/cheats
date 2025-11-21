@@ -111,9 +111,10 @@ Types:
   volumeattachments
 
 Flags:
-  -o wide        List information about a resource with more details
+  -o wide/yaml   List information about a resource with more details
   -A             (used with ex. 'kubectl get all -A') - more information
   -f             Specify file name
+  --all          all used for ex. delete pods --all
   --sort-by='.metadata.creationTimestamp'      To order events by creationTimestamp
   --type
   --name
