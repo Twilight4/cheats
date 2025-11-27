@@ -17,6 +17,12 @@ Example kubectl interactive shell access to a running pod (1 container case):
 View your cluster information:
   kubectl config view --minify --flatten --context=<minikube/kind>
 
+Kubectl top fix: (metrics API not available):
+  kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+                                              Run this for minikube
+  kubectl get apiservice | rg metrics         Needs to be set to "True"
+  top pod|node                                Display resource (CPU/Memory/Storage) usage of nodes or pods
+
 Rollout commands:
   kubectl rollout history deployment/<deployment>         Check the history of previous deploys
   kubectl rollout status deployment/<deployment>          Get the status of your deployment
@@ -28,66 +34,74 @@ Commands:
   create                  Create specific K8 cluster-level resources: ConfigMap, Deployment, Job, Namespace, Role, Secret
   delete                  Delete resources filenames, stdin, resources and names, or by resources and label select
   edit                    Edit a resource from the default editor. Edit a deployed manifest file and apply the changes.
+  cluster-info            Print the address of the master and cluster services
+  run                     Create and run a container image in a pod
   expose                  Expose as resource as Kubernetes service
   describe                Show details of a specific resource or group of resources
+  explain                 To display an explanation of a specific resource
+  options                 To display list of global command-line options
+  port-forward <POD_NAME> <LOCAL_PORT>/<CONTAINER_PORT>            Forward one or more local ports to a pod
+  exec -it <POD_NAME> -- sh   Execute a command within a container
   annotation              key value data that can be applied to resources
   auth                    Inspect if you are authorized to perform an action
   autoscale               Create an autoscaler that automatically chooses and sets the number of pods that run in a Kubernetes cluster
-  cp                      Copy files and directories to and from containers
+  cp <POD_NAME>:<PATH>    Copy files and directories to and from containers
   diff                    diffs the online configuration with local config
-  exec                    Execute a command within a container
   kustomize               Print a set of API resources generated from instructions in a kustomization.yaml file
   label                   update labels on a resource
   logs                    print the logs for a container in a pod or specific resource
   patch                   Update fields of a resource using strategic merge patch, a JSON merge patch, or a JSON patch
   port                    orward — Forward one or more local ports to a pod.
   proxy                   Creates a proxy server between localhost and the Kubernetes API Server
-  run                     Create and run a container image in a pod
   scale                   Set a new size for a Deployment, ReplicaSet, Replication Controller, or StatefulSet
-  cluster-info            Print the address of the master and cluster services
   api-resources           To display complete list of supported resources
-  explain                 To display an explanation of a specific resource
-  options                 To display list of global command-line options
-  top pod|node            Display resource (CPU/Memory/Storage) usage of nodes or pods
 
-Types:
+Types - common:
   all
   nodes --> no
-  bindings
-  componentstatuses --> cs
+  pods --> po
+  podsecuritypolicies --> psp
+  hpa
+  deployments --> deploy
+  services --> svc
+  secrets
+  satefulsets --> sts
+  jobs
+  namespaces --> ns
+  replicasets --> rs
+  cronjobs --> cj
+  crontabs --> ct
+  storageclasses --> sc
+  networkpolicies --> netpol
+  persistentvolumeclaims --> pvc
+  persistentvolumes --> pv
   configmaps --> cm
+  volumeattachments
+
+Types - less common:
+  bindings
+  clusterrolebindings
+  rolebindings
+  componentstatuses --> cs
   endpoints --> ep
   events --> ev
   limitranges --> limits
-  namespaces --> ns
-  persistentvolumeclaims --> pvc
-  persistentvolumes --> pv
-  pods --> po
-  hpa
   podtemplates
   replicationcontrollers --> rc
   resourcequotas --> quota
-  secrets
   serviceaccounts --> sa
-  services --> svc
   mutatingwebhookconfigurations
   validatingwebhookconfigurations
   customresourcedefinitions --> crd
   apiservices
   controllerrevisions
   daemonsets --> ds
-  deployments --> deploy
-  replicasets --> rs
-  satefulsets --> sts
   tokenreviews
   localsubjectaccessreviews
   selfsubjectaccessreviews
   selfsubjectrulesreviews
   subjectaccessreviews
   horizontalpodautoscalers
-  cronjobs --> cj
-  crontabs --> ct
-  jobs
   certificatesigningrequests --> csr
   leases
   endpointslices
@@ -96,23 +110,18 @@ Types:
   flowschemas
   prioritylevelconfigurations
   ingressclasses
-  networkpolicies --> netpol
   runtimeclasses
   poddisruptionbudgets --> pdb
-  podsecuritypolicies --> psp
-  clusterrolebindings
   clusterroles
-  rolebindings
   roles
   priorityclasses --> pc
   csidrivers
   csinodes
-  storageclasses --> sc
-  volumeattachments
 
 Flags:
   -o wide/yaml   List information about a resource with more details
   -A             (used with ex. 'kubectl get all -A') - more information
+  -w             Wait - give updating output as changes are made
   -f             Specify file name
   --all          all used for ex. delete pods --all
   --sort-by='.metadata.creationTimestamp'      To order events by creationTimestamp
@@ -121,3 +130,7 @@ Flags:
   --port
   --targetport
   --nodeport
+
+Kubectl logs:
+  kubectl logs <POD_NAME>          Show logs of the first listed container in the config of this pod
+  -c <CONTAINER_NAME>              Specify a container to show the logs for
