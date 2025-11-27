@@ -8,6 +8,14 @@ Usage:
   [name]                  Specifies the name of the resource. Names are case-sensitive. If the name is omitted, details for all resources are displayed
   [flags]                 Specifies optional flags
 
+Example kubectl command to showcase the usage of labels:
+  kubectl label pod <POD_NAME> alta3=awesome
+  kubectl label pod <POD_NAME> alta3=training --overwrite
+  kubectl label pod <POD_NAME> alta3-
+  kubectl get po --show-labels
+  kubectl get po -L alta3
+  kubectl get po --selector=alta3=awesome
+
 Example kubectl expose command to quickly create kubernetes services for a deployment:
   kubectl expose deployment my-app --type=NodePort --name=my-service --port=80 --targetport=8080 --nodeport=3000
 
@@ -48,7 +56,7 @@ Commands:
   cp <POD_NAME>:<PATH>    Copy files and directories to and from containers
   diff                    diffs the online configuration with local config
   kustomize               Print a set of API resources generated from instructions in a kustomization.yaml file
-  label                   update labels on a resource
+  label                   Update labels on a resource
   logs                    print the logs for a container in a pod or specific resource
   patch                   Update fields of a resource using strategic merge patch, a JSON merge patch, or a JSON patch
   port                    orward — Forward one or more local ports to a pod.
@@ -123,6 +131,7 @@ Flags:
   -A             (used with ex. 'kubectl get all -A') - more information
   -w             Wait - give updating output as changes are made
   -f             Specify file name
+  -L             Add a column where at the top we have the key of the label
   --all          all used for ex. delete pods --all
   --sort-by='.metadata.creationTimestamp'      To order events by creationTimestamp
   --type
@@ -131,6 +140,9 @@ Flags:
   --targetport
   --nodeport
 
-Kubectl logs:
+Logs:
   kubectl logs <POD_NAME>          Show logs of the first listed container in the config of this pod
   -c <CONTAINER_NAME>              Specify a container to show the logs for
+  --all-containers                 Show logs for all containers
+  -f                               Show a stream
+  --since 10s                      Show logs from last 10sec
