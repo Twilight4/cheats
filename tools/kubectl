@@ -16,6 +16,9 @@ Example kubectl command to showcase the usage of labels:
   kubectl get po -L alta3
   kubectl get po --selector=alta3=awesome
 
+Example kubectl command to quickly create a deployment:
+  kubectl create deployment demo-deploy --image=nginx --port=80 --replicas=3
+
 Example kubectl expose command to quickly create kubernetes services for a deployment:
   kubectl expose deployment my-app --type=NodePort --name=my-service --port=80 --targetport=8080 --nodeport=3000
 
@@ -29,7 +32,7 @@ Kubectl top fix: (metrics API not available):
   kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
                                               Run this for minikube
   kubectl get apiservice | rg metrics         Needs to be set to "True"
-  top pod|node                                Display resource (CPU/Memory/Storage) usage of nodes or pods
+  kubectl top pod|node                        Display resource (CPU/Memory/Storage) usage of nodes or pods
 
 Rollout commands:
   kubectl rollout history deployment/<deployment>         Check the history of previous deploys

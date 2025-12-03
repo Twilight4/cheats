@@ -4,6 +4,14 @@ Scripts:
   drm                                  Select a docker container to remove
   drmi                                 Select a docker image or images to remove
 
+Example to build multiarch images:
+  docker buildx build \
+	--platform linux/amd64,linux/arm64,linux/arm/v7 \
+	--secret id=secret.txt,src=local-secret.txt \
+	-t sidpalas/multi-arch-test:latest \
+	-f Dockerfile.sample \
+	--push .
+
 Common Commands:
   pull                                 Pull all image service 
   run -dt --name <name> <image>        Start the container
