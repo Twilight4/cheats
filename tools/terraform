@@ -8,6 +8,7 @@ Commands:
   terraform state list                 Print out the list of your workspaces current state
   terraform show                       Print out your workspace's entire state
   terraform output                     Review your output values
+  terraform providers                  Show providers required by current configuration
 
 # To upgrade your [Terraform providers](https://www.terraform.io/docs/providers/index.html), which are distributed separately from the Terraform binary.
 terraform init -upgrade

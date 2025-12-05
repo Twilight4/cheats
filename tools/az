@@ -1,0 +1,77 @@
+Basic commands:
+  az login           Log in to Azure
+  az account         Manage azure subscription information
+  az disk list       List all Azure Managed Disks
+  az vm list         List all Azure virtual machines
+  az aks             Manage Azure Kubernetes Services
+  az network         Manage Azure Network resources
+  az image list --output table         Show own images
+  az disk list --output table         Show disks
+  az account list-locations --output table        List supported regions for the current subscription.
+
+Subscription:
+  az account list             Get a list of subscriptions for the logged in account
+  az account show             Get the details of a subscription
+  az account set --subscription <mysubscription>    Set a subscription to be the current active subscription
+
+VMs management:
+  az vm list --output table                                              In table output
+  az vm list -d --query "[?powerState=='VM running']" --output table     List only VMs having distinct state
+  az vm delete -g MyRG -n MyLinuxVM --yes                                Delete VM (with the name MyLinuxVM in the group MyRG)
+  az vm delete --ids $(az vm list -g MyRG --query "[].id" -o tsv)        Delete all VMs in a resource group
+
+Storage management:
+  az storage account list --output table                                              Show storage accounts
+  az storage container list --account-name mystorageaccount --output table            Show containers for an account
+  az storage blob list --account-name mystorageaccount \
+    --container-name mycontainer  --output table                                      Show blobs in a container
+  az storage account keys list  --account-name STORAGE_NAME --resource-group RESOURCE_GROUP            List account keys
+  az configure --defaults location=eastus2                                            Configure default storage location
+
+Network management:
+  az network vnet list --output table                  List virtual networks
+  az network nic list --output table                   List virtual networks adapters
+  az vm list-ip-addresses --output table               List public IP addresses used by the VMs
+
+Common commands:
+  az snapshot create --resource-group IC-EXASOL-001 --source vm1-disk1 -n vm1-snap1         Create snapshot
+  az snapshot grant-access --resource-group IC-EXASOL-001 --name vm1-snap1\
+    --duration-in-seconds 36000 --query '[accessSas]' -o tsv                                Create SAS url for a snapshot
+  az vm disk attach --vm-name vm1 -g RESOURCE_GROUP --disk DISK1_ID                         Attach disk
+  az vm disk detach --vm-name vm1 -g RESOURCE_GROUP --name DISK1_ID                         Detach disk
+  az vm open-port --resource-group MyRG --name MyLinuxVM --port 443 --priority 899          Open port
+
+Copy blob:
+  az storage blob copy start \
+    --source-uri 'https://xxx.blob.core.windows.net/jzwuuuzzapn0/abcd?...' \
+    --account-key XXXXXXXXXX== \
+    --account-name destaccount \
+    --destination-container vms \
+    --destination-blob DESTINATION-blob.vhd
+
+Create an Image based on a running VM:
+  az vm deallocate -g MyRG -n MyLinuxVM
+  az vm generalize -g MyRG -n MyLinuxVM
+  az image create --resource-group MyRG --name MyTestImage --source MyLinuxVM
+
+Check all users in the Azure AD tenant:
+  az ad user list -o table
+
+Create a resource group named MyRG in the westus2 region:
+  az group create -n MyRG -l westus2
+
+Create a Linux VM using the UbuntuTLS image, with two attached storage disks of 10 GB and 20 GB:
+  az vm create -n MyLinuxVM -g MyRG \
+    --ssh-key-value $HOME/.ssh/id_rsa.pub --image UbuntuLTS \
+    --data-disk-sizes-gb 10 20
+
+Running VM based on a VHD:
+  az storage blob upload --account-name "${account_name}"  \
+   --account-key "${account_key}" --container-name "${container}" --type page \
+   --file "${file}" --name "${vhd}"
+  az disk create \
+   --resource-group "${resource_group}" \
+   --name myManagedDisk \
+   --source "https://${account_name}.blob.core.windows.net/${container}/${vhd}"
+
+
