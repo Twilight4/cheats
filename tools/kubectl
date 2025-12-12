@@ -23,7 +23,8 @@ Example kubectl expose command to quickly create kubernetes services for a deplo
   kubectl expose deployment my-app --type=NodePort --name=my-service --port=80 --targetport=8080 --nodeport=3000
 
 Example kubectl interactive shell access to a running pod (1 container case):
-  kubectl exec --stdin --tty my-pod -- /bin/bash
+  kubectl exec --stdin --tty <POD_NAME> -- /bin/bash
+  kubectl exec -it <POD_NAME> -- wget -qO- http://localhost:3000/health
 
 View your cluster information:
   kubectl config view --minify --flatten --context=<minikube/kind>
@@ -38,6 +39,7 @@ Rollout commands:
   kubectl rollout history deployment/<deployment>         Check the history of previous deploys
   kubectl rollout status deployment/<deployment>          Get the status of your deployment
   kubectl rollout undo deployment/<deployment name>       Rollback to the previous deployment (shown in the rollout history)
+  kubectl rollout restart deployment/<deployment name>    Restart deployment
 
 Commands:
   get                     Generally used to get the status of an existing Kubernetes resource
@@ -51,7 +53,7 @@ Commands:
   describe                Show details of a specific resource or group of resources
   explain                 To display an explanation of a specific resource
   options                 To display list of global command-line options
-  port-forward <POD_NAME> <LOCAL_PORT>/<CONTAINER_PORT>            Forward one or more local ports to a pod
+  port-forward svc/<SERVICE_NAME> <LOCAL_PORT>/<CONTAINER_PORT>            Forward one or more local ports to a pod
   exec -it <POD_NAME> -- sh   Execute a command within a container
   annotation              key value data that can be applied to resources
   auth                    Inspect if you are authorized to perform an action

@@ -1,8 +1,8 @@
 Commands:
   terraform init                       Initialize this configuration
-  terraform plan                       Generate and show an execution plan
   terraform fmt                        Reformat configuration in the standard style
   terraform validate                   Check whether the configuration is valid
+  terraform plan                       Generate and show an execution plan
   terraform apply                      Apply terraform configuration
   terraform destroy                    Delete applied terraform configuration
   terraform state list                 Print out the list of your workspaces current state

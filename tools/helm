@@ -4,11 +4,39 @@ Examples:
   helm upgrade my-micro charts/microservices -n demo
   helm uninstall my-micro -n demo
 
+Options:
+  -f                   Specify values.yaml file
+  -n                   Specify namespace
+  -A                   List releases across all namespaces
+  --create-namespace   Create specified namespace when installing chart
+
+Common commands:
+  helm repo add https://charts.bitnami.com/bitnami         Adds the Bitnami chart repository to Helm's local list of chart repositories
+  helm search bitnami/postgresql --versions                Searches for available charts within the Bitnami repository for PostgreSQL
+  helm pull                              Downloads the PostgreSQL chart locally
+  helm show values <helm_chart>          Displays the default values used by the chart
+  helm install                           Installs the PostgreSQL chart into a Kubernetes cluster
+  helm upgrade                           Upgrades the deployed PostgreSQL release to a newer chart version
+  helm rollback                          Rolls back the PostgreSQL release to a previous version
+  helm list                              Lists Helm releases deployed in the Kubernetes cluster
+  helm get values                        Retrieves the values used for the deployed release
+  helm get manifests                     Shows the Kubernetes manifests of the deployed release
+
+OCI Registry usage commands:
+  helm registry login registry-1.docker.io                                               Login to OCI registry (Use your dockerhub username and password)
+  oras repo tags registry-1.docker.io/twilight4/movie-api                                Searches for tags in an OCI-compliant registry
+  helm package ./<CHART_NAME>                                                            Bundle helm chart as a .tgz OCI image
+  helm push <ARCHIVED_DIR> oci://registry-1.docker.io/twilight4                          Push the helm chart to an oci registry
+  helm pull oci://registry-1.docker.io/<USERNAME>/<CHART_NAME> --version=<VERSION>       Pull movie-review chart from Dockerhub repository
+  tar -xzf movie-review-<VERSION>.tgz                                                    Untar movie-review chart
+  helm show values oci://registry-1.docker.io/<USERNAME>/<CHART_NAME> --version 0.1.0    Show values for PostgreSQL chart
+
 Repository:
-  helm repo add repository_name            Add a new helm repository
-  helm repo update                         Update helm repositories
-  helm repo remove repository_name         Delete a helm repository
-  helm repo ls                             List added repositries
+  helm repo add <repository_name>          Add a new helm repository
+  helm repo list/ls                        List chart repositories
+  helm repo remove                         Remove one or more chart repositories
+  helm repo update                         Update information of available charts locally from chart repositories
+  helm repo remove <repository_name>       Delete a helm repository
 
 Helm charts management:
   helm install <chart_name>                Install a helm chart
@@ -18,7 +46,6 @@ Helm charts management:
   helm uninstall <release_name>            Uninstall a helm chart
 
 Misc:
-  helm list [flags]                        List helm releases in your environment
   helm status <release>                    Get status of a release
   helm search <chart_name>                 Search the available chart using the search command
   helm create <chart_name>                 Create a helm chart

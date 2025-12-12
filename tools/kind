@@ -4,10 +4,10 @@ Usage:
   kind [command] [flags]
 
 Options:
-  create cluster --name cluster_name         Create a local Kubernetes cluster:
-  delete clusters cluster_name               Delete one or more clusters:
-  get clusters|nodes|kubeconfig             Get details about clusters, nodes, or the kubeconfig:
-  export kubeconfig|logs                     Export the kubeconfig or the logs:
+  create cluster --name cluster_name         Create a local Kubernetes cluster
+  delete clusters cluster_name               Delete one or more clusters
+  get clusters|nodes|kubeconfig              Get details about clusters, nodes, or the kubeconfig
+  export kubeconfig|logs                     Export the kubeconfig or the logs
 
 Check info with kubectl:
   kubectl cluster-info --context kind-kind

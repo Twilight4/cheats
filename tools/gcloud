@@ -1,0 +1,26 @@
+Common commands:
+  gcloud init                                      Authenticate and configure the gcloud CLI
+  gcloud auth login                                Log in to Google account
+  gcloud config list                               List all properties in one's active configuration
+  gcloud config configurations list                Show configuration for current project
+  gcloud projects list                             List projects accessible by the active account
+  gcloud config set compute/region <GCP_REGION>    Set default region
+  gcloud config set compute/zone <GCP_ZONE>        Set default zone
+  gcloud projects create <PROJECT_NAME>            Create new project
+  gcloud config set project <PROJECT_NAME>         Set the active project
+
+Compute:
+  gcloud compute ssh user@instance        SSH into a virtual machine instance 
+  gcloud compute instances list           Display all Google Compute Engine instances in a project. Instances from all zones are listed by default
+
+Connect to the cluster:
+  gcloud container clusters get-credentials <CLUSTER_NAME> --region <REGION> --project <PROJECT_ID>
+
+Update a kubeconfig file with the appropriate credentials to point kubectl to a specific cluster in Google Kubernetes Engine:
+  gcloud container clusters get-credentials cluster_name
+
+Update all gcloud CLI components:
+  gcloud components update
+
+Show help for a given command:
+  gcloud help command

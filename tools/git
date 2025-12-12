@@ -28,6 +28,13 @@ Branching:
   git branch -D <branch_name>         # Delete branch
   git checkout <branch_name>          # Switch to other branch
 
+Restore:
+  git restore <path-to-file>          # Restore the deleted file 
+  git restore .                       # Restore all deleted/untracked changes
+  git reset --soft HEAD~1             # Undo the last commit but keep the changes
+  git reset --hard HEAD~1             # Undo the last commit and discard deletion (restore the files)
+  git restore --source=<commit-hash> <file-path>       # restore a specific deleted file from the previous commit
+
 Stash:
   git stash                           # Save changes (tracked files) to a new stash
   git stash -u                        # Save changes including untracked files
