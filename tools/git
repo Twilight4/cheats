@@ -27,6 +27,7 @@ Branching:
   git branch <new_of_new_branch>      # Create a new branch
   git branch -D <branch_name>         # Delete branch
   git checkout <branch_name>          # Switch to other branch
+  git checkout -b <branch_name>       # Switch and create a new branch
 
 Restore:
   git restore <path-to-file>          # Restore the deleted file 
