@@ -30,7 +30,7 @@ Branching:
   git checkout -b <branch_name>       # Switch and create a new branch
 
 Restore:
-  git restore <path-to-file>          # Restore the deleted file 
+  git restore <path-to-file>          # Restore/revert the change of the deleted/changed file 
   git restore .                       # Restore all deleted/untracked changes
   git reset --soft HEAD~1             # Undo the last commit but keep the changes
   git reset --hard HEAD~1             # Undo the last commit and discard deletion (restore the files)
