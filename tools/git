@@ -38,6 +38,7 @@ Restore:
 
 Stash:
   git stash                           # Save changes (tracked files) to a new stash
+  git stash push -m 'message' src/config.js     # Stash a specific file with a message
   git stash -u                        # Save changes including untracked files
   git stash -a                        # Save all changes including ignored files
   git stash list                      # List all stashes

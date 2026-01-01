@@ -1,0 +1,9 @@
+Log out:
+  acli rovodev auth logout
+
+Log in and enter your API token:
+  acli rovodev auth login
+
+Run Rovo Dev CLI and follow the setup steps:
+  acli rovodev run
+
