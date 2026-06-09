@@ -8,26 +8,58 @@ Scripts:
   reposize
   gcl
 
+Aliases:
+  gconfig="git config --list"
+  gd='git diff'
+  gdif="git diff --no-index"                        # Diff two files even if not in git repo! Can add -w (don't diff whitespaces)
+  gshow='git show'                                  # gshow <commit_id> - show diff from commit
+  gdiff="git difftool --no-symlinks --dir-diff"
+  diffbin="cmp"
+  gs='git status'
+  gss='git status -s'
+  grs='git restore --staged'                        #grs <file> - remove from staging area
+  gr='git restore'                                  #gr <file> - restore accidentally removed file
+  greset='git reset'                                #greset <commit_id> - reset to change from commit
+  greseth='git reset --hard'                        #greseth <commit_id> - reset change in cwd
+  gl='git log --pretty=oneline'
+  glog='git log --graph --abbrev-commit --oneline --decorate'
+  gj="git-jump"                                     # Open in vim quickfix list files of interest (git diff, merged...)
+  gc="git clone --depth 1"                          # have 'gcl' function
+  gci="cloneit"
+  rmgitcache="rm -r ~/.cache/git"
+  gcm="git checkout master"
+  gcs="git checkout stable"
+  gpraise='git blame'
+  grb='git branch -r'
+  gb='git branch'
+  gco='git checkout'
+
 Common Commands:
   git init                            # Initialize git repo
   git status                          # status of changes
   git add *                           # add all files
   git commit -m "message"             # commit changes
   git remote add origin <git@github.com:name/repo.git>      # Set a new repo
+  git fetch                           # download copies of all the contents of the .git/objects directory from the remote repo into current one
   git branch -M main                  # set default branch to main
   git push -u origin <branch_name ex. master>              # push changes to branch master
   git pull -u origin <branch_name ex. master> <or_URL>     # pull changes from remote to master branch
-  git diff <commit_id_1> <commit_id_2>     # View changes of the commit
+  git diff <commit_id_1> <commit_id_2>                     # View changes of the commit
+  git merge feature_1                                      # Merge feature_1 branch with current branch
+  git rebase main                                          # Replay current branch commits on top of main
   git retrieve <commit_id>           # revert a commit to a previous version (git log)
   git checkout <commit_id>           # open the commit version
   git log                             # view log changes
+  git log origin/primeagen            # see the commits of a branch named primeagen from a remote named origin
 
 Branching:
   git branch                          # List branches
   git branch <new_of_new_branch>      # Create a new branch
   git branch -D <branch_name>         # Delete branch
-  git checkout <branch_name>          # Switch to other branch
+  git branch -m oldname newname       # Rename a branch
+  git switch/checkout <branch_name>   # Switch to other branch
   git checkout -b <branch_name>       # Switch and create a new branch
+  git switch -c my_new_branch         # Switch and create a new branch
 
 Restore:
   git restore <path-to-file>          # Restore/revert the change of the deleted/changed file 
@@ -61,7 +93,5 @@ Config:
   git config set --append webflyx.ceo "Warren"   # add a second value to the same key (multi-value)
   git config unset --all example.key             # remove all values for a multi-value key
   git config remove-section <section>            # remove an entire section from your Git configuration
-
-Merging:
   
 Workflows:
