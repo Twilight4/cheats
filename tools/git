@@ -51,6 +51,17 @@ Stash:
   git stash branch <branch_name>      # Create new branch from a stash and apply it
   git stash push -m "message"         # Save stash with a custom message
 
+Config:
+  git config set webflyx.ceo "ThePrimeagen"      # set a custom config key (section.key) to a value
+  git config set webflyx.cto "TheLaneagen"       # set another key in the same custom section
+  git config list --local                         # list all config entries scoped to this repo only
+  cat .git/config                                 # directly view the raw local config file
+  git config get <key>                            # read the value of a specific key
+  git config unset <key>                          # delete a key from config
+  git config set --append webflyx.ceo "Warren"   # add a second value to the same key (multi-value)
+  git config unset --all example.key             # remove all values for a multi-value key
+  git config remove-section <section>            # remove an entire section from your Git configuration
+
 Merging:
   
 Workflows:
