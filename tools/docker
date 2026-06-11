@@ -3,6 +3,8 @@ Scripts:
   ds                                   Select a running docker container to stop
   drm                                  Select a docker container to remove
   drmi                                 Select a docker image or images to remove
+  di                                   Docker images
+  dps                                  Docker ps
 
 Example to build multiarch images:
   docker buildx build \
