@@ -95,4 +95,10 @@ Config:
   git config unset --all example.key             # remove all values for a multi-value key
   git config remove-section <section>            # remove an entire section from your Git configuration
   
-Workflows:
+This is a common workflow when working with Git on a team of developers:
+  1. Create a branch for a new change
+  2. Make the change (git add and git commit)
+  3. Merge the branch back into the default branch/create pull request
+  4. Remove the branch
+  5. Repeat
+
