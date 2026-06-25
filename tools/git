@@ -66,6 +66,7 @@ Restore:
   git restore .                       # Restore all deleted/untracked changes
   git reset --soft HEAD~1             # Undo the last commit but keep the changes
   git reset --hard HEAD~1             # Undo the last commit and discard deletion (restore the files)
+  git reset --soft ORIG_HEAD          # restore using the ORIG_HEAD ref that Git automatically saves before destructive operations
   git restore --source=<commit-hash> <file-path>       # restore a specific deleted file from the previous commit
 
 Stash:
