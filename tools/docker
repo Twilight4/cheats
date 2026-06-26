@@ -5,6 +5,7 @@ Scripts:
   drmi                                 Select a docker image or images to remove
   di                                   Docker images
   dps                                  Docker ps
+  sudo usermod -aG docker $USER        Command on arch linux to use docker without sudo (reboot after)
 
 Example to build multiarch images:
   docker buildx build \
