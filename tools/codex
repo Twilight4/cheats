@@ -1,0 +1,10 @@
+Install:
+  curl -fsSL https://chatgpt.com/codex/install.sh | sh
+  npm install -g @agentclientprotocol/codex-acp
+  codex                  # sign in once
+  which codex-acp        # then install/ensure codex-acp is available in PATH
+
+Codex auth login error in browser: State mismatch
+  codex auth logout
+  pkill -f codex || true
+  codex auth login

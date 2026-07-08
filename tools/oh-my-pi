@@ -1,0 +1,69 @@
+Install and log in (emacs package should do it):
+  curl -fsSL https://omp.sh/install | sh
+
+############################## PLUGINS ##############################
+Other useful plugins:
+  omp install git:github.com/obra/superpowers
+  npm install -g agent-browser
+  omp install npm:pi-agent-browser-native
+  omp install npm:@ff-labs/pi-fff (install mcp server, update AGENTS.md prompt from README instructions)
+
+Ponytail:
+  omp install git:github.com/DietrichGebert/ponytail
+  /ponytail [lite | full | ultra | off] 	Set the intensity, or turn it off. No argument reports the current level.
+  /ponytail-review                          Review the current diff for over-engineering, hands back a delete-list.
+  /ponytail-audit                           Audit the whole repo for over-engineering, not just the diff.
+  /ponytail-debt                            Harvest the ponytail: shortcuts you've deferred into a ledger, so "later" doesn't become "never".
+  /ponytail-gain                            Show the measured impact scoreboard (less code, less cost, more speed) from the benchmark.
+  /ponytail-help                            Quick reference for the commands above.
+
+Account-switcher:
+  omp install npm:pi-account-switcher      Install the Account Switcher
+  /reload                                  Restart or reload your session
+  /account-init                            Initialize the configuration
+  /account-add                             Allows you to manually add an API key (instead of OAuth) for an account
+  /account-current                         Shows which account you are actively using
+  /accounts                                Lists all the configured accounts you've saved
+
+
+############################## COMMANDS ##############################
+Common Commands:
+  /fast                    Toggle fast mode
+  /review                  Launch interactive code review
+  /agents                  Manage bundled task agents
+  /init                    Generate AGENTS.md for current codebase
+  /advisor                 Toggle advisor
+  /compact                 Manual context compaction when a session gets long
+  /memory                  Manage memory
+  /marketplace             Manage plugins from marketplaces
+  /plugins                 Manage plugins
+  /reload-plugins          Reload all plugins
+
+Info Commands:
+  /model                   Show current model selection
+  /stats                   Launch the local stats dashboard
+  /session                 Show session information
+  /usage                   Show token usage
+  /context                 Show context usage
+
+Other Commands:
+  /mcp                     Manage MCP servers
+                           /mcp reload/list/test
+                           /mcp add/remove/disable/enable
+  /move                    Move the current session to a different directory
+  /rename                  Rename the current session
+  /jobs                    Show background jobs
+  /export                  Export session to HTML file
+  /dump                    Return full transcript as plain text, with LLM request JSON path
+  /share                   Share session via an encrypted link (share server or secret gist)
+  /browser                 Toggle browser headless vs visible mode
+  /todo                    Manage todos
+  /changelog               Show changelog
+  /tools                   Show available tools
+  /ssh                     Manage SSH connections
+  /fresh                   Reset provider stream state without changing the local transcript
+  /shake                   Shake heavy content out of the conversation context
+  /force                   Force next turn to use a specific tool
+  /autoresearch            Toggle builtin autoresearch mode, or pass off / clear, or a goal message.
+  /green                   Generate a prompt to iterate on CI failures until the branch is green
+

@@ -5,7 +5,27 @@ Scripts:
   drmi                                 Select a docker image or images to remove
   di                                   Docker images
   dps                                  Docker ps
+  dnl                                  Docker network ls
+  dvl                                  Docker volume ls
   sudo usermod -aG docker $USER        Command on arch linux to use docker without sudo (reboot after)
+
+Usage:
+  docker run -d -p hostport:containerport namespace/name:tag
+  docker run -d -e NODE_ENV=development -e url=http://localhost:3001 -p 3001:2368 -v ghost-vol:/var/lib/ghost ghost
+
+Options:
+  -d                                   Run in detached mode (doesn't block your terminal)
+  -p                                   Publish a container's port to the host (forwarding)
+  hostport                             The port on your local machine
+  containerport                        The port inside the container
+  namespace/name                       The name of the image (usually in the format username/repo)
+  tag                                  The version of the image (often latest)
+  -e NODE_ENV=development              Sets an environment variable within the container. This tells container to run in "development" mode (rather than "production", for instance)
+  -e url=http://localhost:3001         Sets another environment variable, this one tells container that we want to be able to access container via a URL on our host machine.
+  -v ghost-vol:/var/lib/ghost          Mounts the ghost-vol volume that was created before to the /var/lib/ghost path in the container.
+                                       Ghost will use the /var/lib/ghost directory to persist stateful data (files) between runs.
+  --cpus="0.25"                        Limit the CPUs to only 0.25 (1/4th of a CPU core)
+  --memory="1G"                        Limit the memory to 1G
 
 Example to build multiarch images:
   docker buildx build \
@@ -28,8 +48,10 @@ Common Commands:
   rm -f <hash>                         Remove force specified container from this machine
   rm $(docker ps -a -q)                Remove all containers from this machine
   exec -it [container-id] bash         Enter a running container
-  stats                                Show containers stats
-  logs <container-id> -f               Live tail a container's logs
+  docker exec <hash> netstat -ltnp     See which which programs are bound to which ports inside the container
+  stats <hash>                         Show containers stats
+  top <hash>                           Show container processes
+  logs <container-id> -f -n 5          Live tail a container's logs with 5 last entries
   login                                Log in this CLI session using your Docker credentials
 
 Images:
@@ -37,9 +59,10 @@ Images:
   images -a                            Show all images on this machine
   rmi <imagename>                      Remove the specified image from this machine
   rmi $(docker images -q)              Remove all images from this machine
+  build -t username/imagename:tag      Build image to push to registry
   tag <image> username/repository:tag  Tag <image> for upload to registry
-  push username/repository:tag         Upload tagged image to registry
   run username/repository:tag          Run image from a registry
+  push username/repository:tag         Upload tagged image to registry
 
 Network:
   network create <name>                Create new network bridge
@@ -80,3 +103,13 @@ Docker stack:
   stack services <appname>                   List the services associated with an app
   stack ps <appname>                         List the running containers associated with an app
   stack rm <appname>                         Tear down an application
+
+Typical steps for devops production env automated by ci pipeline:
+  - Update application code
+  - Compile the new binary
+  - Create Dockerfile
+  - Build the image with new tag
+  - Run (test) the new image locally and see if works
+  - Push the image to the registry
+  - Stop and remove the new started container and delete local images
+  - Pull and run the new version from the registry
