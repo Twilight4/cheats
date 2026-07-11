@@ -51,6 +51,8 @@ Common Commands:
   git checkout <commit_id>           # open the commit version
   git log                             # view log changes
   git log origin/primeagen            # see the commits of a branch named primeagen from a remote named origin
+  git log -S "tl/toggle-window-maximize" --source --all                  # see the commits history with a string "tl/toggle-window-maximize"
+  git log -S "tl/toggle-window-maximize" --patch                         # see the commits history changes with a string "tl/toggle-window-maximize"
 
 Branching:
   git branch                          # List branches
