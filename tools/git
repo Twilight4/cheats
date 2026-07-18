@@ -41,6 +41,7 @@ Common Commands:
   git commit -m "message"             # commit changes
   git remote add origin <git@github.com:name/repo.git>      # Set a new repo
   git fetch                           # download copies of all the contents of the .git/objects directory from the remote repo into current one
+  git fetch origin && git diff main origin/main      # fetch updates from remote repo state and diff local changes with remote
   git branch -M main                  # set default branch to main
   git push -u origin <branch_name ex. master>              # push changes to branch master
   git pull -u origin <branch_name ex. master> <or_URL>     # pull changes from remote to master branch
