@@ -29,10 +29,11 @@ Account-switcher:
 ############################## COMMANDS ##############################
 Common Commands:
   /fast                    Toggle fast mode
+  /prewalk                 Prewalk at the next action
   /review                  Launch interactive code review
+  /advisor                 Toggle advisor
   /agents                  Manage bundled task agents
   /init                    Generate AGENTS.md for current codebase
-  /advisor                 Toggle advisor
   /compact                 Manual context compaction when a session gets long
   /memory                  Manage memory
   /marketplace             Manage plugins from marketplaces
