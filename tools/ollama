@@ -1,0 +1,30 @@
+1. Replace the CPU-only package with the official GPU-enabled build (bundles ROCm + Vulkan runners + matching HIP runtime):
+  sudo pacman -Rns ollama                 # remove CPU-only Arch package first (conflicts on /usr/bin/ollama)
+  curl -fsSL https://ollama.com/install.sh | sh
+
+
+2. Pin the dGPU + set the backend. Edit the service env:
+  sudo systemctl edit ollama
+```
+[Service]
+Environment="OLLAMA_LLM_LIBRARY=rocm"          # use ROCm; swap to "vulkan" as fallback
+Environment="HIP_VISIBLE_DEVICES=0"            # renderD128 = 9070 XT
+Environment="HSA_OVERRIDE_GFX_VERSION=12.0.1"  # RDNA 4 = gfx1201; only if log shows "unsupported GPU"
+```
+  sudo systemctl daemon-reload && sudo systemctl restart ollama
+
+
+3. Get the model. It's not in the Ollama registry. Two options:
+  # (a) Pull GGUF straight from HuggingFace (Ollama 0.4+ hf.co/ namespace)
+  ollama pull hf.co/<HF_USER>/Hermes-3-Llama-3.1-8B-lorablated-GGUF:Q4_K_M
+  
+  # (b) If you already downloaded the .gguf — import via Modelfile (robust, repo-agnostic)
+  printf 'FROM ./Hermes-3-Llama-3.1-8B-lorablated-Q4_K_M.gguf\n' > /tmp/M
+  ollama create hermes3-lorablated -f /tmp/M
+
+
+4. Run + verify GPU offload:
+  ollama run <model_name>
+  # in another terminal:
+  ollama ps                                    # PROCESSOR column should read "100% GPU"
+  journalctl -u ollama -b | grep -iE "rocm|vulkan|gfx|gpu"   # confirms backend loaded on 9070 XT
