@@ -1,0 +1,44 @@
+PrivateBin CLI (privatebin-cli) — encrypted pastebin client.
+Paste data is encrypted CLIENT-SIDE; the decryption key lives in the URL
+fragment (#...). Share the FULL url or the paste is unreadable — never a
+truncated link (everything after # never reaches the server).
+
+Setup / config:
+  privatebin init                                            Create ~/.config/privatebin/config.json (default host privatebin.net)
+  privatebin init --host https://paste.example.com --force   Use another/self-hosted instance, overwrite config
+  cat ~/.config/privatebin/config.json                       Inspect config (host, expire, formatter, gzip)
+
+Upload a FILE:
+  privatebin create --attachment --filename <file>     Upload <file> as a downloadable attachment -> URL
+  privatebin create --filename <file.txt>              Paste <file>'s CONTENT as readable text -> URL
+  pb <file>                                            (alias) upload a file as an attachment
+
+Create a TEXT paste:
+  echo "secret" | privatebin create                    Paste from stdin
+  privatebin create "hello world"                      Paste a positional message
+  privatebin create --formatter markdown < file.md     Render as markdown (plaintext|markdown|syntaxhighlighting)
+
+Create flags (work with all create variants):
+  --burn-after-reading        Delete the paste as soon as it is opened once
+  --expire 1day               Time-to-live: 10min|1hour|1day|1week|1month|1year|never
+  --password "s3cret"         Require a password to decrypt
+  --open-discussion           Allow comments on the paste
+  --gzip                      Compress paste data (default on; pass --gzip=false to disable)
+
+Read a paste:
+  privatebin show "<url>"                  Decrypt + print (give the FULL url incl. #fragment)
+  privatebin show "<url>" --password "x"   Read a password-protected paste
+  privatebin show "<url>" --confirm-burn   Open a burn-after-reading paste (deleted right after)
+
+Global flags:
+  -b, --bin <name>                  Use a non-default configured instance
+  -c, --config <file>               Use an alternate config file
+  -o, --output <fmt>                Output format
+  --proxy socks5://127.0.0.1:9050   Route via TOR / SOCKS proxy
+  -H "Header: value"                Extra HTTP header per request
+  --skip-tls-verify                 Skip TLS verification (self-signed instances)
+
+Tips:
+  pb <file> | wl-copy              Copy the resulting URL to the Wayland clipboard
+  privatebin.net rate-limits       ~1 post / 10s — wait between uploads, or host your own instance
+  server sees only ciphertext      the key never leaves your client
