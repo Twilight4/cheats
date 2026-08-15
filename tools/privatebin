@@ -13,6 +13,9 @@ Upload a FILE:
   privatebin create --filename <file.txt>              Paste <file>'s CONTENT as readable text -> URL
   pb <file>                                            (alias) upload a file as an attachment
 
+Upload from emacs dired buffer example:
+  privatebin create --attachment --password 'lol' --expire 1month --open-discussion --filename * | wl-copy && wl-paste
+
 Create a TEXT paste:
   echo "secret" | privatebin create                    Paste from stdin
   privatebin create "hello world"                      Paste a positional message
